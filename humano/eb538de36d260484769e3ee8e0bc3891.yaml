@@ -1,0 +1,46 @@
+titulo: eb538de36d260484769e3ee8e0bc3891
+id: eb538de36d260484769e3ee8e0bc3891
+año: null
+tipo_estudio:
+- experimental
+- epigenómica
+tejido: desconocido
+celula:
+- desconocido
+condicion:
+- desconocido
+relevancia: 5
+ejes:
+- LINE-1
+- heterocromatina
+- epigenética
+- neurobiología
+entidades:
+- texto: DNMT1
+  tipo: GENE
+  ontologia: HGNC:2976
+- texto: ORF1p
+  tipo: GENE
+  ontologia: UniProt:Q9UNX4
+- texto: RNA-seq
+  tipo: TECNICA
+  ontologia: D000077728
+- texto: Western blot
+  tipo: TECNICA
+  ontologia: D001795
+- texto: L1
+  tipo: RETROELEMENTO
+  ontologia: SO:0000188
+- texto: LINE-1
+  tipo: RETROELEMENTO
+  ontologia: SO:0000188
+- texto: promoter
+  tipo: ELEMENTO_GENOMICO
+  ontologia: SO:0000167
+- texto: retrotransposon
+  tipo: ELEMENTO_GENOMICO
+  ontologia: SO:0000188
+- texto: DNA methylation
+  tipo: PROCESO_EPIGENETICO
+  ontologia: GO:0006306
+notas: ''

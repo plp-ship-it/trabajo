@@ -1,0 +1,31 @@
+titulo: 08f1cfaed791252396e1a0c25df8c722
+id: 08f1cfaed791252396e1a0c25df8c722
+año: null
+tipo_estudio:
+- desconocido
+tejido: desconocido
+celula:
+- hNPC
+condicion:
+- desconocido
+relevancia: 5
+ejes:
+- LINE-1
+- epigenética
+entidades:
+- texto: DNMT1
+  tipo: GENE
+  ontologia: HGNC:2976
+- texto: LINE-1
+  tipo: RETROELEMENTO
+  ontologia: SO:0000188
+- texto: heterochromatin
+  tipo: PROCESO_EPIGENETICO
+  ontologia: GO:0000792
+- texto: promoter
+  tipo: ELEMENTO_GENOMICO
+  ontologia: SO:0000167
+- texto: DNA Methylation
+  tipo: PROCESO_EPIGENETICO
+  ontologia: GO:0006306
+notas: ''

@@ -1,0 +1,25 @@
+titulo: 82163bcd7ba80bfa30b90e1772308cfe
+id: 82163bcd7ba80bfa30b90e1772308cfe
+año: null
+tipo_estudio:
+- desconocido
+tejido: desconocido
+celula:
+- desconocido
+condicion:
+- desconocido
+relevancia: 5
+ejes:
+- LINE-1
+- epigenética
+entidades:
+- texto: L1
+  tipo: RETROELEMENTO
+  ontologia: SO:0000188
+- texto: LINE-1
+  tipo: RETROELEMENTO
+  ontologia: SO:0000188
+- texto: DNA methylation
+  tipo: PROCESO_EPIGENETICO
+  ontologia: GO:0006306
+notas: ''

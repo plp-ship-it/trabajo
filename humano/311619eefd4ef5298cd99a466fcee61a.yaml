@@ -1,0 +1,34 @@
+titulo: 311619eefd4ef5298cd99a466fcee61a
+id: 311619eefd4ef5298cd99a466fcee61a
+año: null
+tipo_estudio:
+- desconocido
+tejido: desconocido
+celula:
+- desconocido
+condicion:
+- desconocido
+relevancia: 5
+ejes:
+- LINE-1
+- neurobiología
+entidades:
+- texto: ORF1p
+  tipo: GENE
+  ontologia: UniProt:Q9UNX4
+- texto: ORF2p
+  tipo: GENE
+  ontologia: UniProt:Q9UNX3
+- texto: L1
+  tipo: RETROELEMENTO
+  ontologia: SO:0000188
+- texto: L1HS
+  tipo: RETROELEMENTO
+  ontologia: SO:0000188
+- texto: LINE-1
+  tipo: RETROELEMENTO
+  ontologia: SO:0000188
+- texto: retrotransposon
+  tipo: ELEMENTO_GENOMICO
+  ontologia: SO:0000188
+notas: ''

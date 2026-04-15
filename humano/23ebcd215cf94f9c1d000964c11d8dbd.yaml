@@ -1,0 +1,24 @@
+titulo: 23ebcd215cf94f9c1d000964c11d8dbd
+id: 23ebcd215cf94f9c1d000964c11d8dbd
+año: null
+tipo_estudio:
+- desconocido
+tejido: desconocido
+celula:
+- desconocido
+condicion:
+- desconocido
+relevancia: 5
+ejes:
+- LINE-1
+entidades:
+- texto: Western blot
+  tipo: TECNICA
+  ontologia: D001795
+- texto: Immunocytochemistry
+  tipo: TECNICA
+  ontologia: null
+- texto: L1
+  tipo: RETROELEMENTO
+  ontologia: SO:0000188
+notas: ''

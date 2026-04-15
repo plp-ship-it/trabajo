@@ -1,0 +1,19 @@
+titulo: af6b6267cad6ac79cd040c3eed50e1f9
+id: af6b6267cad6ac79cd040c3eed50e1f9
+año: null
+tipo_estudio:
+- desconocido
+tejido: desconocido
+celula:
+- desconocido
+condicion:
+- desconocido
+relevancia: 5
+ejes:
+- LINE-1
+- neurobiología
+entidades:
+- texto: L1
+  tipo: RETROELEMENTO
+  ontologia: SO:0000188
+notas: ''

@@ -1,0 +1,39 @@
+titulo: 4e3c1ed987529cc67c186a361561cda6
+id: 4e3c1ed987529cc67c186a361561cda6
+año: null
+tipo_estudio:
+- experimental
+- epigenómica
+tejido: desconocido
+celula:
+- desconocido
+condicion:
+- desconocido
+relevancia: 5
+ejes:
+- LINE-1
+- heterocromatina
+- epigenética
+entidades:
+- texto: SETDB1
+  tipo: GENE
+  ontologia: HGNC:10761
+- texto: RNA-seq
+  tipo: TECNICA
+  ontologia: D000077728
+- texto: Western blot
+  tipo: TECNICA
+  ontologia: D001795
+- texto: LINE-1
+  tipo: RETROELEMENTO
+  ontologia: SO:0000188
+- texto: heterochromatin
+  tipo: PROCESO_EPIGENETICO
+  ontologia: GO:0000792
+- texto: promoter
+  tipo: ELEMENTO_GENOMICO
+  ontologia: SO:0000167
+- texto: DNA methylation
+  tipo: PROCESO_EPIGENETICO
+  ontologia: GO:0006306
+notas: ''

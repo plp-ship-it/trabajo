@@ -1,0 +1,37 @@
+titulo: c42abe7e57d2c6025bc31c0f2abbcbc5
+id: c42abe7e57d2c6025bc31c0f2abbcbc5
+año: null
+tipo_estudio:
+- desconocido
+tejido: desconocido
+celula:
+- desconocido
+condicion:
+- desconocido
+relevancia: 5
+ejes:
+- LINE-1
+- epigenética
+entidades:
+- texto: ORF1p
+  tipo: GENE
+  ontologia: UniProt:Q9UNX4
+- texto: ORF2p
+  tipo: GENE
+  ontologia: UniProt:Q9UNX3
+- texto: Western blot
+  tipo: TECNICA
+  ontologia: D001795
+- texto: L1
+  tipo: RETROELEMENTO
+  ontologia: SO:0000188
+- texto: L1HS
+  tipo: RETROELEMENTO
+  ontologia: SO:0000188
+- texto: promoter
+  tipo: ELEMENTO_GENOMICO
+  ontologia: SO:0000167
+- texto: DNA Methylation
+  tipo: PROCESO_EPIGENETICO
+  ontologia: GO:0006306
+notas: ''

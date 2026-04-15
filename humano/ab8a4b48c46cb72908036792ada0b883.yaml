@@ -1,0 +1,29 @@
+titulo: ab8a4b48c46cb72908036792ada0b883
+id: ab8a4b48c46cb72908036792ada0b883
+año: null
+tipo_estudio:
+- desconocido
+tejido: desconocido
+celula:
+- desconocido
+condicion:
+- desconocido
+relevancia: 5
+ejes:
+- LINE-1
+- epigenética
+- neurobiología
+entidades:
+- texto: L1
+  tipo: RETROELEMENTO
+  ontologia: SO:0000188
+- texto: LINE-1
+  tipo: RETROELEMENTO
+  ontologia: SO:0000188
+- texto: promoter
+  tipo: ELEMENTO_GENOMICO
+  ontologia: SO:0000167
+- texto: DNA methylation
+  tipo: PROCESO_EPIGENETICO
+  ontologia: GO:0006306
+notas: ''

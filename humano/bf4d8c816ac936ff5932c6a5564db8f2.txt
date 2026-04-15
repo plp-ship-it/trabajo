@@ -1,0 +1,831 @@
+Abstract
+Reproductive performance is a key determinant of overall livestock productivity. In both
+beef and dairy systems, reproductive failure represents a leading cause of cow culling.
+Reproductive traits are complex in nature and present a low heritability in general. Addi-
+tionally, the collection of such phenotypes usually relies on indirect measures of fertility,
+such as conception success. Therefore, further investigation into genetic and non-genetic
+factors of reproductive traits in cattle is necessary. The hosts’ microbiome plays a crucial
+role in vertebrate biology, including reproduction. We, therefore, hypothesize that micro-
+biome indicators may serve as a biomarker of fertility. This study explored the relationship
+between vaginal microbiome profiles and pregnancy among three beef cattle genetic groups
+using field data. Vaginal swabs were collected from 74 cows at Fort Keogh, MT, including
+23 Angus, 23 Hereford Line 1, and 28 crossbreds, and DNA was extracted and analyzed
+via 16S rRNA gene amplification. Significant differences in alpha diversity (p < 0.05) were
+found among Line 1 cows compared to Angus and crossbreds in many indicators of alpha
+diversity. Pregnancy status did not influence alpha diversity of samples significantly, but
+trends toward significance were observed. PERMANOVA analysis indicated that genetic
+groups and pregnancy status affected microbial composition (p < 0.05), but their interac-
+tion was not significant. Each genetic group showed unique compositions of operational
+taxonomic units (OTUs), with higher proportions of Ureaplasma and Mycoplasma families in
+Animals 2026, 16, 874
+Animals 2026, 16, 874
+2 of 16
+Line 1. Additionally, variations in microbial communities were observed between pregnant
+and non-pregnant cows, with certain uncultured bacteria more prevalent in non-pregnant
+cows. While field data are useful for such studies and represent a real production sys-
+tem, better-designed experiments are necessary to validate findings and test hypotheses.
+These
+
+results suggest variation in vaginal microbiomes across breeds and pregnancy status,
+emphasizing the need for further research to identify factors affecting these changes.
+Keywords: fertility; microbiome; beef cattle
+1.
+
+Introduction
+Fertility plays a crucial role in the profitability of beef cattle operations, with repro-
+ductive failure being a major cause of cow culling. Approximately one-third of beef cows
+culled from a herd are eliminated because of reproductive failure [1]. Fertility is controlled
+by multiple factors, such as management, environment, health, and genetics, that interact
+across the lifespan of the dam [2–7].
+To improve fertility, genetic selection is one of the tools currently used; however, little
+progress has been achieved. This is mainly due to the low heritability of fertility, which
+ranges between 0.07 and 0.20 observed across populations and trait definitions [8–11].
+Therefore, the rate of genetic change and progress is slow. Moreover, several quantitative
+trait loci (QTL) associated with fertility have been reported and can be found in the Animal
+QTL database [12]. However, overlap of significant QTL across studies is generally poor,
+reflecting differences in populations, environments, and marker panels, as well as small
+effect sizes for polygenic traits [13–15]. This highlights the complexity and polygenic nature
+of fertility in cattle.
+Due to the complexity and low heritability of reproductive traits, further investigation
+into non-genetic factors, such as microbiomes, is warranted. Microbiomes are involved
+in many biological functions, including performance, health, and disease. Studies have
+been conducted to evaluate the effect of different microbiomes on growth, feed efficiency,
+and reproduction in livestock and humans [16,17]. For reproduction and fertility, the
+reproductive tract harbors diverse bacterial communities [18]. A common bacterium in the
+reproductive tract for many animals is Lactobacillus spp., which has been associated with
+maintaining the optimum pH level and controlling the overgrowth of harmful bacteria [19].
+Disruptions to the reproductive tract’s microbiome, such as changes in the richness or
+evenness of microbial populations, have been associated with numerous reproductive
+diseases and infertility in humans and other species [20].
+Among the many factors that affect fertility in cattle, the interaction among man-
+agement, environment, and genetics remains challenging, as many confounding factors
+arise during sample collection. Adapted populations show selection signatures in ge-
+nomic regions associated with fertility [21–23]. Nonetheless, drawing clear
+
+
+
+conclusions
+regarding the existence of genotype by environment interactions remains a challenge in
+beef cattle [24–26]. Some studies reported only marginal G × E for first pregnancy across
+environments, while broad literature reviews note genetic correlations < 0.80 across envi-
+ronmental gradients for many traits [25]. Seasonality in production systems adds another
+layer of complexity. However, the use of novel phenotypes allows for better modeling [27].
+Additionally, biomarkers, such as microbiome features, may serve as latent phenotypes
+for complex traits that are difficult to measure directly [28]. Since these biomarkers play
+a role in biological pathways, such as immunity and hormone signaling, and are shown
+to be associated with fertility, they offer the potential to augment traditional fertility phe-
+Animals 2026, 16, 874
+3 of 16
+notypes by providing mechanistic insight and improving prediction accuracy in diverse
+environments [29].
+The objective of this study was to characterize and evaluate the relationship between
+vaginal microbiome profiles and pregnancy status in cows and heifers after the mating
+season, among three beef cattle genetic groups, using field data.
+2.
+
+Materials and
+
+Methods
+2.1. Compliance
+Samples were collected by the employees at USDA-ARS with approval from the
+Institutional Animal Care and Use Committee (IACUC No. 60523-1 Start date: 1 June 2023;
+End date: 30 May 2025).
+2.2. Sample Collection
+Vaginal swab samples were collected from 74 open and pregnant cows and heifers
+from 3 populations at the USDA Agricultural Research Service livestock and range research
+laboratory in Miles City, MT (46.4083◦N, 105.8406◦W). The populations in this study
+were Angus, Line 1 Hereford, and an admixed population, hereby termed the Physiology
+herd. Animals were under similar management practices, and all samples were collected
+on the same day. Three genetic groups were in different breeding pastures. No specific
+experimental design was made, and data were collected from animals available in the
+field, representing a typical beef cattle operation. Samples were collected from healthy
+animals without any history of reproductive or recent infectious disease. We aimed to
+collect an equal number of samples from pregnant and open individuals across all three
+genetic groups. The distribution of animals by breed and pregnancy outcome is shown in
+Figure 1. All animals were exposed to fertile bulls during the mating season in the months
+of June and July, and the pregnant individuals were in their second trimester of gestation,
+as determined by ultrasonography. Before sample collection, the vulva and perineum were
+cleaned with a 70% ethanol solution to avoid contamination. The specimens were collected
+using a sterile nylon swab after opening the vulva lips and inserting a disposable sterile
+vaginal speculum. The swabs were swirled six times in the anterior vagina before being
+withdrawn. Swabs were placed in sterile vials and stored at 4 ◦C during transport and then
+stored at −80 ◦C until sequencing.
+ 
+Figure 1. Distribution of open and pregnant cows across breeds and herds of females used for vaginal
+microbiome samples.
+Animals 2026, 16, 874
+4 of 16
+2.3. DNA Extraction and Sequencing
+Bacterial DNA from the vaginal swabs was extracted and purified, and Illumina
+library preparation was performed following the protocol used at the Microbial Analysis,
+Resources, and Services (MARS) Facility at the Center for Open Research Resources and
+Equipment at the University of Connecticut. Partial bacterial 16S rRNA genes (V4) were
+amplified using 30 ng of extracted DNA as a template. The V4 region was amplified using
+515F and 806R with Illumina adapters and dual indices (8 base pair [30]). Samples were
+amplified in triplicate 15 µL reactions using Go-Taq DNA polymerase (Promega, Madison,
+WI, USA) with the addition of 3.3 µg of BSA (New England BioLabs, Ipswich, MA, USA).
+To overcome inhibition from host DNA, 0.1 pmol of primer without the indexes or adapters
+was added to the master mix. The PCR protocol was incubation at 95 ◦C for 3.5 min, then
+30 cycles of 30 s at 95.0 ◦C, 30 s at 50.0 ◦C, and 90 s at 72.0 ◦C, followed by final extension at
+72.0 ◦C for 10 min. PCR products were pooled for quantification and visualization using the
+QIAxcel DNA Fast Analysis (Qiagen, Hilden, Germany). PCR products were normalized
+based on the concentration of DNA from 250 to 400 bp then pooled using the epMotion
+3075 liquid handling robot (Eppendorf, Hamburg, Germany). The pooled PCR products
+were cleaned using Omega Bio-Tek Mag-Bind Beads (Omega Bio-Tek, Norcross, GA, USA)
+according to the manufacturer’s protocol using 0.8× beads in the PCR product. The cleaned
+pool was sequenced on the MiSeq using v2 2 × 250 base pair kit (Illumina, Inc., San Diego,
+CA, USA) according to the manufacturer’s instructions. Low-quality reads were filtered,
+and the data were trimmed to a consistent length for the forward and reverse reads. The
+remainder were used to classify each read into an operational taxonomic unit (OTU), based
+on the similarity between our sample and the database, using the open-source software
+Mothur v1.48.2 [31]. Data were uploaded to R (version 4.5.2) using the phyloseq package
+version 1.54.2 [32].
+2.4. Statistical Analysis
+All analyses were conducted using R version 4.5.2 [33] and the packages phyloseq
+version 1.54.2 [32] and microbiome version 1.23.1 [34]. For quality control, OTUs with total
+counts across all samples lower than 100 were removed to increase the reliability of the
+microbiome composition [35]. Additionally, samples with a Shannon alpha diversity lower
+than 0.40 were removed, since they were more than 3.5 standard deviations from the mean
+and represented outliers. Finally, samples were rarefied to 2000 reads to standardize the
+uneven sequencing depth. This sequence depth maximizes the number of individuals in
+the study.
+Twenty-two different metrics of alpha diversity were calculated (Table 1). Differences
+between effects of genetic group, pregnancy status, birth year, and number of calves pro-
+duced previously were tested under a linear assumption. Moreover, a Wilcoxon signed-rank
+test was used across pairs of effects. All p-values were adjusted for multiple comparisons
+using the Benjamini–Hochberg (HB) false discovery rate correction [36]. The following
+linear model was fit:
+yij = Statusi + eij,
+where yij is the microbiome metric (i.e., Shannon diversity index) of cow j with pregnancy
+status i. Later, status was substituted by genetic group, birth year, and number of calves
+using a similar model. Additionally, pregnancy status and genetic group were tested
+together. Finally, a model that also included the interaction between the two effects
+was fitted.
+Animals 2026, 16, 874
+5 of 16
+Table 1. Significance for 22 alpha diversity indices across different groups. Pregnancy Line 1 indicates
+differences across open and pregnant Line 1 animals with a pairwise Wilcoxon model. Linear genetic
+group was fitted as a linear effect including the three populations. The last three columns contain the
+pairwise Wilcoxon model comparing Angus and Physiology, Line 1 and Physiology, and Line 1 and
+Angus animals, respectively. Values with a * indicate significant differences at p < 0.05. p-values were
+adjusted using the Benjamini–Hochberg false discovery rate correction.
+Index
+Pregnancy Line 1
+Linear Genetic Group
+Angus vs. Phys
+Line 1 vs. Phys
+Line 1 vs. Angus
+observed
+0.100
+0.004 *
+0.990
+0.008 *
+0.017 *
+chao1
+0.100
+0.018 *
+0.720
+0.057
+0.029 *
+diversity_inverse_simpson
+0.100
+0.013 *
+0.510
+0.003 *
+0.026 *
+diversity_gini_simpson
+0.100
+0.002 *
+0.510
+0.003 *
+0.026 *
+diversity_shannon
+0.100
+0.002 *
+0.900
+0.002 *
+0.017 *
+diversity_fisher
+0.100
+0.004 *
+0.990
+0.008 *
+0.017 *
+diversity_coverage
+0.102
+0.003 *
+0.656
+0.001 *
+0.017 *
+evenness_camargo
+0.100
+0.002 *
+0.510
+0.000 *
+0.017 *
+evenness_pielou
+0.100
+0.002 *
+0.510
+0.002 *
+0.018 *
+evenness_simpson
+0.331
+0.018 *
+0.510
+0.003 *
+0.042 *
+evenness_evar
+0.331
+0.510
+0.990
+0.712
+0.729
+evenness_bulla
+0.100
+0.002 *
+0.510
+0.000 *
+0.017 *
+dominance_dbp
+0.100
+0.002 *
+0.510
+0.004 *
+0.033 *
+dominance_dmn
+0.100
+0.002 *
+0.510
+0.003 *
+0.026 *
+dominance_absolute
+0.100
+0.002 *
+0.510
+0.004 *
+0.033 *
+dominance_relative
+0.100
+0.002 *
+0.510
+0.004 *
+0.033 *
+dominance_simpson
+0.100
+0.002 *
+0.510
+0.003 *
+0.026 *
+dominance_core_abundance
+0.100
+0.002 *
+1.000
+0.004 *
+0.021 *
+dominance_gini
+0.100
+0.003 *
+0.989
+0.003 *
+0.017 *
+rarity_log_modulo_skewness
+0.183
+0.400
+0.510
+0.804
+0.345
+rarity_low_abundance
+0.100
+0.013 *
+0.989
+0.032 *
+0.026 *
+rarity_rare_abundance
+0.318
+0.808
+0.510
+0.199
+0.363
+The beta diversity was calculated by grouping cows into pregnant and open, and by
+each genetic group. Further, a model including both breed and pregnancy status was fitted.
+Using a principal coordinate analysis of the Bray–Curtis dissimilarity distances, the sample
+types were mapped into groups to assess the distance between the centers of the clusters.
+The associations were evaluated under a one-way PERMANOVA [37] analysis using the
+adonis2 command of the R package vegan version 2.4-4 [38].
+The abundances of the OTUs in the different groups were compared by a visual
+inspection of a composition plot of the relative abundances. Taxonomic classification was
+performed against the Silva database release 119 [39], and the taxonomic rank of family was
+used. Finally, a differential abundance analysis was performed using a pairwise comparison
+of the variance of abundance. The differential bacterial abundance was identified by the
+Wald test in the DEseq2 R package version 1.40.2 [40] and the p-values were adjusted using
+the DH FDR correction.
+3. Results and
+
+Discussion
+3.1. Distribution
+The distribution of pregnancy status (open or pregnant) among different cow breeds:
+Angus, Line 1, and Physiology herd, is shown in Figure 1. Line 1 had equal pregnant cows
+(n = 9) compared to open ones (n = 9). The Physiology herd had approximately equal
+numbers of open (n = 12) and pregnant cows (n = 10), while Angus had more open cows
+(n = 12) than pregnant cows (n = 8). For the distribution of cows and heifers in each breed
+(Figure 2), the Physiology herd consisted of all cows, and the Angus had only one heifer.
+On the other hand, Line 1 had more heifers compared to the other breeds.
+Animals 2026, 16, 874
+6 of 16
+Figure 2. Distribution of cows and heifers across Angus, Hereford Line 1 (Line1), and Physiology
+(Phys) populations sampled for vaginal microbiome.
+3.2. Number of Reads and Rarefication
+The number of reads varied from 578 to 144,255.
+No association between the
+number of reads and any genetic group or pregnancy status was found. The rarefica-
+tion at 2000 reads maximizes the number of viable samples after quality control to 60
+(Supplementary Figure S1). While there are arguments in favor of and against rarefica-
+tion [41,42], it is undeniable that the variation in the number of reads observed in our
+samples would require some sort of preprocessing. However, such preprocessing resulted
+in a smaller sample size and power. Since the reproductive tract is a low-biomass sampling
+site, such problems are expected to occur [43]. A solution for future studies is to use specific
+DNA extraction kits for low-biomass sites [44].
+3.3. Alpha Diversity
+For the alpha diversity results, the statistical significance of all indicators is included
+in Table 1. Raw values for alpha diversity indices and the effect size for all analyses are
+included in Supplementary Table S1. The results were similar using the linear model
+and the two-sample Wilcoxon test; therefore, only the two-sample Wilcoxon test results
+are presented for pairwise comparisons. The p-values for pregnancy status for the com-
+bined population were all non-significant. When pregnant vs. open cows’ microbiomes
+were compared within breeds, six features were statistically different within the Line 1
+population before HB FDR correction. However, adjusted p-values were not significant
+for this test. No differences were found within the Physiology and Angus animals. A
+study by Webb et al. [45] found that beef heifers that successfully conceived after artificial
+insemination had a distinct vaginal microbiome compared to those that remained open.
+However, similar to the present study, they did not find a significant difference between
+pregnant and open cows.
+The cow and heifer comparison was only performed within the Line 1 population,
+since the other two did not have enough heifers. This comparison did not yield any
+significant differences in the microbiome alpha diversity.
+In contrast to pregnancy status, genetic groups had a significant effect on the micro-
+biome alpha diversity. The differences between breeds were significant for most alpha
+Animals 2026, 16, 874
+7 of 16
+diversity metrics using the linear model. The main difference was between Line 1 ani-
+mals and the other two populations, which is illustrated in Table 1. No differences were
+observed between Angus and Physiology herds. This could potentially be due to the
+high inbreeding and closed population structure of Line 1. However, since the animals
+were in different breeding pastures, the breed and pasture effects were confounded. Since
+no differences were observed between the Physiology and Angus herds, we hypothesize
+a potential effect associated with Line 1 genetics. A study by Teng et al. [46] reported
+no significant differences in vaginal microbiome between the two Chinese cattle breeds,
+Yanbian and Yanhuang cattle. These two Chinese cattle breeds are genetically similar
+(Yanhuang is composed of 75% Yanbian), as is the case with Angus and the Physiology
+herds. Another study examining vaginal microbiome differences between Holstein and
+Fleckvieh cattle found a significantly higher Shannon index in Fleckvieh cattle compared
+to Holstein cattle [47]. These differences in microbiome diversity across breeds suggest
+an underlying genetic mechanism and may be due to the degree of genetic similarity or
+dissimilarity between the breeds. Genetic aspects of within-breed variation would require
+a larger sample size and genomic information or pedigree on the animals [48]. Moreover,
+to model across-breed effects, an experimental design that randomizes animals across
+pastures would be ideal. However, since exploratory field data were used in this study, the
+breed and pasture contrast could not be tested.
+A linear model that included both genetic group and pregnancy effect yielded sim-
+ilar results as the effects fitted separately (Supplementary Table S2). In an additional
+model, all interactions between genetic groups and pregnancy status were not significant
+(Supplementary Table S3). Due to the limited sample size and unbalanced data structure,
+overparametrized models resulted in reduced fit when p-values were adjusted for the num-
+ber of parameters. However, the model that fitted together genetic groups and pregnancy
+status resulted in lower p-values for the pregnancy status, approaching the arbitrary 0.05
+threshold and demonstrating a trend toward significance.
+3.4. Beta Diversity
+Beta diversity metrics are used to assess the dissimilarity between samples and groups.
+Based on beta diversity testing, ordination revealed clustering that suggests microbiomes
+segregate based on breeds (Figure 3; p < 0.01), but not between open and pregnant cows
+(Figure 4; p = 0.14). This indicates that there are significant differences in the microbiome of
+different subpopulations, but not based on pregnancy status, when breeds are not taken
+into consideration. Pregnancy status within the Line 1 population suggested microbiome
+segregation between pregnant and open cows (p < 0.05). No significance was observed
+between pregnant and open cows within the Angus and Physiology populations. The
+model that included the genetic group and pregnancy status was significant (p < 0.001),
+as was the model that included the interaction between the two terms. The R2 values
+of the models with genetic groups only, the inclusion of the pregnancy status, and the
+interaction were, respectively, 0.11, 0.15, and 0.19. The adjusted R2 values followed the same
+trend: 0.07, 0.09, and 0.12, respectively, indicating a better fit, suggesting that beta diversity
+differs across those groups and with their interaction. However, those values are small
+and indicate that many other factors contribute to microbiome variation. Ault et al. [49]
+reported differences in beta diversity in the vaginal microbiome between pregnant and
+non-pregnant cows prior to artificial insemination. It is important to mention that the
+differences observed in the current study were after pregnancy was established and could
+reflect hormonal changes during the pregnancy of animals [50]. Similar to our findings,
+Webb et al. [45] reported a significant difference in beta diversity between pregnant and
+open heifers.
+Animals 2026, 16, 874
+8 of 16
+Figure 3. Principal coordinate analysis for the beta diversity plot of the microbiome composition.
+Each dot represents a vaginal microbiome sample categorized into breed: Angus, Hereford Line 1
+(Line1), and Physiology (Phys). The percentage of variance explained by the first and second PCs is
+included on the x and y axes, respectively.
+Figure 4. Principal coordinate analysis for the beta diversity plot of the microbiome composition. Each
+dot represents a vaginal microbiome sample categorized into pregnant status (preg). The percentage
+of variance explained by the first and second PCs is included on the x and y axes, respectively.
+The results of the beta diversity suggest that the relationship between microbiome
+and fertility may be breed-specific. Another possibility is that, because Line 1 has a more
+uniform population and exhibits high homozygosity, a smaller sample size was sufficient
+to detect microbiome differences.
+The PERMANOVA results agreed with those of the alpha diversity, and identified
+significant differences between breeds, but not between pregnant and open cows. This
+supports that the breed is an indicator of microbial composition. PERMANOVA for type
+within the Line 1 population was tested, and no significant difference between heifers and
+cows was observed.
+3.5. Microbial Composition
+The composition plots included the 100 most common OTU families. The relative
+abundance of the top families accounted for 60% to 80% of the microbiome. Visual in-
+spection of the composition plots in Figure 5 showed differences between Line 1 and the
+other two genetic groups. The main differences were the higher composition of Mycoplas-
+mataceae (with two OTUs represented), Ruminococcaceae, an unclassified Bacteroidales,
+and Pasteurellaceae. Similarly, between open and pregnant cows, visual inspection of
+Animals 2026, 16, 874
+9 of 16
+Figure 6 showed a higher composition of the same two Mycoplasmataceae OTUs and
+Ruminococcaceae in open animals, and a higher composition of Pasteurellaceae in pregnant
+animals. Studies have shown various dominant bacterial phyla and genera in vaginal
+microbiome. Laguardia-Nascimento et al. [51] characterized the vaginal microbiome of
+healthy Nellore, and identified Firmicutes, Bacteroidetes, and Proteobacteria as the main
+phyla, and the dominant genera included Aeribacillus, Clostridium, and Prevotella. Firmi-
+cutes and Bacteroidetes were the most abundant phyla in postpartum Angus cows prior
+to artificial insemination [49]. However, the most abundant genera were not identified
+from Family Ruminococcaceae and other non-identified genera in the Order Clostridiales.
+In the present study, the most abundant phyla in Line 1 were Tenericutes, followed by
+Bacteroidetes and Firmicutes. The top OTUs across the three genetic groups belonged to simi-
+lar Phyla as those identified as the ‘core’ vaginal microbiome in dairy cattle—Tenericutes,
+for instance, were among the most common OTUs in healthy heifers [52]. For the other
+two populations, Bacteroides and Firmicutes were the most abundant phyla, which may
+indicate a unique characteristic of Line 1 animals, or a potential dysbiosis, since Mycoplasma
+may be associated with bacterial vaginosis in humans [53]. However, Mycoplasma can also
+be endemic in bovines, causing mastitis in [54] and respiratory diseases [55]. There are
+approximately 30 Mycoplasma species identified in cattle, and only a few of them are known
+to be pathogenic [56]. Similarly, some species in the Ureaplasma genus can be commensal in
+cattle, while others, such as U. diversum, can be associated with reproductive disorders [57].
+However, 16S sequencing does not have the resolution to identify species [58]. Therefore,
+higher-resolution methods are necessary to identify the exact species and determine their
+functions. Additionally, the animals in the present study were in the second trimester of ges-
+tation; therefore, comparison with open cows or postpartum cows must be made cautiously,
+since even a period of 20 days can promote differences in the vaginal microbiome [49].
+Figure 5. Relative abundance (percentage of sequences) of OTU family composition of vaginal
+microbiome samples merged within breed: Angus, Hereford Line 1 (Line1), and Physiology (Phys).
+The top 100 OTUs were selected for this graph.
+Based on the differential expression analysis, we identified that the two Mycoplas-
+maceace were significantly different between Line 1 and Physiology animals, represented
+by the genera Mycoplasma and Ureaplasma in Figure 7A. Additionally, two new OTUs
+were significantly different and were not identified in the top 100 OTUs: an unclassi-
+fied Gastranaerophilales and an additional Mycoplasma. Between Line 1 and Angus ani-
+mals, the Mycoplasma included in the top 100 OTU was also significant, in addition to an
+Alloprovotella OTU, as shown in Figure 7B. Figure 7C shows that 12 OTUs were significantly
+different between Angus and Physiology animals, including the Ureaplasma previously
+described and OTUs not included in the top 100 previously described. Two Ureaplasma and
+a Corynebacterium were identified.
+Animals 2026, 16, 874
+10 of 16
+Figure 6. Relative abundance (percentage of sequences) of OTU family composition of vaginal
+microbiome samples merged within pregnancy status. The top 100 OTUs were selected for this graph.
+Figure 7. Pairwise comparison of variation in abundance using DESeq2. The figures represent the
+significant differences in the log2 fold change in OTUs between breeds: (A) Angus and Physiology,
+(B) Hereford Line 1 and Angus, and (C) Hereford Line 1 and the Physiology herd. Values were
+considered statistically significant if p-values adjusted by the Benjamini–Hochberg false discovery
+rate procedure were below 0.05.
+Animals 2026, 16, 874
+11 of 16
+Three OTUs were significantly different between pregnant and open animals across all
+animals (Figure 8A). Fewer differences between pregnant and open animals within breed
+were observed. For the Angus population, only a Chlamydophila was identified, and no
+differences were observed in the Physiology herd. Finally, the Line 1 population differed
+on two Corynebacteriaceae and an unclassified Ruminococcaceae OTU (Figure 8B).
+Figure 8. Pairwise comparison of variation in abundance using DESeq2. The figures represent the
+significant differences in the log2 fold change in OTUs between pregnant and open animals: (A) across
+all breeds and (B) within the Hereford Line 1 population. Values were considered statistically
+significant if p-values adjusted by the Benjamini–Hochberg false discovery rate procedure were
+below 0.05.
+The findings in the present study suggest that the vaginal microbiome varies sig-
+nificantly across breeds or genetic groups. Sanglard et al. [48] estimated heritabilities
+for 100 OTUs in vaginal samples from gilts, and found moderate to high heritability in
+many of them. Moreover, QTLs associated with such OTUs were identified, indicating
+a genetic component explaining the host microbiome relationship in pigs. Additionally,
+Sanglard et al. [59] identified differences between high- and low-fertility sows, indicating
+that individual fertility differences among animals may be linked to genetics and micro-
+biome interaction. In cattle, host–microbiome relationships are well studied, especially
+regarding the digestive tract microbiome [60]. Additionally, heritable microbiota can be as-
+sociated with dairy performance [29] and feed efficiency [61], suggesting that genetic tools,
+such as genomic selection, could be applied to improve such traits through microbiome
+manipulations [62]. While the current study did not find associations with pregnancy, the
+vaginal microbiome in ruminants is highly diverse [63] and was previously associated
+with fertility [51]. Therefore, increasing the sample size and identifying the ideal sam-
+pling period are necessary to establish a relationship between the vaginal microbiome and
+fertility and to implement a genomic selection program for fertility in cattle to improve
+fertility through manipulation of the vaginal microbiome. While stronger associations were
+Animals 2026, 16, 874
+12 of 16
+observed in uterine swabs, those are more invasive and may be challenging to collect on a
+large scale.
+3.6. Limitations and Future Steps
+The present study investigated associations between genetic groups, pregnancy status,
+and the vaginal microbiome in beef cattle using field data. Confounding factors are present
+in our experimental design, and we should exercise caution before drawing major conclu-
+sions. The pregnant animals were in their second trimester, so the observed differences
+could indicate that cows with established pregnancies differ from open cows. To make
+a stronger claim regarding fertility, animals should be sampled right before artificial in-
+semination or in the following weeks, while pregnancy is being established. Other effects,
+such as animal age, status (heifer/cow), and number of calves, among others, could not be
+properly tested due to unbalanced distribution in our data. Another limiting factor is that
+the estrous stage of open cows may affect the microbiome. Such an effect was not tested in
+our study and could have contributed to a large variation in open animals, decreasing the
+detection power of our associations for fertility.
+The three genetics groups were managed the same way but in different pastures.
+Therefore, the genetic group difference is confounded with pasture. An improved exper-
+imental design is needed to draw final conclusions regarding the effects of genetics on
+the vaginal microbiome. However, since Line 1 Hereford had a unique microbiome, we
+hypothesize that such differences can be attributed to its genetics. Such a hypothesis must
+be tested with a 2 × 2 factorial design, for instance. Additionally, within-breed genetic
+contribution to the microbiome could be investigated with a larger sample size. The Line 1
+Hereford population [64,65], included in the present study, poses an attractive solution to
+genome–microbiome integration studies. The results suggest that a unique microbiome
+composition may exist in this breed. Additionally, due to its small effective population
+size [64,65], fewer independent chromosome segments need to be estimated [66], which
+maximizes the discovery power of genomic studies [67].
+4. Conclusions
+Diversity and composition of the vaginal microbiome varied significantly across dif-
+ferent genetic groups. Alpha and beta diversity illustrated mostly the differences between
+Line 1 animals and the Physiology and Angus populations. The microbiome composition
+differed significantly across genetic groups, with more differences observed between Angus
+and Physiology cows. Fewer differences were observed regarding the pregnancy status of
+animals, and most of these microbiome variations were observed within Line 1 animals.
+Such findings suggest that there is a strong breed component of the vaginal microbiome,
+and the association between fertility and microbiome composition may vary within genetic
+groups. Finally, this study illustrates that while field data may provide important results,
+better-designed experiments are necessary for further investigation of the microbiome of
+the reproductive tract and its relationship with fertility.
+Supplementary Materials: The following supporting information can be downloaded at: https://
+www.mdpi.com/article/10.3390/ani16060874/s1, Figure S1: Rarefaction curve showing the number
+of OTUs in the y axis and the number of reads in the x axis from 74 vaginal microbiome samples
+collected in pregnant and open beef cows and heifers from Hereford Line1, Angus, and Physiology
+populations; Table S1: Mean, standard deviation (sd), and effect estimates for 22 alpha diversity
+indices across different groups; Table S2: Significance for 22 alpha diversity indices in a linear model
+including all three genetic groups and pregnancy status; Table S3: Significance for 22 alpha diversity
+indices in a linear model including all three genetic groups, pregnancy status, and their interaction.
+Animals 2026, 16, 874
+13 of 16
+Author Contributions: Conceptualization, B.F., E.H.H., and T.W.G.; methodology, B.F., E.H.H., and
+S.M.H.; formal analysis, B.F. and S.M.H.; investigation, B.F., E.H.H., T.W.G., and S.M.H.; resources, B.F.,
+E.H.H., and T.W.G.; data curation, T.W.G., S.R.M., A.L.Z., E.H.H., and A.L.Z.; writing—original draft
+preparation, B.F. and E.H.H.; writing—review and editing, S.M.H., S.R.M., and A.L.Z.; supervision,
+B.F.; project administration, B.F., E.H.H., and T.W.G.; funding acquisition, B.F., E.H.H., and T.W.G. All
+authors have read and agreed to the published version of the manuscript.
+Funding: The study was partially funded by USDA-ARS CRIS project number: 3030-31000-019-000D.
+Institutional Review Board Statement: Samples were collected by the employees under the ARS-
+USDA Institutional Animal Care and Use Committee (IACUC No. 60523-1).
+Informed Consent Statement: Not applicable.
+Data Availability Statement: Dataset available upon request from the authors.
+Acknowledgments: The authors thank the support from the Microbial Analysis, Resources, and
+Services (MARS) facility at the University of Connecticut.
+Conflicts of Interest: The authors declare no conflicts of interest.
+Abbreviations
+The following abbreviations are used in this manuscript:
+OTU
+Operational Taxonomic Unit
+QTL
+Quantitative Trait Loci
+BH
+Benjamini–Hochberg
+FDR
+False Discovery Rate
+Preg
+Pregnancy
+SD
+Standard Deviation
+References
+1.
+USDA Animal and Plant Health Inspection Service. NAHMS Beef Cow-Calf Studies; USDA Animal and Plant Health Inspection
+Service: Riverdale Park, MD, USA, 2025.
+2.
+Houghton, P.; Lemenager, R.; Horstman, L.; Hendrix, K.; Moss, G. Effects of Body Composition, Pre-and Postpartum Energy
+Level and Early Weaning on Reproductive Performance of Beef Cows and Preweaning Calf Gain. J. Anim. Sci. 1990, 68, 1438–1446.
+[CrossRef] [PubMed]
+3.
+BonDurant, R. Selected Diseases and Conditions Associated with Bovine Conceptus Loss in the First Trimester. Theriogenology
+2007, 68, 461–473. [CrossRef] [PubMed]
+4.
+Larson, R.L.; White, B.J. Reproductive Systems for North American Beef Cattle Herds. Vet. Clin. N. Am. Food Anim. Pract. 2016,
+32, 249–266. [CrossRef] [PubMed]
+5.
+Moorey, S.E.; Biase, F.H. Beef Heifer Fertility: Importance of Management Practices and Technological Advancements. J. Anim.
+Sci. Biotechnol. 2020, 11, 97. [CrossRef]
+6.
+Perry, G.; Larimore, E. Factors to Get the Most Cows and Heifers Pregnant. Proc. Appl. Reprod. Strateg. Beef Cattle Oct. 2013, 15, 16.
+7.
+Catrett, C.C.; Rowan, T.N. Genetic Selection for Cow Fertility and Longevity. In Proceedings of the Applied Reproductive
+Strategies in Beef Cattle, Athens, GA, USA, 4–5 September 2024.
+8.
+Doyle, S.; Golden, B.; Green, R.; Brinks, J. Additive Genetic Parameter Estimates for Heifer Pregnancy and Subsequent Reproduc-
+tion in Angus Females. J. Anim. Sci. 2000, 78, 2091–2098. [CrossRef]
+9.
+Bormann, J.M.; Totir, L.; Kachman, S.D.; Fernando, R.; Wilson, D. Pregnancy Rate and First-Service Conception Rate in Angus
+Heifers. J. Anim. Sci. 2006, 84, 2022–2025. [CrossRef]
+10.
+Fortes, M.; Lehnert, S.; Bolormaa, S.; Reich, C.; Fordyce, G.; Corbet, N.; Whan, V.; Hawken, R.; Reverter, A. Finding Genes for
+Economically Important Traits: Brahman Cattle Puberty. Anim. Prod. Sci. 2012, 52, 143–150. [CrossRef]
+11.
+Peters, S.; Kizilkaya, K.; Garrick, D.; Fernando, R.; Reecy, J.; Weaber, R.; Silver, G.; Thomas, M. Heritability and Bayesian
+Genome-Wide Association Study of First Service Conception and Pregnancy in Brangus Heifers. J. Anim. Sci. 2013, 91, 605–612.
+[CrossRef]
+12.
+Hu, Z.-L.; Park, C.A.; Reecy, J.M. Building a Livestock Genetic and Genomic Information Knowledgebase through Integrative
+Developments of Animal QTLdb and CorrDB. Nucleic Acids Res. 2019, 47, D701–D710. [CrossRef]
+Animals 2026, 16, 874
+14 of 16
+13.
+Marigorta, U.M.; Rodríguez, J.A.; Gibson, G.; Navarro, A. Replicability and Prediction: Lessons and Challenges from GWAS.
+Trends Genet. 2018, 34, 504–517. [CrossRef] [PubMed]
+14.
+Forutan, M.; Engle, B.N.; Chamberlain, A.J.; Ross, E.M.; Nguyen, L.T.; D’Occhio, M.J.; Snr, A.C.; Kho, E.A.; Fordyce, G.; Speight, S.;
+et al. Genome-Wide Association and Expression Quantitative Trait Loci in Cattle Reveals Common Genes Regulating Mammalian
+Fertility. Commun. Biol. 2024, 7, 724. [CrossRef] [PubMed]
+15.
+Van Den Berg, I.; Hayes, B.; Chamberlain, A.; Goddard, M. Overlap between eQTL and QTL Associated with Production Traits
+and Fertility in Dairy Cattle. BMC Genom. 2019, 20, 291. [CrossRef] [PubMed]
+16.
+Moumne, O.; Hampe, M.E.; Montoya-Williams, D.; Carson, T.L.; Neu, J.; Francois, M.; Rhoton-Vlasak, A.; Lemas, D.J. Implications
+of the Vaginal Microbiome and Potential Restorative Strategies on Maternal Health: A Narrative Review. J. Perinat. Med. 2021, 49,
+402–411. [CrossRef]
+17.
+Monteiro, H.F.; Zhou, Z.; Gomes, M.S.; Peixoto, P.M.; Bonsaglia, E.C.; Canisso, I.F.; Weimer, B.C.; Lima, F.S. Rumen and Lower
+Gut Microbiomes Relationship with Feed Efficiency and Production Traits throughout the Lactation of Holstein Dairy Cows. Sci.
+Rep. 2022, 12, 4904. [CrossRef]
+18.
+O’Mahony, S.; Comizzoli, P. Special Series on the Role of the Microbiome in Reproduction and Fertility. Reprod. Fertil. 2023,
+4, e230080. [CrossRef]
+19.
+de Souza, S.V.; Monteiro, P.B.; de Moura, G.A.; Santos, N.O.; Fontanezi, C.T.B.; de Almeida Gomes, I.; Teixeira, C.A. Vaginal
+Microbioma and the Presence of Lactobacillus Spp. as Interferences in Female Fertility: A Review System. JBRA Assist. Reprod.
+2023, 27, 496. [CrossRef]
+20.
+Ong, C.T.; Turni, C.; Blackall, P.J.; Boe-Hansen, G.; Hayes, B.J.; Tabor, A.E. Interrogating the Bovine Reproductive Tract
+Metagenomes Using Culture-Independent Approaches: A Systematic Review. Anim. Microbiome 2021, 3, 41. [CrossRef]
+21.
+Nayak, S.S.; Rajawat, D.; Sharma, A.; Parida, S.; Dutt, T.; Panigrahi, M. Genomic Exploration of Selection Signatures Linked to
+Reproductive Traits in Locally Adapted Indicine, Taurine and Crossbred Cattle of India. Reprod. Domest. Anim. 2025, 60, e70093.
+[CrossRef]
+22.
+Randhawa, I.A.; Khatkar, M.S.; Thomson, P.C.; Raadsma, H.W. A Meta-Assembly of Selection Signatures in Cattle. PLoS ONE
+2016, 11, e0153013. [CrossRef]
+23.
+Braga, L.G.; Munari, D.P.; Chud, T.C.; Rodrigues, J.L.; Saada, B.; Machado, M.A.; Panetto, J.C.; Silva, M.G.; Schenkel, F.S. 513
+Genomic Landscape of Adaptation in Dairy Cattle under Selection in Different Environmental Conditions. J. Anim. Sci. 2024, 102,
+148–149. [CrossRef]
+24.
+Toghiani, S.; Hay, E.; Fragomeni, B.; Rekaya, R.; Roberts, A.J. Genotype by Environment Interaction in Response to Cold Stress in
+a Composite Beef Cattle Breed. Animal 2020, 14, 1576–1587. [CrossRef]
+25.
+Copley, J.P.; Hayes, B.J.; Ross, E.M.; Speight, S.; Fordyce, G.; Wood, B.J.; Engle, B.N. Investigating Genotype by Environment
+Interaction for Beef Cattle Fertility Traits in Commercial Herds in Northern Australia with Multi-Trait Analysis. Genet. Sel. Evol.
+2024, 56, 70. [CrossRef] [PubMed]
+26.
+Bradford, H.; Fragomeni, B.; Bertrand, J.; Lourenco, D.; Misztal, I. Genetic Evaluations for Growth Heat Tolerance in Angus Cattle.
+J. Anim. Sci. 2016, 94, 4143–4150. [CrossRef] [PubMed]
+27.
+Shaffer, W.R.; Hidalgo, J.; Bello, N.M.; Noland, R.S.; Bormann, J.M.; Weaber, R.L.; Ahlberg, C.M.; Bruno, K.; Krehbiel, C.R.;
+Calvo-Lorenzo, M.S.; et al. Beef Cattle Phenotypic Plasticity and Stability of Dry Matter Intake and Respiration Rate across
+Varying Levels of Temperature Humidity Index. J. Anim. Sci. 2025, 103, skaf115. [CrossRef]
+28.
+Luecke, S.M.; Webb, E.M.; Dahlen, C.R.; Reynolds, L.P.; Amat, S. Seminal and Vagino-Uterine Microbiome and Their Individual
+and Interactive Effects on Cattle Fertility. Front. Microbiol. 2022, 13, 1029128. [CrossRef]
+29.
+Brulin, L.; Ducrocq, S.; Even, G.; Sanchez, M.; Martel, S.; Merlin, S.; Audebert, C.; Croiseau, P.; Estellé, J. Characterization of
+Bovine Vaginal Microbiota Using 16S rRNA Sequencing: Associations with Host Fertility, Longevity, Health, and Production. Sci.
+Rep. 2024, 14, 19277. [CrossRef]
+30.
+Kozich, J.J.; Westcott, S.L.; Baxter, N.T.; Highlander, S.K.; Schloss, P.D. Development of a Dual-Index Sequencing Strategy and
+Curation Pipeline for Analyzing Amplicon Sequence Data on the MiSeq Illumina Sequencing Platform. Appl. Environ. Microbiol.
+2013, 79, 5112–5120. [CrossRef]
+31.
+Schloss, P.D.; Westcott, S.L.; Ryabin, T.; Hall, J.R.; Hartmann, M.; Hollister, E.B.; Lesniewski, R.A.; Oakley, B.B.; Parks, D.H.;
+Robinson, C.J.; et al. Introducing Mothur: Open-Source, Platform-Independent, Community-Supported Software for Describing
+and Comparing Microbial Communities. Appl. Environ. Microbiol. 2009, 75, 7537–7541. [CrossRef]
+32.
+McMurdie, P.J.; Holmes, S. Phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census
+Data. PLoS ONE 2013, 8, e61217. [CrossRef]
+33.
+R Core Team. R: A Language and Environment for Statistical Computing; R Foundation for Statistical Computing: Vienna, Austria, 2016.
+34.
+Lahti, L.; Shetty, S. Tools for Microbiome Analysis in R. Version. 2017. Available online: https://github.com/microbiome/
+microbiome?tab=readme-ov-file (accessed on 5 February 2026).
+Animals 2026, 16, 874
+15 of 16
+35.
+Nikodemova, M.; Holzhausen, E.A.; Deblois, C.L.; Barnet, J.H.; Peppard, P.E.; Suen, G.; Malecki, K.M. The Effect of Low-
+Abundance OTU Filtering Methods on the Reliability and Variability of Microbial Composition Assessed by 16S rRNA Amplicon
+Sequencing. Front. Cell. Infect. Microbiol. 2023, 13, 1165295. [CrossRef]
+36.
+Benjamini, Y.; Hochberg, Y. Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing. J. R.
+Stat. Soc. Ser. B Methodol. 1995, 57, 289–300. [CrossRef]
+37.
+Anderson, M.J. Permutational Multivariate Analysis of Variance (PERMANOVA). In Wiley StatsRef: Statistics Reference Online;
+Wiley Online Library: Hoboken, NJ, USA, 2014; pp. 1–15.
+38.
+Oksanen, J.; Kindt, R.; Legendre, P.; O’Hara, B.; Stevens, M.H.H.; Oksanen, M.J.; Suggests, M. The Vegan Package. Community
+Ecol. Package 2007, 10, 719.
+39.
+Quast, C.; Pruesse, E.; Yilmaz, P.; Gerken, J.; Schweer, T.; Yarza, P.; Peplies, J.; Glöckner, F.O. The SILVA Ribosomal RNA Gene
+Database Project: Improved Data Processing and Web-Based Tools. Nucleic Acids Res. 2012, 41, D590–D596. [CrossRef] [PubMed]
+40.
+Love, M.I.; Huber, W.; Anders, S. Moderated Estimation of Fold Change and Dispersion for RNA-Seq Data with DESeq2. Genome
+Biol. 2014, 15, 550. [CrossRef] [PubMed]
+41.
+McMurdie, P.J.; Holmes, S. Waste Not, Want Not: Why Rarefying Microbiome Data Is Inadmissible. PLoS Comput. Biol. 2014,
+10, e1003531. [CrossRef] [PubMed]
+42.
+Schloss, P.D. Waste Not, Want Not: Revisiting the Analysis That Called into Question the Practice of Rarefaction. mSphere 2024,
+9, e00355-23. [CrossRef]
+43.
+O’Callaghan, J.L.; Turner, R.; Dekker Nitert, M.; Barrett, H.L.; Clifton, V.; Pelzer, E.S. Re-Assessing Microbiomes in the Low-
+Biomass Reproductive Niche. BJOG Int. J. Obstet. Gynaecol. 2020, 127, 147–158. [CrossRef]
+44.
+Walker, M.B.; Holton, M.P.; Callaway, T.R.; Lourenco, J.M.; Fontes, P.L.P. Differences in Microbial Community Composition
+between Uterine Horns Ipsilateral and Contralateral to the Corpus Luteum in Beef Cows on Day 15 of the Estrous Cycle.
+Microorganisms 2023, 11, 2117. [CrossRef]
+45.
+Webb, E.M.; Holman, D.B.; Schmidt, K.N.; Pun, B.; Sedivec, K.K.; Hurlbert, J.L.; Bochantin, K.A.; Ward, A.K.; Dahlen, C.R.; Amat,
+S. Sequencing and Culture-Based Characterization of the Vaginal and Uterine Microbiota in Beef Cattle That Became Pregnant or
+Remained Open Following Artificial Insemination. Microbiol. Spectr. 2023, 11, e02732-23. [CrossRef]
+46.
+Teng, Y.; Feng, S.; Gu, Z.; Hou, C.; Xu, H.; Li, Z.; Zhao, J.; Fang, Y.; Ma, X.; Liu, H. Comparison of Microbiota Structure in
+Reproductive Tract of Yanbian Cattle and Yanhuang Cattle. Front. Microbiol. 2024, 15, 1419914. [CrossRef]
+47.
+Nesengani, L.T.; Wang, J.; Yang, Y.; Yang, L.; Lu, W. Unravelling Vaginal Microbial Genetic Diversity and Abundance between
+Holstein and Fleckvieh Cattle. RSC Adv. 2017, 7, 56137–56143. [CrossRef]
+48.
+Sanglard, L.; Schmitz-Esser, S.; Gray, K.; Linhares, D.C.; Yeoman, C.J.; Dekkers, J.C.; Niederwerder, M.C.; Serão, N.V. 219
+Relationship between Host-Genetics and the Vaginal Microbiome in Commercial Gilts. J. Anim. Sci. 2019, 97, 43–44. [CrossRef]
+49.
+Ault, T.B.; Clemmons, B.A.; Reese, S.T.; Dantas, F.G.; Franco, G.A.; Smith, T.P.; Edwards, J.L.; Myer, P.R.; Pohler, K.G. Bacterial
+Taxonomic Composition of the Postpartum Cow Uterus and Vagina Prior to Artificial Insemination. J. Anim. Sci. 2019, 97,
+4305–4313. [CrossRef] [PubMed]
+50.
+Pohler, K.G.; Franco, G.A.; Reese, S.T.; Smith, M.F. Physiology and Pregnancy of Beef Cattle. In Animal Agriculture; Elsevier:
+Amsterdam, The Netherlands, 2020; pp. 37–55.
+51.
+Laguardia-Nascimento, M.; Branco, K.M.G.R.; Gasparini, M.R.; Giannattasio-Ferraz, S.; Leite, L.R.; Araujo, F.M.G.; Salim,
+A.C.d.M.; Nicoli, J.R.; De Oliveira, G.C.; Barbosa-Stancioli, E.F. Vaginal Microbiome Characterization of Nellore Cattle Using
+Metagenomic Analysis. PLoS ONE 2015, 10, e0143294. [CrossRef]
+52.
+Moreno, C.G.; Luque, A.T.; Galvão, K.N.; Otero, M.C. Bacterial Communities from Vagina of Dairy Healthy Heifers and Cows
+with Impaired Reproductive Performance. Res. Vet. Sci. 2022, 142, 15–23. [CrossRef]
+53.
+Cox, C.; Watt, A.; McKenna, J.; Coyle, P. Mycoplasma Hominis and Gardnerella Vaginalis Display a Significant Synergistic
+Relationship in Bacterial Vaginosis. Eur. J. Clin. Microbiol. Infect. Dis. 2016, 35, 481–487. [CrossRef]
+54.
+Fox, L.; Kirk, J.; Britten, A. Mycoplasma Mastitis: A Review of Transmission and Control. J. Vet. Med. Ser. B 2005, 52, 153–160.
+[CrossRef]
+55.
+Carella, E.; Messana, E.; Mugetti, D.; Biasibetti, E.; Pezzolato, M.; Peletto, S.; Begovoeva, M.; Rossi, F. Identification of Mycoplasma
+Species in Cattle Associated with Bovine Respiratory Disease Mortality. Microorganisms 2024, 12, 2340. [CrossRef]
+56.
+Catania, S.; Gastaldelli, M.; Schiavon, E.; Matucci, A.; Tondo, A.; Merenda, M.; Nicholas, R.A. Infection Dynamics of Mycoplasma
+Bovis and Other Respiratory Mycoplasmas in Newly Imported Bulls on Italian Fattening Farms. Pathogens 2020, 9, 537. [CrossRef]
+57.
+Santos Junior, M.N.; Macêdo Neres, N.S.d.; Campos, G.B.; Bastos, B.L.; Timenetsky, J.; Marques, L.M. A Review of Ureaplasma
+Diversum: A Representative of the Mollicute Class Associated with Reproductive and Respiratory Disorders in Cattle. Front. Vet.
+Sci. 2021, 8, 572171. [CrossRef]
+58.
+Weinroth, M.D.; Belk, A.D.; Dean, C.; Noyes, N.; Dittoe, D.K.; Rothrock, M.J., Jr.; Ricke, S.C.; Myer, P.R.; Henniger, M.T.; Ramírez,
+G.A.; et al. Considerations and Best Practices in Animal Science 16S Ribosomal RNA Gene Sequencing Microbiome Studies.
+J. Anim. Sci. 2022, 100, skab346. [CrossRef] [PubMed]
+Animals 2026, 16, 874
+16 of 16
+59.
+Sanglard, L.; Schmitz-Esser, S.; Gray, K.; Linhares, D.; Yeoman, C.; Dekkers, J.; Niederwerder, M.; Serão, N. Vaginal Microbiota
+Diverges in Sows with Low and High Reproductive Performance after Porcine Reproductive and Respiratory Syndrome
+Vaccination. Sci. Rep. 2020, 10, 3046. [CrossRef]
+60.
+Clemmons, B.A.; Voy, B.H.; Myer, P.R. Altering the Gut Microbiome of Cattle: Considerations of Host-Microbiome Interactions
+for Persistent Microbiome Manipulation. Microb. Ecol. 2019, 77, 523–536. [CrossRef]
+61.
+Li, F.; Li, C.; Chen, Y.; Liu, J.; Zhang, C.; Irving, B.; Fitzsimmons, C.; Plastow, G.; Guan, L.L. Host Genetics Influence the Rumen
+Microbiota and Heritable Rumen Microbial Features Associate with Feed Efficiency in Cattle. Microbiome 2019, 7, 92. [CrossRef]
+[PubMed]
+62.
+Tiezzi, F.; Maltecca, C. Manipulation of Gut Microbiome Composition by Genetic Selection of the Host. In Environmental Effects on
+Gut Health in Production Animals; Wageningen Academic: Wageningen, The Netherlands, 2024; pp. 459–487.
+63.
+Swartz, J.D.; Lachman, M.; Westveer, K.; O’Neill, T.; Geary, T.; Kott, R.W.; Berardinelli, J.G.; Hatfield, P.G.; Thomson, J.M.;
+Roberts, A.; et al. Characterization of the Vaginal Microbiota of Ewes and Cows Reveals a Unique Microbiota with Low Levels of
+Lactobacilli and Near-Neutral pH. Front. Vet. Sci. 2014, 1, 19. [CrossRef]
+64.
+Leesburg, V.; MacNeil, M.; Neser, F. Influence of Miles City Line 1 on the United States Hereford Population. J. Anim. Sci. 2014,
+92, 2387–2394. [CrossRef] [PubMed]
+65.
+MacNeil, M. Invited Review: Research Contributions from Seventy-Five Years of Breeding Line 1 Hereford Cattle at Miles City,
+Montana. J. Anim. Sci. 2009, 87, 2489–2501. [CrossRef] [PubMed]
+66.
+Pääbo, S. The Mosaic That Is Our Genome. Nature 2003, 421, 409–412. [CrossRef]
+67.
+Lourenco, D.; Fragomeni, B.; Bradford, H.; Menezes, I.; Ferraz, J.; Aguilar, I.; Tsuruta, S.; Misztal, I. Implications of SNP Weighting
+on Single-Step Genomic Predictions for Different Reference Population Sizes. J. Anim. Breed. Genet. 2017, 134, 463–471. [CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.

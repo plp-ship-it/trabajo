@@ -1,0 +1,2291 @@
+Abstract
+Pituitary neuroendocrine tumours (PitNETs) range from slow-growing to highly aggressive
+tumours; however, traditional prognostic markers often fail to predict clinical outcomes
+reliably. DNA methylation has recently emerged as a promising biomarker for assessing
+tumour behaviour. This systematic review evaluates its predictive value in PitNETs. To
+systematically assess the clinical applicability of DNA methylation profiles in predicting
+behaviour of PitNETs. Systematic review. A comprehensive search was conducted in
+Medline, Embase, Web of Science, and Cochrane CENTRAL on December 13, 2024, with
+an update on October 17, 2025. The search included studies on adult PitNET patients,
+specifically examining tumour behaviour in relation to DNA methylation. Excluded were
+studies that focused on cell-free DNA, investigated a single gene with no established rele-
+vance to tumour behaviour, or assessed tumour size only. Data were extracted from
+20 eligible studies by four independent reviewers. The risk of bias was assessed using the
+QUIPS tool. Due to methodological differences across studies, the findings were sum-
+marised narratively. Twelve studies investigated tumour invasiveness, two examined
+tumour aggressiveness and five examined PitNET regrowth, recurrence and re-
+intervention. The majority of studies concentrated on non-functioning PitNETs and used
+Illumina arrays or PCR-based
+
+methods. These analyses identified several differentially
+methylated genes linked to invasiveness (e.g., PHYHD1, WNT4, STAT6, CDH1, CDH13),
+aggressive behaviour (e.g., AIP, PDCD1, LINE-1), and tumour regrowth (e.g., TERT,
+FAM90A1, ING2). DNA methylation profiling shows potential for predicting PitNET
+behaviour, but methodological inconsistencies limit its clinical application. Standardized
+methods and prospective validation are needed for clinical integration.
+K E Y W O R D S
+DNA methylation, epigenomics, pituitary neuroendocrine tumour, tumour behaviour
+1
+|
+
+INTRODUCTION
+Pituitary neuroendocrine tumours (PitNETs), also known as pituitary
+adenomas, are the most common tumours originating from the
+pituitary gland, accounting for approximately 10%–15% of all intracra-
+nial neoplasms.1 Despite their generally benign nature, PitNETs
+exhibit considerable clinical heterogeneity, with significant variation in
+their behaviour and aggressiveness. While some tumours remain
+Revised: 2 March 2026
+DOI: 10.1111/jne.70167
+This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium,
+provided the original work is properly cited.
+J Neuroendocrinol. 2026;38:e70167.
+wileyonlinelibrary.com/journal/jne
+1 of 18
+indolent and asymptomatic, others can display more aggressive or
+invasive characteristics.2
+Aggressive PitNETs are often marked by increased cellular prolif-
+eration and frequently show poor responses to conventional thera-
+pies, such as surgery, radiotherapy, and medical treatment.2 Recent
+guidelines from the European Society of Endocrinology recommend
+considering a diagnosis of aggressive PitNETs in patients with radio-
+logically invasive tumours that exhibit rapid growth or clinically rele-
+vant progression despite optimal therapies.2 This definition, however,
+only captures a small subset of PitNETs with the most aggressive clini-
+cal course. Other efforts to define tumour behaviour have incorpo-
+rated a wide range of outcomes, such as invasiveness, aggressiveness,
+tumour recurrence, progression-free survival, and the need for re-
+intervention.3–21 This variability complicates the consistent identifica-
+tion of aggressive PitNETs.
+Invasive PitNETs infiltrate surrounding anatomical structures,
+such as the cavernous sinus and sphenoid sinus, complicating surgical
+resection and thereby negatively impacting patient outcomes.22,23
+Tumour invasiveness is typically assessed using established staging
+systems, including the adapted Knosp grades 3–4 and Hardy–Wilson
+stages D–E, which provide a standardized approach to evaluating
+tumour invasion (Figure 1).1,22,24,25
+Predicting the invasive or aggressive behaviour of PitNETs
+remains a clinical challenge. The Ki67 proliferative index, commonly
+used as a biomarker of tumour proliferation,26 is often associated with
+aggressive behaviour and invasiveness in PitNETs. However, its prog-
+nostic value remains limited, as a low Ki67 index does not necessarily
+exclude the possibility of aggressive behaviour, nor does a high Ki67
+index guarantee it.23
+In recent years, the role of epigenetic modifications, particularly
+DNA methylation, in the pathogenesis and clinical behaviour of Pit-
+NETs is emerging.27 DNA methylation typically silences gene expres-
+sion through two main mechanisms: first, by directly blocking
+transcription factors (TF) from binding to gene promoter regions, and
+second, by recruiting methyl-CpG-binding domain (MBD) proteins.
+These MBD proteins then attract enzymes such as histone deacety-
+lases and other chromatin-remodelling complexes, which condense
+the chromatin structure, resulting in inactivation of the gene or reduc-
+ing its transcription.27–29 DNA methylation alterations have been
+extensively
+studied
+in
+various
+cancers.
+Hypomethylation
+has
+been shown to lead to the overexpression of proto-oncogenes and
+growth factors, which contribute to uncontrolled cellular growth and
+metastasis.30,31 On the other hand, hypermethylation can lead to the
+silencing of tumour suppressor genes, such as TP53, thereby promot-
+ing uncontrolled cell growth.30,31 In PitNETs, previous research has
+identified DNA hypermethylation of three tumour suppressor genes
+(GADD45Υ, CDKN2A and MEG3). Silencing of these genes by DNA
+hypermethylation stimulates cell growth and contributes to tumour
+development.32–35 DNA methylation profiling has also emerged as a
+promising tool for refining tumour classification beyond traditional
+histopathology, enabling more accurate identification of tumour sub-
+types and lineage differentiation.36–38
+While recent reviews have broadly discussed DNA methylation in
+PitNETs,39,40 none have systematically focused on its clinical predic-
+tive value for aggressive and invasive tumour behaviour. Given the
+variability in defining these tumour behaviours, a systematic review is
+needed to evaluate the potential of DNA methylation as a predictive
+biomarker and to improve the identification of high-risk PitNETs.
+FIGURE 1
+Pituitary tumour invasion. Anatomical illustration of the suprasellar and sellar turcica region, highlighting key landmarks relevant to
+evaluating PitNET cavernous sinus invasion. PitNET invasion can be classified as parasellar (I), infrasellar (II), or suprasellar (III). Parasellar invasion
+is further categorized using the modified Knosp and Hardy-Wilson classification systems. As shown, Knosp Grade 3 indicates tumour extension
+up to the lateral tangent of the cavernous sinus, while Grade 4 represents complete encasement of the intracavernous internal carotid artery. In
+the Hardy-Wilson system, stage D corresponds to intracranial extension, and stage E indicates cavernous sinus extension. Created in BioRender.
+Van der Groef, R (2026) https://BioRender.com/k720amz.
+2 of 18
+VAN DER GROEF ET AL.
+2
+|
+METHODS
+2.1
+|
+Search strategy
+A comprehensive systematic search of English literature was con-
+ducted on the 13 December 2024 and updated on the 17 October
+2025 for studies published until October 2025. The following data-
+bases were searched: Medline ALL, Embase, Web of Science Core
+Collection, and the Cochrane Central Register of Controlled Trials, in
+order to identify relevant evidence addressing the research questions.
+A detailed search strategy, including keywords and Boolean operators,
+is provided in Appendix S1.
+2.2
+|
+Eligibility criteria and study selection
+Studies were independently screened by two reviewers (RvdG and JR)
+using Covidence.41 Any discrepancies between the two reviewers
+were resolved through consensus with a third and fourth reviewer
+(EM, SN). The inclusion criteria were as follows:
+• Studies involving adult patients diagnosed with a PitNET.
+• Studies that assessed tumour behaviour with DNA methylation
+analysis.
+Exclusion criteria included:
+• Studies performing DNA methylation analysis on cell-free DNA.
+• Studies focus on the methylation status of one specific gene with-
+out established biological function in tumour behaviour.
+• Studies focusing solely on tumour size.
+• Studies that lacked clear definitions of tumour behaviour, or that
+did not assess these factors in relation to DNA methylation.
+A complete overview of all in- and exclusion criteria is presented
+in Appendix S2.
+2.3
+|
+Data extraction
+Data were summarized in evidence tables, with predefined categories
+including: study design, treatment era, duration of follow-up, partici-
+pant characteristics, DNA methylation analysis methods, primary out-
+comes, and additional remarks (see Table S3 for detailed data
+extraction items). The data were organized to enable meaningful com-
+parisons and synthesis of findings.
+2.4
+|
+Assessment of risk of bias of individual
+studies
+The risk of bias for each included study was assessed using the Qual-
+ity in Prognosis Studies (QUIPS) tool,42 which evaluates the risk of
+bias across six domains: (1) study participation, (2) study attrition,
+(3)
+prognostic
+factor
+measurement,
+(4)
+outcome
+measurement,
+(5) study confounding, and (6) statistical analysis and reporting. The
+risk of bias was categorized as low, moderate, or high for each
+domain. Studies were classified as high quality if they had low risk of
+bias across all domains, moderate quality if they had one or more
+domains with moderate risk, and low quality if they had high risk of
+bias in any domain. To facilitate interpretation, colour coding was
+used to represent the quality of each study: red for low quality,
+orange for moderate quality, and green for high quality. A summary of
+the risk of bias assessment for each study is provided in Table S4.
+3
+|
+
+RESULTS
+Our search identified 1016 records (see Figure 2). After screening
+titles and abstracts, 59 full-text articles were assessed, of which
+20 met the inclusion criteria. Among these, 13 studies focused on Pit-
+NET invasiveness, two examined PitNET aggressiveness, and five
+investigated PitNET regrowth, recurrence, and re-intervention. A
+detailed overview of the included studies is provided in Table S3.
+3.1
+|
+Quality assessment
+Quality assessment using the QUIPS tool classified 11 studies as high
+quality and eight as moderate quality. One study, Yang et al.43
+received a low-quality rating and was excluded from further discus-
+sion in this section. The low rating was due to a high risk of attrition
+bias, confounding bias, and issues with statistical analysis and report-
+ing. Further details on the QUIPS quality assessment can be found in
+Table S4.
+3.2
+|
+PitNET invasiveness
+The relationship between DNA methylation and PitNET invasiveness has
+been explored in 12 case–control studies. Five of these studies4,5,7,12,14
+focused on genome-wide methylation profiling, primarily in non-
+functioning PitNET subtypes, using techniques such as Illumina Infinium
+MethylationEPIC BeadChip arrays or reduced representation bisulphite
+sequencing (RRBS), with sample sizes ranging from 19 to 68 patients.
+The remaining seven studies6,11,17–21 focused on targeted gene methyla-
+tion in both functioning and non-functioning PitNETs, analyzing cohorts
+from 32 to 102 participants. These studies used methods such as DNA
+pyrosequencing, methylation-specific PCR (MS-PCR), and methylation-
+specific multiplex ligation-dependent probe amplification (MS-MLPA).
+In most studies, tumour invasiveness was defined using MRI-
+based criteria (modified Knosp grades 3–4 or Hardy–Wilson grades
+D–E) and/or histological or intraoperative evidence of invasion into
+surrounding tissues, including the cavernous sinus, bone, dura, sphe-
+noid sinus, and clivus. Tables 1 and 2 summarize study characteristics
+and gene-level findings.
+VAN DER GROEF ET AL.
+3 of 18
+3.2.1
+|
+Genome-wide DNA methylation analysis
+and PitNET invasiveness
+Cheng et al.5 examined a cohort of 68 NF-PitNETs with Illumina
+Infinium
+MethylationEPIC
+BeadChip
+array
+and
+found
+that
+invasive
+subtypes
+exhibited
+hypermethylation
+and
+decreased
+expression of genes such as PHYHD1, LTBR, C22orf42, PRR5,
+ANKDD1A, RAB13, CAMKV, KIFC3, WNT4, and STAT6. Con-
+versely, MYBPHL exhibited hypomethylation and was overex-
+pressed in invasive tumours.5
+FIGURE 2
+Flowchart.
+4 of 18
+VAN DER GROEF ET AL.
+TABLE 1
+Overview of studies assessing PitNET behaviour.
+Study
+Methylation method
+Sample
+size (n)
+Control
+group
+PitNET type
+Outcome(s)
+Definition of outcome(s)
+Main outcomes
+Chen
+et al.
+RRBS
+41
+Non-
+invasive
+PitNETs
+All subtypes,
+mainly non-
+functioning
+Invasiveness
+Histological, radiological
+or surgical evidence of
+tumour invasion into the
+cavernous sinus or
+sphenoid sinus.
+Seven genes (FGFR3, KCNK2, C4orf50, SSC5D, FBXO2,
+SREBF1, SLITRK1) displayed low methylation levels and high
+expression. Six genes (COL11A1, SDK2, BSX, CNTN5,
+ARID5B, KAZN) showed high methylation levels with high
+expression. Four genes (ATP2C2, PTPRT, CDYL2, DOK6)
+demonstrated low methylation levels with low expression.
+Cheng
+et al.5
+Illumina Infinium
+MethylationEPIC, 850K
+BeadChip
+68
+Non-
+invasive
+PitNETs
+Non-functioning
+Invasiveness
+Knosp grades 3–4
+Increased methylation of PHYHD1, LTBR, C22orf42, PRR5,
+ANKDD1A, RAB13, CAMKV, KIFC3, WNT4 and STAT6 was
+observed in invasive tumours, as was decreased methylation
+of MYBPHL.
+Cheng
+et al.3
+Illumina Infinium
+MethylationEPIC, 850 K
+BeadChip
+71
+PitNETs
+without
+regrowth
+Non-functioning
+Tumour
+Regrowth
+The maximum tumour
+diameter has increased
+by more than 2 mm on
+enhanced MRI from
+surgery to follow-up.
+Increased DNA methylation levels were observed in
+FAM90A1, ETS2, STAT6, CYBRD1 and PYCARD for tumour
+regrowth. Decreased methylation levels were observed in
+MYT1L, ING2, KCNK1 and SH3GL2.
+Patients who are younger, have decreased FAM90A1
+expression (HR = 0.233, 95% CI = 0.083–0.649) and
+increased ING2 expression (HR = 3.020, 95% CI = 1.067–
+8.543) are more likely to experience tumour regrowth.
+Garcia-
+Martinez
+et al.
+MS-MLPA
+105
+Non-
+invasive
+PitNETs
+Non-functioning,
+corticotroph and
+somatotroph
+Invasiveness
+Clinical manifestations,
+Hardy's classification, and
+MRI invasiveness of the
+cavernous sinus.
+Compared to non-invasive tumours, invasive tumours
+exhibited lower levels of methylation in ESR1 and RASSF1.
+Guaraldi
+et al.
+Targeted bisulphite next-
+generation sequencing (NGS)
+111
+Non-
+Aggressive
+PitNETs
+All subtypes,
+mainly non-
+functioning
+Aggressiveness
+Tumour size >10 mm,
+extra-sellar invasion
+(defined by Knosp grades
+3–4/Hardy–Wilson
+stages D–E), high
+proliferation (ki-67 ≥3%
+and p53 > 10% strongly
+positive nuclei/10 HPF or
+the presence of >2/10
+mitoses/HPF), and
+requiring multiple
+treatment to obtain
+disease remission or, at
+least, control
+The methylation levels of PARP15, LINC00599 and ZAP70
+were higher in aggressive tumours. Conversely, the
+methylation levels of AIP, GNAS and PDCD1 were lower in
+aggressive cases.
+Among X-linked genes, males exhibited higher levels of
+methylation of FLNA, UXT and MAGE family genes
+(MAGEA11, MAGEA1 and MAGEC2) in aggressive tumours.
+Gu et al.
+Illumina Infinium
+HumanMethylation, 450K
+Beadchip
+19
+Non-
+invasive
+PitNETs
+Non-functioning
+Invasiveness
+Wilson–Hardy grades III–
+V and stages D–E
+Cluster analysis of 339 CpGs revealed a clear distinction
+between invasive and non-invasive tumours.
+(Continues)
+VAN DER GROEF ET AL.
+5 of 18
+TABLE 1
+(Continued)
+Study
+Methylation method
+Sample
+size (n)
+Control
+group
+PitNET type
+Outcome(s)
+Definition of outcome(s)
+Main outcomes
+Hallen
+et al.
+Illumina Infinium
+MethylationEPIC, 850K
+BeadChip
+43
+PitNETs
+without
+regrowth
+Non-functioning
+Reintervention
+Need for reoperation or
+radiotherapy due to
+tumour progression
+within 5 years of follow-
+up
+Hypermethylated DMPs in GABRA1, ZNF664-FAM101A and
+SLC23A1, as well as hypomethylated DMPs in CPED1 and
+ATP2B4, were associated with shorter reintervention-free
+survival.
+Jotanovic
+et al.
+Illumina Infinium
+MethylationEPIC, 850K
+BeadChip
+76
+Non-
+aggressive
+(benign)
+PitNETs
+All subtypes,
+mainly
+corticotroph
+Aggressiveness
+Invasive tumour with
+unusually fast growth
+and/or clinically
+significant tumour
+progression despite
+surgery, radiotherapy,
+and standard medical
+therapy.
+Unsupervised hierarchical clustering, based on the 5000
+most variable CpG sites, revealed a clear separation
+between the aggressive tumour group and the benign
+tumour group.
+A total of 9066 significant DMPs were detected when
+aggressive and benign tumours were compared. Of these,
+7394 DMPs exhibited hypermethylation and 1672 displayed
+hypomethylation.
+Kayacan,
+et al.
+MS-PCR
+32
+Non-
+invasive
+PitNETs
+Corticotroph
+Invasiveness
+Knosp grades 3–4 or
+invasion of the bone and
+dura.
+There was no difference in partial methylation status
+between invasive and non-invasive tumours (50% vs. 47%,
+respectively).
+Kober
+et al.
+Illumina Infinium
+HumanMethylation, 450K
+Beadchip and DNA
+pyrosequencing assay.
+34
+Non-
+invasive
+PitNETs
+Non-functioning
+Invasiveness
+Knosp grades 3–4 or
+invasion of the bone and
+dura of the sellar floor,
+sphenoid sinus or clivus
+and/or leptomeningeal
+infiltration.
+No differences were observed in genome-wide methylation
+analysis between invasive and non-invasive tumours.
+However, ITPKB methylation was significantly lower in
+invasive tumours than in non-invasive tumours (28% vs.
+39%; p = .03), while CNKSR1 methylation was higher in
+invasive tumours than in non-invasive tumours (52% vs.
+39%; p = .04).
+Kochling
+et al.
+MS-PCR
+100
+Not
+applicable
+All subtypes
+Tumour
+recurrence and
+progression free
+survival
+Tumour recurrence and
+progression free survival
+TERT promoter methylation was observed in 27% of primary
+PitNETs and 33% of recurrent PitNETs. Furthermore, PFS
+was 44 and 95 months for methylated and unmethylated
+tumours, respectively.
+Ling et al.
+Illumina Infinium
+HumanMethylation, 450K
+Beadchip.
+24
+Non-
+invasive
+PitNETs
+All subtypes
+Invasiveness
+Knosp scores 2–4
+No significant differences in global DNA methylation were
+observed between invasive and non- invasive PitNETs, nor
+was methylation associated with tumour grade. However,
+34 CpG sites linked to 17 genes, including FLT1 and SLIT3,
+were found to be hypomethylated in invasive NF-PitNETs.
+Miyake
+et al.
+MS-HRM
+70
+Not
+applicable
+All subtypes, but
+primarily non-
+functioning
+Progression free
+survival (PFS)
+Time between the date
+of surgery until disease
+progression was
+confirmed by
+neuroimaging
+Disease progression
+defined as:
+(1) 30% increase in
+tumour volume
+Recurrent PitNETs exhibited a higher frequency of TERT
+promoter methylation (41%) than primary PitNETs (8%,
+p = .002). Furthermore, TERT promoter hypermethylation
+was associated with elevated TERT mRNA expression.
+The median PFS for methylated PitNETs was shorter (30 vs.
+133 months), with TERT promoter methylation being
+associated with an increased risk of shorter PFS (HR: 5.804,
+95% CI: 1.407–23.940).
+6 of 18
+VAN DER GROEF ET AL.
+TABLE 1
+(Continued)
+Study
+Methylation method
+Sample
+size (n)
+Control
+group
+PitNET type
+Outcome(s)
+Definition of outcome(s)
+Main outcomes
+(2) 10% increase in any
+dimension following
+incomplete resection
+(3) any detectable disease
+following complete
+resection.
+Møller
+et al.
+Illumina Infinium
+MethylationEPIC
+42
+Not
+applicable
+Non-functioning
+Regrowth rate
+over time
+Not applicable
+No differences in tumour regrowth were observed between
+methylation clusters during the eight-year follow-up period.
+Qian et al.
+MS-PCR
+69
+Non-
+invasive
+PitNETs
+All subtypes
+Invasiveness
+Wilson–Hardy grades III–
+V
+Methylation of the CDH13 gene was more prevalent in
+invasive PitNETs (42%) than in non-invasive PitNETs (19%,
+p < .05). Furthermore, CDH1 methylation was more
+prevalent in grade IV tumours than in grade I tumours.
+Rusetska
+et al.
+DNA pyrosequencing
+80
+Non-
+invasive
+PitNETs
+Non-functioning
+Invasiveness
+Knosp grades 3–4 or
+invasion of the bone and
+dura of the sellar floor,
+sphenoid sinus or clivus
+and/or leptomeningeal
+infiltration.
+Lower LINE-1 methylation levels were observed in invasive
+PitNETs (68%) than in non-invasive ones (72%, p = .02).
+Tsegaye,
+et al.
+DNA pyrosequencing
+47
+Non-
+invasive
+PitNETs
+Non-functioning
+Invasiveness
+Knosp grades 3–4 or
+invasion of the bone and
+dura of the sellar floor,
+sphenoid sinus or clivus
+and/or leptomeningeal
+infiltration.
+No difference in hsa-mir-184 promoter methylation levels
+was observed between invasive and non-invasive tumours.
+However, a higher level of hsa-mir-184 was observed in
+invasive tumours than in non-invasive tumours.
+Valiulyte
+et al.
+MS-PCR
+88
+Non-
+invasive
+PitNETs
+All subtypes,
+mainly lactotroph
+Invasiveness
+Wilson–Hardy grades III–
+V and suprasellar
+extension.
+No difference in STAT3 gene methylation was observed
+between invasive and non-invasive tumours (12% vs. 7%,
+p = .43).
+Yuan
+et al.
+MS-PCR
+53
+Non-
+invasive
+PitNETs
+All subtypes
+Invasiveness
+Wilson–Hardy grades III–
+V
+GSTP1 methylation was more prevalent in invasive tumours
+(85%) compared to non-invasive tumours (63%, p < .05) and
+was associated with reduced gene expression.
+Abbreviations: DMP, differentially methylated position; MS-HRM, methylation-sensitive high-resolution melting analysis; MS-MLPA, methylation-specific multiplex ligation-dependent probe amplification
+(MS-MLPA); MS-PCR, methylation-specific polymerase chain reaction; NF-PitNETs, non-functioning pituitary neuroendocrine tumours; PFS, progression-free survival; RRBS, reduced representation bisulphite
+sequencing.
+VAN DER GROEF ET AL.
+7 of 18
+TABLE 2
+Overview of candidate genes for DNA methylation analysis for prediction of PitNETs behaviour.
+Gene
+Methylation
+status
+Methylation
+assessment
+Function
+Gene
+expression
+Related clinical
+outcome
+FAM90A1
+Increased
+Illumina Infinium
+MethylationEPIC
+BeadChip
+Member of the FAM90 family and a protein-coding
+gene in human; specific function not well-characterized
+Decreased
+Tumour
+regrowth
+EST2
+Increased
+Illumina Infinium
+MethylationEPIC
+BeadChip
+Transcription factor belonging to the ETS family, which
+regulates genes involved in development, apoptosis,
+and cellular proliferation.
+Decreased
+Tumour
+regrowth
+STAT6
+Increased
+Illumina Infinium
+MethylationEPIC
+BeadChip
+Transduces IL-4 and IL-13 signals; activates gene
+expression related to immune responses.
+Decreased
+Tumour
+regrowth,
+invasiveness
+CYBRD1
+Increased
+Illumina Infinium
+MethylationEPIC
+BeadChip
+Ferric reductase involved in dietary iron absorption;
+expressed in the duodenum.
+Decreased
+Tumour
+regrowth
+PYCARD (ASC)
+Increased
+Illumina Infinium
+MethylationEPIC
+BeadChip
+Mediator in apoptosis and inflammation; involved in
+inflammasome activation.
+Decreased
+Tumour
+regrowth
+MYT1L
+Decreased
+Illumina Infinium
+MethylationEPIC
+BeadChip
+Transcription factor that plays a critical role in neuronal
+development and maintenance of neuronal identity.
+Increased
+Tumour
+regrowth
+ING2
+Decreased
+Illumina Infinium
+MethylationEPIC
+BeadChip
+Tumour suppressor involved in DNA repair and
+apoptosis; modulates histone acetylation.
+Increased
+Tumour
+regrowth
+KCNK1
+Decreased
+Illumina Infinium
+MethylationEPIC
+BeadChip
+Potassium channel contributing to resting membrane
+potential in neurons.
+Increased
+Tumour
+regrowth
+KCK2
+Decreased
+RRBS
+Potassium channel gene involved in maintaining
+membrane potential.
+Increased
+Invasiveness
+SH3GL2
+Decreased
+Illumina Infinium
+MethylationEPIC
+BeadChip
+Involved in synaptic vesicle endocytosis and dendrite
+outgrowth; interacts with BDNF.
+Increased
+Tumour
+regrowth
+GABRA1
+Increased
+Illumina Infinium
+MethylationEPIC
+BeadChip
+Subunit of GABA-A receptor; mediates inhibitory
+neurotransmission in the brain. Responsible for
+neuroactive ligand-receptor interaction in the
+development of PitNETs.
+Not
+studied
+Re-
+intervention
+free survival
+ZNF664-FAM101A
+Increased
+Illumina Infinium
+MethylationEPIC
+BeadChip
+Dual role in transcriptional regulation and cellular
+processes. Involved in various diseases, including
+congenital diaphragmatic hernia, neurological
+disorders, and certain cancers.
+Not
+studied
+Re-
+intervention
+free survival
+SLC23A1
+Increased
+Illumina Infinium
+MethylationEPIC
+BeadChip
+Key transporter involved in maintaining cellular vitamin
+C levels, which are crucial for various physiological
+processes.
+Not
+studied
+Re-
+intervention
+free survival
+CPED1
+Decreased
+Illumina Infinium
+MethylationEPIC
+BeadChip
+Protein coding gene; function not fully characterized.
+Not
+studied
+Re-
+intervention
+free survival
+ATP2B4
+Decreased
+Illumina Infinium
+MethylationEPIC
+BeadChip
+Encodes the plasma membrane calcium-transporting
+ATPase 4 (PMCA4), a crucial enzyme responsible for
+maintaining low intracellular calcium levels by actively
+pumping calcium out of cells.
+Not
+studied
+Re-
+intervention
+free survival
+PARP15
+Increased
+Targeted bisulphite
+NGS
+Member of the PARP family of proteins, which are
+involved in various cellular processes including DNA
+repair, chromatin remodelling, transcription, and cell
+death.
+Not
+studied
+Aggressiveness
+LINC00599
+(RNCR3)
+Increased
+Targeted bisulphite
+NGS
+Long non-coding RNA that is involved in neural
+development, cardiovascular and pulmonary diseases
+and acts as a tumour suppressor.
+Not
+studied
+Aggressiveness
+8 of 18
+VAN DER GROEF ET AL.
+TABLE 2
+(Continued)
+Gene
+Methylation
+status
+Methylation
+assessment
+Function
+Gene
+expression
+Related clinical
+outcome
+ZAP70
+Increased
+Targeted bisulphite
+NGS
+Encodes the zeta-chain-associated protein kinase 70
+(ZAP-70), a crucial enzyme in the immune system's
+function, particularly in T cell development and
+activation.
+Not
+studied
+Aggressiveness
+AIP
+Decreased
+Targeted bisulphite
+NGS
+Tumour suppressor, that suppresses cell proliferation
+in PitNETs. Germline mutation mutations are
+associated with familial isolated pituitary tumours.
+Not
+studied
+Aggressiveness
+GNAS
+Decreased
+Targeted bisulphite
+NGS
+Encodes Gs alpha subunit; involved in signal
+transduction. Mutations associated with somatotroph
+PitNETs.
+Not
+studied
+Aggressiveness
+PDCD1
+Decreased
+Targeted bisulphite
+NGS
+Immune checkpoint receptor; regulates T-cell activity
+Not
+studied
+Aggressiveness
+FLNA
+Increased
+MS-PCR
+Cytoskeletal protein; links Actin filaments and
+participates in signalling pathways.
+Not
+studied
+Aggressiveness
+UXT
+Increased
+MS-PCR
+Co-chaperone modulating transcription; interacts with
+androgen receptor.
+Not
+studied
+Aggressiveness
+MAGE family
+Increased
+MS-PCR
+Group of genes with roles in apoptosis and Tumour
+suppression; some members are cancer-testis antigens.
+Not
+studied
+Aggressiveness
+TERT
+Increased
+MS-PCR
+Regulates telomerase expression; mutations can lead
+to increased telomerase activity and cellular
+immortality.
+Increased
+Progression
+free survival
+Not
+significant
+MS-HRM
+Not
+studied
+Tumour
+recurrence
+PHYHD1
+Increased
+Illumina Infinium
+MethylationEPIC
+BeadChip
+Putative oxidoreductase; function not well-
+characterized
+Decreased
+Invasiveness
+LTBR
+Increased
+Illumina Infinium
+MethylationEPIC
+BeadChip
+Receptor involved in lymphoid tissue development and
+apoptosis
+Decreased
+Invasiveness
+C22orf42
+Increased
+Illumina Infinium
+MethylationEPIC
+BeadChip
+Open reading frame; function not well-characterized.
+Decreased
+Invasiveness
+PRR5
+Increased
+Illumina Infinium
+MethylationEPIC
+BeadChip
+Component of mTORC2 complex; involved in cell
+growth and survival.
+Decreased
+Invasiveness
+ANKDD1A
+Increased
+Illumina Infinium
+MethylationEPIC
+BeadChip
+Contains ankyrin repeats; function not well-
+characterized.
+Decreased
+Invasiveness
+RAB13
+Increased
+Illumina Infinium
+MethylationEPIC
+BeadChip
+Member of RAS oncogene family; involved in vesicle
+trafficking.
+Decreased
+Invasiveness
+CAMKV
+Increased
+Illumina Infinium
+MethylationEPIC
+BeadChip
+Kinase-like protein expressed in the brain; function not
+well-characterized.
+Decreased
+Invasiveness
+KIFC3
+Increased
+Illumina Infinium
+MethylationEPIC
+BeadChip
+Motor protein involved in intracellular transport.
+Decreased
+Invasiveness
+WNT4
+Increased
+Illumina Infinium
+MethylationEPIC
+BeadChip
+Developmental gene crucial for female reproductive
+tract development, kidney morphogenesis, tissue
+regeneration, maintaining cellular homeostasis
+Decreased
+Invasiveness
+MYBPHL
+Decreased
+Illumina Infinium
+MethylationEPIC
+BeadChip
+Myosin-binding protein; function not well-
+characterized.
+Increased
+Invasiveness
+(Continues)
+VAN DER GROEF ET AL.
+9 of 18
+TABLE 2
+(Continued)
+Gene
+Methylation
+status
+Methylation
+assessment
+Function
+Gene
+expression
+Related clinical
+outcome
+LINE-1
+Decreased
+DNA pyrosequencing
+Autonomous retrotransposons that can copy and insert
+themselves into new locations in the genome and
+contributing to genetic variation, gene regulation, and
+genome evolution.
+Increased
+Invasiveness
+ITPKB
+Increased
+DNA pyrosequencing
+Kinase involved in inositol phosphate metabolism.
+Decreased
+Invasiveness
+CNKSR1
+Increased
+DNA pyrosequencing
+Scaffold protein, facilitating interactions between
+various signalling molecules, including those in the
+RAS/MAPK and PI3K/AKT pathways, which are vital
+for cell proliferation, survival, and differentiation.
+Decreased
+Invasiveness
+CDH13
+Increased
+MS-PCR
+Cadherin involved in cell adhesion; acts as a tumour
+suppressor.
+Decreased
+Invasiveness
+CDH1
+Increased
+MS-PCR
+E-cadherin; critical for cell–cell adhesion; loss
+associated with tumour progression.
+Decreased
+Invasiveness
+GSTP1
+Increased
+MS-PCR
+Enzyme that helps detoxify harmful compounds,
+protects cells from oxidative stress, and regulates cell
+signalling.
+Decreased
+Invasiveness
+ESR1
+Decreased
+MS-MLPA
+Encodes the estrogen receptor alpha (ERα), a nuclear
+hormone receptor that regulates gene expression in
+response to estrogen.
+Not
+studied
+Invasiveness
+RASSF1
+Decreased
+MS-MLPA
+Tumour suppressor involved in cell cycle regulation,
+apoptosis, and microtubule stability.
+Not
+studied
+Invasiveness
+STAT3
+Not
+significant
+MS-PCR
+Transcription factor involved in cell growth and
+apoptosis.
+Not
+significant
+Invasiveness
+FGFR3
+Decreased
+RRBS
+Encodes a fibroblast growth factor receptor; mutations
+or overexpression can drive cell proliferation and
+survival, contributing to bladder, lung, and other
+cancers.
+Increased
+Invasiveness
+SSC5D
+Decreased
+RRBS
+Encodes a protein implicated in the development of
+neuroblastomas and other cancers; may affect cell
+adhesion or migration.
+Increased
+Invasiveness
+FBXO2
+Decreased
+RRBS
+Part of the ubiquitin-proteasome pathway, regulating
+protein degradation; overexpression can contribute to
+tumour progression by modulating cell cycle and
+apoptosis.
+Increased
+Invasiveness
+SREBF1
+Decreased
+RRBS
+A transcription factor regulating lipid metabolism;
+overexpression can enhance lipid biosynthesis and
+support rapid tumour growth.
+Increased
+Invasiveness
+SLITRK1
+Decreased
+RRBS
+Involved in neural development and cell signalling;
+mutations or dysregulation may influence cancers,
+particularly neuroblastomas, by affecting neuronal
+growth.
+Increased
+Invasiveness
+COL11A1
+Increased
+RRBS
+Encodes a collagen type XI alpha chain; can promote
+tumour cell invasion and metastasis.
+Increased
+Invasiveness
+SDK2
+Increased
+RRBS
+A member of the immunoglobulin superfamily,
+involved in cell adhesion; altered expression in cancers
+could impact tumour progression and metastasis.
+Increased
+Invasiveness
+BSX
+Increased
+RRBS
+Involved in the regulation of the central nervous
+system, with potential roles in cancer by modulating
+cell differentiation or apoptosis.
+Increased
+Invasiveness
+CNTN5
+Increased
+RRBS
+A cell adhesion molecule; dysregulated expression is
+implicated in the development of neuroectodermal
+tumours like neuroblastomas.
+Increased
+Invasiveness
+ARID5B
+Increased
+RRBS
+A member of the ARID family, which regulates gene
+transcription; mutations can lead to disrupted cellular
+differentiation and oncogenesis.
+Increased
+Invasiveness
+10 of 18
+VAN DER GROEF ET AL.
+Notably, LTBR, a member of the TNF receptor superfamily
+involved in immune and inflammatory responses, showed downregu-
+lation in invasive tumours, suggesting a potential tumour-suppressor
+role, though further research is needed to clarify its function.44 Simi-
+larly, WNT4, which encodes glycoproteins involved in cell prolifera-
+tion, migration, and survival, may act as either a tumour suppressor or
+a pro-oncogene, depending on the tumour context.45 In invasive Pit-
+NETs, hypermethylation and decreased expression of WNT4 suggest
+it may function as a tumour suppressor in these tumours.
+Another study by Gu et al.7 analysed 339 differentially methyl-
+ated CpG sites (overall, methylation difference: jΔβj > 0.1 and
+p < .001) in 19 NF-PitNETs using the Illumina Infinium MethylationE-
+PIC BeadChip, clearly distinguishing invasive from non-invasive
+tumours. Gene Ontology (GO) analysis revealed that genes like
+CARD11, GALNT9, FBXW8, and SEPT9 were associated with cell adhe-
+sion pathways, indicating a possible link to invasiveness. However, the
+methylation of GALNT9 did not correlate with its gene expression
+levels.
+The most recent genome-wide study by Chen et al.4 expanded on
+this evidence using RRBS in a cohort of 41 PitNETs of multiple sub-
+types. The study identified 347 differentially methylated regions
+(DMRs) (jΔβj > 0.1), of which 63% were hypomethylated in invasive
+tumours. Some of the genes associated with these DMRs displayed
+distinct
+methylation–expression
+patterns.
+For
+instance,
+FGFR3,
+KCNK2, C4orf50, SSC5D, FBXO2, SREBF1, and SLITRK1 showed low
+methylation and high expression in invasive tumours, while COL11A1,
+SDK2, BSX, CNTN5, ARID5B, and KAZN demonstrated high methyla-
+tion but increased expression. This suggests complex regulatory
+mechanisms beyond simple promoter silencing. Additionally, genes
+such as ATP2C2, PTPRT, CDYL2, and DOK6 exhibited both low methyl-
+ation
+and
+low
+expression,
+implying
+the
+involvement
+of
+non-
+methylation-dependent regulatory pathways. Overall, the combined
+methylation and mRNA expression profiles of these 17 genes effec-
+tively distinguished invasive from non-invasive PitNETs.
+Among these genes, FGFR3 (fibroblast growth factor receptor 3)
+expression alterations have been implicated in cell proliferation and
+invasiveness in various cancers.46 Increased expression of FGFR3
+could affect fibroblast growth factor signalling, which could stimulate
+tumour progression and invasiveness in PitNETs.4 This was also seen
+for SREBF1, a transcription factor that regulates lipid biosynthesis,
+which is crucial for membrane formation and cell growth. Upregula-
+tion of SREBF1 is associated with increased invasiveness in several
+cancers and may contribute to PitNET invasiveness.47 Increased
+expression of COL11A1, a component of type XI collagen involved in
+extracellular matrix (ECM) remodelling, has been linked to tumour
+invasion and metastases in multiple malignancies. This gene may also
+impact tumour cell adhesion, migration, and invasiveness in PitNETs.48
+PTPRT encodes the protein tyrosine phosphatase and functions as a
+TABLE 2
+(Continued)
+Gene
+Methylation
+status
+Methylation
+assessment
+Function
+Gene
+expression
+Related clinical
+outcome
+KAZN
+Increased
+RRBS
+Associated with the regulation of the cytoskeleton and
+adhesion molecules, influencing tumour cell migration
+and invasion in cancers.
+Increased
+Invasiveness
+ATP2C2
+Decreased
+RRBS
+Encodes a calcium ATPase; involved in calcium
+signalling, which is important in cell proliferation,
+migration, and apoptosis in various cancers.
+Decreased
+Invasiveness
+PTPRT
+Decreased
+RRBS
+A receptor-type protein tyrosine phosphatase; acts as
+a tumour suppressor by regulating cell signalling
+pathways involved in growth, differentiation, and
+migration.
+Decreased
+Invasiveness
+CDYL2
+Decreased
+RRBS
+Involved in chromatin remodelling and gene regulation;
+mutations or downregulation may contribute to the
+progression of haematological malignancies.
+Decreased
+Invasiveness
+DOK6
+Decreased
+RRBS
+Part of the docking protein family; interacts with
+receptor tyrosine kinases and may influence cell
+signalling pathways that regulate proliferation and
+survival.
+Decreased
+Invasiveness
+CDKN2A
+Not
+significant
+MS-PCR
+Tumour suppressor encoding p16INK4a and p14ARF;
+crucial for cell cycle regulation; loss or inactivation
+leads to uncontrolled cell proliferation in many cancers.
+Not
+Significant
+Invasiveness
+Has-miR-184
+Not
+significant
+MS-PCR
+MicroRNA involved in the regulation of tumour
+suppressor genes and oncogenes; its dysregulation can
+contribute to tumour progression in various cancers.
+Increased
+Invasiveness
+Note: Information about gene functions retrieved from Gene [Internet]. Bethesda (MD): National Center for Biotechnology Information (US), National
+Library of Medicine; c2004 [cited 2025, October 10]. Available from: https://www.ncbi.nlm.nih.gov/gene/.
+Abbreviations: MS-HRM, methylation-sensitive high-resolution melting analysis; MS-MLPA, methylation-specific multiplex ligation-dependent probe
+amplification (MS-MLPA); MS-PCR, methylation-specific polymerase chain reaction; RRBS, reduced representation bisulphite sequencing.
+VAN DER GROEF ET AL.
+11 of 18
+tumour suppressor, regulating cell signalling pathways related to
+growth, differentiation, and migration. It is frequently silenced by
+methylation in various cancers.49 Chen et al.4 demonstrated a strong
+correlation (r = 0.81) between decreased methylation and increased
+expression of PTPRT in invasive PitNETs, highlighting it as a promising
+biomarker for PitNET invasiveness.
+Despite these new insights, two case control studies12,14 that
+investigated genome-wide DNA methylation analyses using Illumina
+Infinium HumanMethylation 450K Beadchip array found no signifi-
+cant methylation differences between invasive and non-invasive
+tumours. Ling et al14 included multiple PitNET subtypes, and Kober
+et al.12 focused on NF-PitNETs with Knosp scores ranging from 2 to
+4 to define tumour invasion. Both studies were limited by small sam-
+ple sizes (12 and 18 invasive cases, respectively), which may have lim-
+ited their statistical power.
+3.2.2
+|
+Targeted gene methylation analysis and
+PitNET invasiveness
+Rusetska et al.18 used DNA-pyrosequencing to show that invasive
+tumours had significantly lower LINE-1 element methylation com-
+pared to non-invasive tumours (mean 68.0% vs. 72%; p = .019,
+respectively). Although no significant differences were observed in
+transcript levels of L1-ORF1 and L1-ORF2, a negative correlation was
+found between LINE-1 methylation and transcript expression. LINE-1
+elements, which account for about 17%–20% of the human genome,
+are often used as a surrogate marker for global DNA methylation.
+Hypomethylation of LINE-1 is associated with genomic instability in
+various cancers. In this context, LINE-1 hypomethylation may contrib-
+ute to aggressive behaviour in PitNETs.50
+In the study of Kober et al.,12 that also applied DNA-pyrosequencing,
+methylation of ITPKB was lower in invasive NF-PitNETs (28%) compared
+to non-invasive tumours (39%, p = .031). In contrast, CNKSR1 methyla-
+tion was higher in invasive tumours (52% vs. 39%, p = .043). Expression
+analysis revealed a strong inverse correlation between methylation and
+gene expression for both genes, with CNKSR1 expression significantly
+reduced (fold change = 1.6) in invasive tumours.12 CNKSR1 is a scaffold
+protein involved in critical signalling pathways, such as RAS/MAPK and
+PI3K/AKT, which regulate proliferation and survival, suggesting its poten-
+tial involvement in PitNET invasiveness.51
+Qian et al.,17 using MS-PCR, reported that promoter methylation
+of CDH13 was more frequent in invasive tumours compared to non-
+invasive ones (42% vs. 19%; p < .05). Additionally, CDH1 methylation
+levels were higher in Wilson-Hardy grade IV tumours than in grade I
+tumours. Both CDH1 and CDH13 showed decreased expression in
+invasive tumours.17 CDH1 encodes E-cadherin, a key adhesion mole-
+cule whose loss is a hallmark of epithelial-to-mesenchymal transition
+(EMT),
+associated
+with
+tumour
+invasion.52
+CDH13
+encodes
+H-cadherin, which plays a role in cell migration and proliferation, and
+its downregulation is also linked to increased invasiveness.53
+Yuan et al.,21 also using MS-PCR, demonstrated that GSTP1 pro-
+moter methylation was significantly higher in invasive tumours (85%)
+compared to non-invasive tumours (63%; p < .05), with a correspond-
+ing decrease in expression. As GSTP1 protects against oxidative dam-
+age, its silencing through hypermethylation has been linked to
+increased DNA damage and tumour progression in several cancers,
+potentially contributing to invasive PitNET behaviour.54
+In contrast, García-Martínez et al.6 found that the estrogen recep-
+tor ESR1 and the tumour suppressor gene RASSF1 were less methyl-
+ated in invasive tumours compared to non-invasive ones (p = .05 and
+p = .03, respectively), although their expression profiles were not
+assessed in this study.
+Valiulyte et al.20 found no significant difference in the methyla-
+tion of STAT3, a transcription factor involved in cell growth and apo-
+ptosis,
+between
+invasive
+and
+non-invasive
+tumours
+(12%
+vs. 7%; p = .43).
+A more recent study by Tsegaye et al.19 analysed hsa-miR-184
+promoter methylation in 47 gonadotroph PitNETs using pyrosequen-
+cing. Although no significant difference was found between invasive
+and non-invasive tumours, hsa-miR-184 expression was significantly
+higher in invasive tumours (p = .03). This suggests that while methyla-
+tion of hsa-miR-184 may not directly correlate with invasiveness,
+post-transcriptional regulation involving this microRNA could play a
+role in the invasive behaviour of tumours. miR-184 has been reported
+as a tumour suppressor in various cancers by inhibiting proliferation
+and invasion. Its overexpression may promote cell proliferation and
+inhibit apoptosis, potentially contributing to the invasive behaviour of
+gonadotroph PitNETs.55
+Lastly, Kayacan et al.11 investigated CDKN2A promoter methyla-
+tion in 32 corticotroph PitNETs using MS-PCR and found no signifi-
+cant differences in methylation between invasive and non-invasive
+tumours (partial methylation: 50% vs. 47%). Furthermore, CDKN2A
+expression did not correlate with tumour invasiveness.
+3.3
+|
+PitNET aggressiveness
+The relationship between DNA methylation patterns and aggressive
+behaviour in PitNETs has been investigated in two case–control stud-
+ies.8,10 Both studies used high-throughput methylation techniques,
+including targeted bisulphite next-generation sequencing (NGS) and
+Illumina Infinium MethylationEPIC (850 K) BeadChip arrays. These
+analyses covered a variety of PitNET subtypes, including corticotroph,
+somatotroph, gonadotroph, lactotroph, thyrotroph, plurihormonal
+Pit1+, and null cell tumours. Detailed study characteristics and gene-
+level findings are summarized in Tables 1 and 2.
+Guaraldi et al.8 identified distinct methylation profiles in 111 Pit-
+NETs using NGS, comparing aggressive (including 6 pituitary carcino-
+mas)
+and
+non-aggressive
+tumours.
+Aggressive
+PitNETs
+and
+carcinomas were defined by their size (>10 mm), extra-sellar invasion
+(based on Knosp grades 3–4 or Hardy–Wilson stages D–E), high pro-
+liferation (Ki-67 ≥3% and p53 > 10% strongly positive nuclei per
+10 HPF), or metastatic spread to the central nervous system or distant
+sites for carcinomas. They found that aggressive tumours exhibited
+higher methylation of PARP15, LINC00599, and ZAP70, and lower
+12 of 18
+VAN DER GROEF ET AL.
+methylation of AIP, GNAS, and PDCD1 (p < .05 for all comparisons). In
+males, increased methylation of several X-linked genes (FLNA, UXT,
+MAGEA11, MAGEA1, and MAGEC2) was also associated with tumour
+aggressiveness.
+PARP15 has been linked to tumour-infiltrating lymphocytes and
+overall survival in lung adenocarcinoma,56 with higher methylation
+potentially reducing its expression thereby contributing to immune
+evasion and tumour aggressiveness. Similarly, LINC00599 (RNCR3), a
+tumour suppressor gene downregulated in gliomas, may promote
+tumour growth when hypomethylated.57 Although the expression
+profiles of these genes in PitNETs with altered methylation remain
+unexamined, they may play a role in PitNET aggressiveness.
+AIP, frequently mutated in familial isolated pituitary adenomas, is
+associated with early-onset, treatment-resistant tumours.58,59 GNAS,
+which encodes Gsα, is frequently mutated in somatotroph PitNETs.
+However, somatotroph PitNETs with GNAS mutations are typically
+small and less invasive.60 Hypomethylation of these genes may con-
+tribute to more aggressive tumour behaviour, as suggested by Guar-
+aldi et al.8 PDCD1 encodes PD-1, a checkpoint receptor that
+suppresses immune responses when bound by PD-L1. Hypomethyla-
+tion of PDCD1 may lead to overexpression of PD-1, facilitating
+immune evasion and tumour progression.61 Expression profiling of
+these genes in PitNETs with altered methylation status has not yet
+been conducted.
+In parallel, Jotanovic et al.10 performed a genome-wide methyla-
+tion analysis using the Illumina Infinium MethylationEPIC (850 K)
+BeadChip in 76 patients, including 48 aggressive adenomas, 16 pitui-
+tary carcinomas, and 23 non-aggressive PitNETs. Aggressive PitNETs
+and carcinomas were defined by invasive growth, rapid progression,
+or clinically significant progression despite surgery, radiotherapy, or
+standard medical therapy, with carcinomas characterized by meta-
+static spread to the central nervous system or distant sites. Unsuper-
+vised hierarchical clustering based on the 5000 most variable CpG
+sites achieved complete separation between the aggressive/pituitary
+carcinoma (APT/PC) group and benign tumours, indicating distinct
+global methylation signatures. The analysis identified 9066 signifi-
+cantly
+differentially
+methylated
+positions
+(DMPs)
+(jΔβj ≥0.2,
+p < 1.3  107), including 7394 hypermethylated and 1672 hypo-
+methylated CpG sites in aggressive tumours and carcinomas com-
+pared to benign PitNETs. These results underscore the extent to
+which epigenetic reprogramming occurs in clinically aggressive and
+malignant PitNETs, suggesting that widespread DNA methylation
+alterations may drive the transition from indolent to aggressive or
+metastatic phenotypes.
+3.4
+|
+PitNET regrowth, recurrence and
+re-intervention
+The relationship between DNA methylation patterns and regrowth,
+recurrence and re-intervention in PitNETs was examined in five stud-
+ies with sample sizes ranging from 42 to 100. Two of these were
+case–control studies3,9 and one retrospective cohort study16 focused
+on tumour regrowth and reintervention in NF-PitNETs using genome-
+wide DNA methylation profiling. The other two retrospective stud-
+ies13,15 examined targeted gene methylation using MS-PCR and
+Methylation-Sensitive High-Resolution Melting (MS-HRM) across var-
+ious PitNET subtypes, including lactotroph, corticotroph, somato-
+troph, gonadotroph and thyrotroph, as well as plurihormonal tumours
+and null cell tumours. Detailed study characteristics and gene-level
+findings are summarized in Tables 1 and 2.
+3.4.1
+|
+Genome-wide DNA methylation analysis
+Cheng et al.3 investigated the association between genome-wide
+DNA methylation and PitNET regrowth defined by more than 2 mm
+of the maximum tumour diameter on enhanced MRI from the day of
+surgery to the follow-up endpoint in 71 NF-PitNETs. The study identi-
+fied significant epigenetic differences between tumours with and
+without regrowth. In particular, hypermethylation and downregulation
+were observed in genes like FAM90A1, ETS2, STAT6, CYBRD1, and
+PYCARD. Meanwhile MYT1L, ING2, KCNK1, and SH3GL2 were hypo-
+methylated and upregulated in tumours with regrowth. In multivari-
+able Cox regression, younger age (HR = 0.32, p = .02), decreased
+FAM90A1 expression (HR = 0.23, p = .005), and increased ING2
+expression (HR = 3.02, p = .04) emerged as independent predictors
+of tumour regrowth.3 Although ETS2 and MYT1L were included in the
+model, variables such as sex, tumour volume, invasion status, and
+expression of STAT6 or KCNK1 were excluded due to lack of signifi-
+cance in univariable analyses.
+Several of these genes have previously been linked to tumour
+progression, which can contribute to tumour regrowth in PitNETs. For
+example, ETS2, a proto-oncogene involved in development, apoptosis,
+and cell proliferation, is usually overexpressed in various cancers.62
+However, ETS2 was downregulated in NF-PitNETs with regrowth
+compared to those with no regrowth. This unexpected finding may
+suggest that ETS2 plays a tumour-suppressive role that is unique to
+pituitary tumours.
+PYCARD was found to be hypermethylated and down-regulated
+in NF-PitNETs with regrowth relative to the ones without regrowth.3
+It plays a complex and somewhat contradictory role in neoplasms, as
+it can both promote inflammation and tumour growth, but also act
+as a tumour suppressor by inducing apoptosis and inhibiting tumour
+cell proliferation. In this context, the downregulation of PYCARD in
+NF-PitNETs with regrowth suggests that it would primarily act as a
+tumour suppressor in these tumours.63
+ING2, known for its tumour-suppressive properties, was found to
+have increased expression in recurrent PitNETs. This is contrary
+to the typical expectation that ING2 loss promotes tumour progres-
+sion.64 This unexpected upregulation suggests the involvement of
+context-dependent
+regulation
+or
+compensatory
+mechanisms
+in
+PitNETs.
+KCNK1, which encodes the TWIK-1 potassium channel, has been
+associated with tumour cell migration and poor prognosis in several
+cancers. Overexpression of KCNK1 in NF-PitNETs may contribute to
+VAN DER GROEF ET AL.
+13 of 18
+increased tumour invasiveness and aggressiveness.65,66 SH3GL2,
+involved in intracellular trafficking and cell signalling, is usually down-
+regulated in cancers and linked to increased invasiveness via the
+STAT3/MMP2 pathway. Loss of SH3GL2 expression in PitNETs may
+promote tumour regrowth.67 Finally, FAM90A1, identified as an inde-
+pendent prognostic marker, shows decreased expression associated
+with tumour regrowth3 though its exact biological function remains
+unclear and warrants further research.
+In another study by Møller et al.,16 methylation-based clustering
+analysis was used to predict tumour regrowth in 42 large PitNETs.
+However, due to small cluster sizes (ranging from 4 to 10 participants),
+the study was unable to reliably predict regrowth outcomes over a
+median follow-up of 75 months. While one of the five clusters
+showed increased cumulative regrowth over time in a linear mixed-
+effects model, this pattern did not differ from other methylation-
+based clusters, likely due to limited statistical power.16
+When examining reintervention-free survival, Hallen et al9 found
+that in 43 non-functioning PitNETs shorter survival was significantly
+associated
+with
+hypermethylation
+of
+DMPs
+in
+GABRA1,
+ZNF664-FAM101A, and SLC23A1.9 In contrast, hypomethylation was
+TABLE 3
+Overview of predictive factors for outcomes concerning PitNET behaviour.
+Outcomes
+Consensus definitions
+Demographic
+Tumour-related
+Surgical
+Disease-related
+DNA Methylation
+alternation of Gene(s)
+Tumour
+invasiveness
+Knosp grade 3 or 4 and/or
+Hardy–Wilson stage D or E
+Age, sex
+Tumour size,
+tumour subtype
+Hormone
+hypersecretion
+PHYHD1, LTBR, C22orf42,
+PRR5, ANKDD1A, RAB13,
+CAMKV, KIFC3, WNT4,
+STAT6, MYBPHL, FGFR3,
+KCNK2, C4orf50, SSC5D,
+FBXO2, SREBF1, SLITRK1,
+COL11A1, SDK2, BSX,
+CNTN5, ARID5B, KAZN,
+ATP2C2, PTPRT, CDYL2,
+DOK6, LINE-1, ITPKB,
+CNKSR1, CDH1, CDH13,
+GSTP1, ESR1 and RASSF1
+Tumour
+aggressiveness
+Tumour size >10 mm, extra-
+sellar invasion (defined by
+Knosp grades 3–4/Hardy–
+Wilson stages D–E), high
+proliferation (ki-67 ≥3% and
+p53 > 10% strongly positive
+nuclei/10 HPF or the
+presence of >2/10 mitoses/
+HPF), and requiring multiple
+treatment to obtain disease
+remission or, at least, control.
+Age, sex
+Tumour size,
+tumour subtype,
+ki-67 index, p53
+overexpression,
+cavernous sinus
+Extend of
+resection,
+surgical
+complications.
+Hormone
+hypersecretion,
+post-operative
+hormone levels.
+PARP15, LINC00599,
+ZAP70, AIP, GNAS,
+PDCD1, FLNA, FLNA, UXT,
+MAGE family
+Progression-
+free survival
+Time from the date of
+surgery until disease
+progression defines as:
+(1) 30% increase in tumour
+volume
+(2) 10% increase in any
+dimension following
+incomplete resection
+(3) any detectable disease
+following complete resection.
+Age, sex
+Tumour size,
+tumour subtype,
+ki-67 index, p53
+overexpression,
+cavernous sinus
+Extend of
+resection,
+Surgical
+complications.
+Hormone
+hypersecretion,
+post-operative
+hormone levels.
+TERTa
+Tumour
+regrowth
+Increase in maximum tumour
+diameter > 2 mm on
+enhanced MRI from surgery
+to follow-up
+Age, sex
+Tumour size,
+tumour subtype,
+ki-67 index, p53
+overexpression,
+cavernous sinus
+invasion.
+Extend of
+resection,
+surgical
+complications.
+Hormone
+hypersecretion,
+post-operative
+hormone levels.
+FAM90A1a, ETS2, STAT6,
+CYBRD1, PYCARD,
+MYT1L, ING2a, KCNK1,
+and SH3GL2
+Re-
+intervention
+Need for reoperation or
+radiotherapy due to tumour
+progression within 5 years of
+follow-up
+Age, sex
+Tumour size,
+tumour subtype,
+ki-67 index, p53
+overexpression,
+cavernous sinus
+Extend of
+resection,
+surgical
+complications.
+Hormone
+hypersecretion,
+post-operative
+hormone levels.
+GABRA1,
+ZNF664-FAM101A,
+SLC23A1, CPED1, ATP2B4
+aAssessed in a multivariable prediction model.
+14 of 18
+VAN DER GROEF ET AL.
+observed in CPED1 and ATP2B4, although gene expression profiles
+were not assessed in this study.
+GABRA1 encodes the α1 subunit of the GABA receptor and is
+involved in central nervous system signalling. Its specific role in human
+PitNETs remains unclear, but it may act as a central regulatory hub in
+tumour progression.68 Similarly, ATP2B4, which regulates intracellular
+calcium homeostasis, has been associated with increased cell migra-
+tion and decreased apoptosis in other malignancies. Hypomethylation
+of ATP2B4 in PitNETs suggests potential upregulation, which contrib-
+utes to aggressive tumour behaviour and shorter reintervention-free
+survival.69
+3.4.2
+|
+Targeted gene methylation analysis
+Köchling et al.13 investigated TERT promoter methylation status in
+85 primary and 15 recurrent PitNETs across all subtypes using MS-
+PCR. Their study found no association between TERT promoter meth-
+ylation status and tumour recurrence or progression-free survival.13
+However, the study by Miyake et al.15 using MS-HRM in 70 PitNETs
+(mainly non-functioning (n = 59)) showed that TERT promoter methyl-
+ation was significantly more frequent in recurrent tumours (41%) than
+in primary tumours (8%) (p = .003). Furthermore, TERT methylation
+was associated with higher expression and shorter progression-free
+survival (hazard ratio [HR] = 5.80, 95% confidence interval [CI]: 1.41–
+23.94; p = .02), even after adjusting for age, sex, tumour size, extent
+of resection, and the presence of a primary or recurrent tumour.15
+These findings align with the known paradoxical relationship between
+TERT promoter hypermethylation and TERT increased expression in
+promoting telomerase activity, cellular immortality, and tumour
+recurrence.70–74
+3.5
+|
+Clinical implications for prediction modelling
+To gain a structured and comprehensive understanding of the clinical
+and DNA-methylation-related predictive factors of PitNET behaviour,
+we reviewed existing studies and assessed their potential clinical
+implications for predictive modelling (Table 3). Several demographic
+factors (age, sex), tumour characteristics (size, subtype, Ki-67 index,
+p53 overexpression), and disease-related factors (hormone hyperse-
+cretion, post-operative hormone levels) have been identified as pre-
+dictors of several tumour behaviour outcomes.2,22,75–79
+Tumour invasiveness (e.g., Knosp grade 3–4 and/or Hardy–
+Wilson stage D–E) was associated with changes in mean DNA methyl-
+ation levels in genes such as PHYHD1, STAT6, RASSF1, ESR1, SREBF1,
+COL11A1, PTPRT, LINE-1, CDH1, CDH13, and STAT3. Aggressive
+tumour behaviour, characterised by larger size, extrasellar invasion,
+high proliferation, and the requirement for multiple treatments, was
+associated with alterations in mean DNA methylation levels in the
+genes PARP15, ZAP70, GNAS, AIP, and FLNA.
+TERT methylation emerged as a key predictive marker for tumour
+recurrence and reduced progression-free survival. MRI-assessed
+tumour regrowth was associated with changes in mean DNA methyla-
+tion levels in FAM90A1, STAT6, ING2, and SH3GL2, while the need for
+re-intervention correlated with changes in methylation levels in
+GABRA1, ZNF664-FAM101A, SLC23A1, and ATP2B4. Notably, hyper-
+methylation of the STAT6 gene was found to be a potential predictor
+of both invasive behaviour and regrowth after surgery (see Table 3,
+highlighted in bold).3,5 These findings emphasise the importance of
+combining epigenetic and clinical markers to improve prognostic accu-
+racy and guide personalized treatment strategies for PitNETs.
+4
+|
+
+DISCUSSION
+This systematic review provides a comprehensive evaluation of DNA
+methylation as a predictive marker for PitNET behaviour. The findings
+highlight the growing interest in utilizing epigenetic biomarkers to
+improve prognostication, particularly in NF-PitNETs, which present
+significant clinical challenges due to their typically asymptomatic hor-
+monal profiles.
+Our review identifies several promising candidate genes that
+could serve as methylation-based biomarkers. These genes, including
+PHYHD1, LTBR WNT4, STAT6, MYBPHL, FGFR3, SREBF1, COL11A1,
+PTPRT, LINE-1, ITPKB, CNKSR1, CDH1, CDH13, GSTP1, ESR1, RASSF1,
+and STAT3, were found to be differentially methylated in tumours
+exhibiting invasive behaviour. Additionally, PARP15, AIP, GNAS and
+PDCD1, were linked to aggressive tumour behaviour. TERT, FAM90A1,
+ETS2, STAT6, CYBRD1, PYCARD, ING2, CPED1, and ATP2B4 were asso-
+ciated
+with
+tumour
+regrowth,
+recurrence,
+and
+the
+need
+for
+reintervention.
+These genes are known to play oncogenic or tumour-suppressive
+roles in various cancer types, and their upregulation or downregula-
+tion may contribute to the aggressive or invasive behaviour of Pit-
+NETs. This suggests that their methylation status could serve as
+valuable predictors of clinical outcomes.
+However, several challenges complicate the interpretation of
+these findings. One major issue is the variability in reported outcomes
+related to tumour behaviour. Some studies assessed tumour invasive-
+ness using radiological or histopathological criteria, while others
+focused on clinical endpoints such as tumour regrowth, reoperation,
+or radiotherapy. This inconsistency in outcome definitions limits the
+comparability of results across studies, highlighting the need for stan-
+dardized clinical outcome measures when assessing the clinical predic-
+tive value of DNA methylation analysis in future research.
+Additionally, many studies had small sizes, were single-centre,
+and retrospective, introducing potential selection bias and confound-
+ing factors. In terms of the reproducibility and validation of genes with
+altered DNA methylation, only one gene, STAT6, was found to be
+hypermethylated in two separate studies that performed genome-
+wide DNA methylation analysis in invasive pituitary tumours and
+tumours that showed regrowth after surgery.3,5 However, none of the
+studied genes were validated in a subsequent study with the same
+tumour behaviour outcome. Notably, only a limited number of studies
+used
+multivariable
+predictive
+modelling,
+which
+is
+essential
+for
+VAN DER GROEF ET AL.
+15 of 18
+evaluating the individual predictive effect of methylation markers in
+addition to the established clinical predictors.
+Another limitation is the inconsistent classification of PitNET sub-
+types and tumour sizes. Many studies predate the 2022 WHO classifi-
+cation system, which is based on transcription factor profiling.75 As a
+result, patient cohorts were often heterogeneous. While most studies
+focused on non-functioning PitNETs, some included all PitNET sub-
+types, which further limits comparability. This is important, as lineage-
+driven methylation patterns underlie major differences among PitNET
+subtypes,37,38
+especially
+in
+studies
+which
+included
+multiple
+PitNET
+subtypes.4,8,10,13–15,17,20,21
+Some
+studies
+took
+this
+into
+account, analysing the relationship between DNA methylation and
+PitNET subtype and performing stratified analyses or correcting for
+subtype-specific methylation.13,15,20,21 While few studies found that
+PitNET subtypes were similarly distributed between invasive and non-
+invasive tumours8,14 or between aggressive and non-aggressive
+subtypes,8 others observed differences in the distribution of sub-
+types.4,10 This inconsistency in adjusting for PitNET subtypes can
+introduce bias when interpreting the associations between DNA
+methylation and tumour behaviour. Therefore, caution is necessary
+when drawing
+
+
+
+conclusions from these findings.
+Despite these limitations, our review has several strengths. This is
+the first systematic review in this field to incorporate a formal quality
+assessment of the included studies using the QUIPS tool,42 ensuring
+that only studies with sufficient validity were considered in assessing
+the predictive potential of methylation markers for clinical use.
+Besides, we provide a comprehensive overview of candidate
+genes, detailing their methylation status, expression profiles, and func-
+tional roles, as well as the methodologies used for methylation analy-
+sis. Furthermore, we examine these genes in conjunction with
+established clinical and histological markers to assess their combined
+potential for predicting specific outcomes related to PitNET behav-
+iour. These findings support the integration of epigenetic markers into
+future multivariable prediction models, which could be used in clinical
+practice. Incorporating these models could improve early detection of
+invasive and aggressive PitNETs, guide treatment selection, and
+enhance follow-up strategies, ultimately leading to better patient out-
+comes and quality of life.
+In conclusion, DNA methylation markers represent a promising
+tool for refining risk stratification in PitNETs, particularly in non-
+functioning subtypes. However, their clinical implementation will
+require overcoming current methodological limitations. Future studies
+should adopt standardized outcome definitions, implement robust
+multivariable predictive models, and validate individual gene-level
+methylation findings in larger, prospective cohorts. While global meth-
+ylation patterns show promise, validation of individual gene-level
+methylation markers as predictive biomarkers remains necessary. Cur-
+rent data remain inconsistent across studies and do not yet justify
+widespread clinical use.
+AUTHOR CONTRIBUTIONS
+Romy
+van
+der
+Groef:
+Conceptualization;
+investigation;
+writing – original draft; formal analysis; validation; visualization;
+writing – review and editing; data curation; methodology. Eskeatnaf
+Mulugeta: Investigation; writing – original draft; writing – review and
+editing; validation; supervision. Sebastian Neggers: Writing – review
+and editing; conceptualization; validation; supervision. Julie Refardt:
+Conceptualization; investigation; writing – original draft; validation;
+methodology; visualization; writing – review and editing; supervision;
+data curation.
+ACKNOWLEDGEMENTS
+The authors wish to thank Dr. Maarten Engel from the Erasmus MC
+Medical Library for developing and updating the search strategies.
+The authors used Microsoft Copilot, an AI-assisted editing tool,
+to improve spelling, grammar, clarity, and readability during manu-
+script preparation. After using this tool, the authors carefully reviewed
+and edited the text and took full responsibility for the final content.
+FUNDING INFORMATION
+No specific funding was received for this study.
+CONFLICT OF INTEREST STATEMENT
+The authors declare no conflicts of interest.
+PEER REVIEW
+For transparency, the peer review documents associated with this
+article are available at 
+DATA AVAILABILITY STATEMENT
+The data that support the findings of this study are available from the
+corresponding author upon reasonable request.
+ORCID
+Romy van der Groef
+https://orcid.org/0000-0002-3168-8982
+REFERENCES
+1. Gittleman H, Ostrom QT, Farah PD, et al. Descriptive epidemiology of
+pituitary tumors in the United States, 2004-2009. J Neurosurg. 2014;
+121(3):527-535. doi:10.3171/2014.5.JNS131819
+2. Raverot G, Burman P, Abreu AP, et al. Revised European Society of
+Endocrinology
+Clinical
+Practice
+Guideline
+for
+the
+management
+of aggressive pituitary tumours and pituitary carcinomas. Eur J Endo-
+crinol. 2025;192(6):G1-G34. doi:10.1093/ejendo/lvaf100
+3. Cheng S, Li C, Xie W, et al. Integrated analysis of DNA methylation
+and mRNA expression profiles to identify key genes involved in the
+regrowth of clinically non-functioning pituitary adenoma. Aging
+(Albany NY). 2020;12(3):2408-2427. doi:10.18632/aging.102751
+4. Chen Y, Zhao N, Zhang J, et al. Molecular signatures of invasive and
+non-invasive pituitary adenomas: a comprehensive analysis of DNA
+methylation and gene expression. BMC Med. 2025;23(1):373. doi:10.
+1186/s12916-025-04164-1
+5. Cheng S, Xie W, Miao Y, et al. Identification of key genes in invasive
+clinically non-functioning pituitary adenoma by integrating analysis of
+DNA methylation and mRNA expression profiles. J Transl Med. 2019;
+17(1):407. doi:10.1186/s12967-019-02148-3
+6. Garcia-Martinez A, Sottile J, Sanchez-Tejada L, et al. DNA methyla-
+tion of tumor suppressor genes in pituitary neuroendocrine tumors.
+J Clin Endocrinol Metab. 2019;104(4):1272-1282. doi:10.1210/jc.
+2018-01856
+16 of 18
+VAN DER GROEF ET AL.
+7. Gu Y, Zhou X, Hu F, et al. Differential DNA methylome profiling of
+nonfunctioning pituitary adenomas suggesting tumour invasion is cor-
+related with cell adhesion. J Neurooncol. 2016;129(1):23-31. doi:10.
+1007/s11060-016-2139-4
+8. Guaraldi F, Morandi L, Zoli M, et al. Epigenomic and somatic muta-
+tions of pituitary tumors with clinical and pathological correlations in
+111 patients. Clin Endocrinol (Oxf). 2022;97(6):763-772. doi:10.1111/
+cen.14827
+9. Hallen T, Johannsson G, Dahlen R, et al. Genome-wide DNA methyla-
+tion differences in nonfunctioning pituitary adenomas with and with-
+out postsurgical progression. J Clin Endocrinol Metab. 2022;107(8):
+2318-2328. doi:10.1210/clinem/dgac266
+10. Jotanovic J, Boldt HB, Burton M, et al. Genome-wide methylation
+profiling differentiates benign from aggressive and metastatic pitui-
+tary neuroendocrine tumors. Acta Neuropathol. 2024;148(1):68. doi:
+10.1007/s00401-024-02836-5
+11. Kayacan S, Gazioglu N, Orhan C, et al. A novel gene expression profile
+and combined effects in the pathogenesis of adrenocorticotropic
+hormone-secreting pituitary neuroendocrine tumors. Exp Clin Endocri-
+nol Diabetes. 2025;133(7):371-381. doi:10.1055/a-2633-8467
+12. Kober P, Boresowicz J, Rusetska N, et al. DNA methylation profiling
+in nonfunctioning pituitary adenomas. Mol Cell Endocrinol. 2018;473:
+194-204. doi:10.1016/j.mce.2018.01.020
+13. Kochling M, Ewelt C, Furtjes G, et al. hTERT promoter methylation in
+pituitary adenomas. Brain Tumor Pathol. 2016;33(1):27-34. doi:10.
+1007/s10014-015-0230-8
+14. Ling C, Pease M, Shi L, et al. A pilot genome-scale profiling of DNA
+methylation in sporadic pituitary macroadenomas: association with
+tumor invasion and histopathological subtype. PLoS One. 2014;9(4):
+e96178. doi:10.1371/journal.pone.0096178
+15. Miyake Y, Adachi JI, Suzuki T, et al. TERT promoter methylation is sig-
+nificantly associated with TERT upregulation and disease progression
+in pituitary adenomas. J Neurooncol. 2019;141(1):131-138. doi:10.
+1007/s11060-018-03016-8
+16. Møller MW, Andersen MS, Halle B, et al. Genome-wide DNA methyl-
+ation profiling as a prognostic marker in pituitary adenomas—a pilot
+study. Cancer. 2024;16(12):2210. doi:10.3390/cancers16122210
+17. Qian ZR, Sano T, Yoshimoto K, et al. Tumor-specific downregulation
+and methylation of the CDH13 (H-cadherin) and CDH1 (E-cadherin)
+genes correlate with aggressiveness of human pituitary adenomas. Mod
+Pathol. 2007;20(12):1269-1277. doi:10.1038/modpathol.3800965
+18. Rusetska N, Kober P, Król SK, et al. Invasive and noninvasive non-
+functioning gonadotroph pituitary tumors differ in dna methylation
+level of line-1 repetitive elements. J Clin Med. 2021;10(4):1-12. doi:
+10.3390/jcm10040560
+19. Tsegaye B, Kober P, Mossakowska BJ, et al. DNA hypomethylation-
+related expression of hsa-miR-184 contributes to invasive growth of
+gonadotroph neuroendocrine pituitary tumors. J Neuroendocrinol.
+2025;37(4):e13492. doi:10.1111/jne.13492
+20. Valiulyte I, Steponaitis G, Skiriute D, Tamasauskas A, Vaitkiene P. Sig-
+nal transducer and activator of transcription 3 (STAT3) promoter
+methylation and expression in pituitary adenoma. BMC Med Genet.
+2017;18(1):72. doi:10.1186/s12881-017-0434-3
+21. Yuan Y, Qian ZR, Sano T, et al. Reduction of GSTP1 expression by
+DNA methylation correlates with clinicopathological features in pitui-
+tary
+adenomas.
+Mod
+Pathol.
+2008;21(7):856-865.
+doi:10.1038/
+modpathol.2008.60
+22. Micko AS, Wohrer A, Wolfsberger S, Knosp E. Invasion of the cavern-
+ous sinus space in pituitary adenomas: endoscopic verification and its
+correlation with an MRI-based classification. J Neurosurg. 2015;
+122(4):803-811. doi:10.3171/2014.12.JNS141083
+23. Buchy M, Lapras V, Rabilloud M, et al. Predicting early post-operative
+remission in pituitary adenomas: evaluation of the modified Knosp
+classification. Pituitary. 2019;22(5):467-475. doi:10.1007/s11102-
+019-00976-6
+24. Knosp E, Steiner E, Kitz K, Matula C. Pituitary adenomas with invasion
+of the cavernous sinus space: a magnetic resonance imaging classifica-
+tion compared with surgical findings. Neurosurgery. 1993;33(4):610-
+617; discussion 617–8. doi:10.1227/00006123-199310000-00008
+25. Patel SK, Husain Q, Eloy JA, Couldwell WT, Liu JK. Norman Dott,
+Gerard Guiot, and Jules Hardy: key players in the resurrection and
+preservation of transsphenoidal surgery. Neurosurg Focus. 2012;33(2):
+E6. doi:10.3171/2012.6.FOCUS12125
+26. Sun X, Kaufman PD. Ki-67: more than a proliferation marker. Chromo-
+soma. 2018;127(2):175-186. doi:10.1007/s00412-018-0659-8
+27. Moore LD, Le T, Fan G. DNA methylation and its basic function. Neu-
+ropsychopharmacology. 2013;38(1):23-38. doi:10.1038/npp.2012.112
+28. Bird A. DNA methylation patterns and epigenetic memory. Genes
+Dev. 2002;16(1):6-21. doi:10.1101/gad.947102
+29. Klose RJ, Bird AP. Genomic DNA methylation: the mark and its medi-
+ators. Trends Biochem Sci. 2006;31(2):89-97. doi:10.1016/j.tibs.2005.
+12.008
+30. Szyf M, Pakneshan P, Rabbani SA. DNA methylation and breast can-
+cer. Biochem Pharmacol. 2004;68(6):1187-1197.
+31. Herman JG, Baylin SB. Gene silencing in cancer in association with
+promoter hypermethylation. Rev New Engl J Med. 2003;349(21):
+2042-2054. doi:10.1056/NEJMra023075
+32. Zhang X, Sun H, Danila DC, et al. Loss of expression of GADD45
+gamma, a growth inhibitory gene, in human pituitary adenomas: implica-
+tions for tumorigenesis. J Clin Endocrinol Metab. 2002;87(3):1262-1267.
+33. Seemann N, Kuhn D, Wrocklage C, et al. CDKN2A/p16 inactivation is
+related to pituitary adenoma type and size. J Pathol. 2001;193(4):
+491-497.
+34. Zhao J, Dahle D, Zhou Y, Zhang X, Klibanski A. Hypermethylation of
+the promoter region is associated with the loss of MEG3 gene expres-
+sion in human pituitary tumors. J Clin Endocrinol Metab. 2005;90(4):
+2179-2186.
+35. Chang M, Yang C, Bao X, Wang R. Genetic and epigenetic causes of
+pituitary adenomas. Front Endocrinol (Lausanne). 2020;11:596554.
+36. Mosella MS, Sabedot TS, Silva TC, et al. DNA methylation-based sig-
+natures classify sporadic pituitary tumors according to clinicopatho-
+logical features. Neuro Oncol. 2021;23(8):1292-1303. doi:10.1093/
+neuonc/noab044
+37. Belakhoua S, Vasudevaraja V, Schroff C, et al. DNA methylation pro-
+filing of pituitary neuroendocrine tumors identifies distinct clinical
+and pathological subtypes based on epigenetic differentiation. Neuro
+Oncol. 2025;27(9):2341-2354. doi:10.1093/neuonc/noaf109
+38. Neou M, Villa C, Armignacco R, et al. Pangenomic classification of
+pituitary neuroendocrine tumors. Cancer Cell. 2020;37(1):123-134.e5.
+doi:10.1016/j.ccell.2019.11.002
+39. Moller MW, Nortvig MJ, Andersen MS, Poulsen FR. DNA methylation
+in pituitary adenomas: a scoping review. Int J Mol Sci. 2025;26(2):531.
+doi:10.3390/ijms26020531
+40. Peterson R, Cote DJ, Zada G. Current understanding of the role of
+DNA methylation in pituitary neuroendocrine tumors. Neurooncol
+Adv. 2025;7(Suppl 1):i2-i9. doi:10.1093/noajnl/vdae149
+41. Covidence Systematic Review Software. 2025. www.covidence.org
+42. Hayden JA, van der Windt DA, Cartwright JL, Cote P, Bombardier C.
+Assessing bias in studies of prognostic factors. Ann Intern Med. 2013;
+158(4):280-286. doi:10.7326/0003-4819-158-4-201302190-00009
+43. Yang Y, Huang F, Wu X, Huang C, Li Y. Demethylation of TIMP2 and
+TIMP3 inhibits cell proliferation, migration, and invasion in pituitary
+adenomas. Discov Medicin. 2024;36(184):971-980. doi:10.24976/
+Discov.Med.202436184.90
+44. Wu Y, Zhao S, Guo W, et al. Systematic analysis of the prognostic
+value and immunological function of LTBR in human cancer. Aging
+(Albany, NY). 2024;16(1):129-152. doi:10.18632/aging.205356
+45. Zhang Q, Pan Y, Ji J, Xu Y, Zhang Q, Qin L. Roles and action mecha-
+nisms of WNT4 in cell differentiation and human diseases: a review.
+Cell Death Discov. 2021;7(1):287. doi:10.1038/s41420-021-00668-w
+VAN DER GROEF ET AL.
+17 of 18
+46. Ferguson HR, Smith MP, Francavilla C. Fibroblast growth factor
+receptors (FGFRs) and noncanonical partners in cancer signaling. Cells.
+2021;10(5):1201. doi:10.3390/cells10051201
+47. Geng F, Guo D. SREBF1/SREBP-1 concurrently regulates lipid syn-
+thesis and lipophagy to maintain lipid homeostasis and tumor growth.
+Autophagy.
+2024;20(5):1183-1185.
+doi:10.1080/15548627.2023.
+2275501
+48. Nallanthighal S, Heiserman JP, Cheon DJ. Collagen type XI alpha
+1 (COL11A1): a novel biomarker and a key player in cancer. Cancers
+(Basel). 2021;13(5):935. doi:10.3390/cancers13050935
+49. Lv Z, Wang T, Cao X, Sun M, Qu Y. The role of receptor-type protein
+tyrosine phosphatases in cancer. Precis Med Sci. 2023;12:48-57. doi:
+10.1002/prm2.12090
+50. Mendez-Dorantes C, Burns KH. LINE-1 retrotransposition and its
+deregulation in cancers: implications for therapeutic opportunities.
+Genes Dev. 2023;37(21–24):948-967. doi:10.1101/gad.351051.123
+51. Serwe G, Kachaner D, Gagnon J, et al. CNK2 promotes cancer cell
+motility by mediating ARF6 activation downstream of AXL signalling.
+Nat Commun. 2023;14(1):3560. doi:10.1038/s41467-023-39281-z
+52. van Roy F, Berx G. The cell-cell adhesion molecule E-cadherin. Cell
+Mol
+Life
+Sci.
+2008;65(23):3756-3788.
+doi:10.1007/s00018-008-
+8281-1
+53. Andreeva AV, Kutuzov MA. Cadherin 13 in cancer. Genes Chromo-
+somes Cancer. 2010;49(9):775-790. doi:10.1002/gcc.20787
+54. Mian OY, Khattab MH, Hedayati M, et al. GSTP1 loss results in accu-
+mulation of oxidative DNA base damage and promotes prostate can-
+cer cell survival following exposure to protracted oxidative stress.
+Prostate. 2016;76(2):199-206. doi:10.1002/pros.23111
+55. Fattahi M, Rezaee D, Fakhari F, et al. microRNA-184 in the landscape
+of human malignancies: a review to roles and clinical significance. Cell
+Death Discov. 2023;9(1):423. doi:10.1038/s41420-023-01718-1
+56. Han L, Shi H, Luo Y, et al. Gene signature based on B cell predicts
+clinical outcome of radiotherapy and immunotherapy for patients
+with lung adenocarcinoma. Cancer Med. 2020;9(24):9581-9594. doi:
+10.1002/cam4.3561
+57. Fu Q, Li S, Zhou Q, Yalikun K, Yisireyili D, Xia M. Low LINC00599
+expression is a poor prognostic factor in glioma. Biosci Rep. 2019;
+39(4):BSR20190232. doi:10.1042/BSR20190232
+58. Tahir A, Chahal HS, Korbonits M. Chapter 10 – Molecular genetics of
+the Aip gene in familial pituitary tumorigenesis. In: Martini L,
+ed. Progress in Brain Research. Elsevier; 2010:229-253.
+59. Cazabat L, Bouligand J, Salenave S, et al. Germline AIP mutations in
+apparently sporadic pituitary adenomas: prevalence in a prospective
+single-center cohort of 443 patients. J Clin Endocrinol Metab. 2012;
+97(4):E663-E670. doi:10.1210/jc.2011-2291
+60. Melmed S, Kaiser UB, Lopes MB, et al. Clinical biology of the pituitary
+adenoma. Endocr Rev. 2022;43(6):1003-1037. doi:10.1210/endrev/
+bnac010
+61. Cossu G, La Rosa S, Brouland JP, et al. PD-L1 expression in pituitary
+neuroendocrine tumors/pituitary adenomas. Cancers (Basel). 2023;
+15(18):4471. doi:10.3390/cancers15184471
+62. Liu X, Zhang C, Zhang Z, et al. E26 transformation-specific transcrip-
+tion factor ETS2 as an oncogene promotes the progression of hypo-
+pharyngeal cancer. Cancer Biother Radiopharm. 2017;32(9):327-334.
+doi:10.1089/cbr.2017.2296
+63. Protti MP, De Monte L. Dual role of inflammasome adaptor ASC in
+cancer. Front Cell Dev Biol. 2020;8:40. doi:10.3389/fcell.2020.00040
+64. Taheri M, Hussen BM, Najafi S, et al. Molecular mechanisms of inhibi-
+tor of growth (ING) family members in health and malignancy. Cancer
+Cell Int. 2022;22(1):272. doi:10.1186/s12935-022-02693-w
+65. Sun X, Li Y, Lan H, Jiang T, Wan X, Cheng Y. Identification of KCNK1
+as a potential prognostic biomarker and therapeutic target of breast
+cancer. Pathol Res Pract. 2023;241:154286. doi:10.1016/j.prp.2022.
+154286
+66. Jiang S, Zhu L, Yang J, et al. Integrated expression profiling of potas-
+sium channels identifys KCNN4 as a prognostic biomarker of pancre-
+atic cancer. Biochem Biophys Res Commun. 2017;494(1–2):113-119.
+doi:10.1016/j.bbrc.2017.10.072
+67. Zhu Y, Zhang X, Wang L, et al. Loss of SH3GL2 promotes the migra-
+tion and invasion behaviours of glioblastoma cells through activating
+the STAT3/MMP2 signalling. J Cell Mol Med. 2017;21(11):2685-
+2694. doi:10.1111/jcmm.13184
+68. Zhang H, Xu C, Sun N, et al. Gene expression profiling analysis of
+MENX-associated rat pituitary adenomas contributes to understand
+molecular mechanisms of human pituitary adenomas. Oncol Lett.
+2016;11(1):125-133. doi:10.3892/ol.2015.3904
+69. Sritangos P, Pena Alarcon E, James AD, Sultan A, Richardson DA,
+Bruce JIE. Plasma membrane Ca(2+) ATPase isoform 4 (PMCA4) has
+an important role in numerous hallmarks of pancreatic cancer. Cancers
+(Basel). 2020;12(1):218. doi:10.3390/cancers12010218
+70. Shay JW, Wright WE. Telomeres and telomerase: three decades of
+progress. Nat Rev Genet. 2019;20(5):299-309. doi:10.1038/s41576-
+019-0099-1
+71. Can N, Celik M, Bulbul BY, et al. TERT expression in pituitary adeno-
+mas. Turk Patoloji Derg. 2017;33(2):103-111. doi:10.5146/tjpath.
+2016.01387
+72. Castelo-Branco P, Choufani S, Mack S, et al. Methylation of the TERT
+promoter and risk stratification of childhood brain tumours: an inte-
+grative genomic and molecular study. Lancet Oncol. 2013;14(6):534-
+542. doi:10.1016/S1470-2045(13)70110-4
+73. Lee DD, Le˜ao R, Komosa M, et al. DNA hypermethylation within
+TERT promoter upregulates TERT expression in cancer. J Clin Invest.
+2019;129(1):223-229.
+74. Guan X, Meng J, Yi W, et al. TERT promoter methylation predicts
+overall survival, immune cell infiltration and response to immunother-
+apy in clear cell renal cell carcinoma. Clin. Epigenetics. 2025;17(1):88.
+75. Asa SL, Mete O, Perry A, Osamura RY. Overview of the 2022 WHO
+classification of pituitary tumors. Endocr Pathol. 2022;33(1):6-26. doi:
+10.1007/s12022-022-09703-7
+76. Di Ieva A, Rotondo F, Syro LV, Cusimano MD, Kovacs K. Aggressive
+pituitary adenomas--diagnosis and emerging treatments. Nat Rev
+Endocrinol. 2014;10(7):423-435. doi:10.1038/nrendo.2014.64
+77. Colao A, Sarno AD, Cappabianca P, et al. Gender differences in the
+prevalence, clinical features and response to cabergoline in hyperpro-
+lactinemia. Eur J Endocrinol. 2003;148(3):325-331. doi:10.1530/eje.0.
+1480325
+78. Daly AF, Jaffrain-Rea ML, Ciccarelli A, et al. Clinical characterization
+of familial isolated pituitary adenomas. J Clin Endocrinol Metab. 2006;
+91(9):3316-3323. doi:10.1210/jc.2005-2671
+79. Zada G, Woodmansee WW, Ramkissoon S, Amadio J, Nose V,
+Laws ER Jr. Atypical pituitary adenomas: incidence, clinical character-
+istics, and implications. J Neurosurg. 2011;114(2):336-344. doi:10.
+3171/2010.8.JNS10290
+SUPPORTING INFORMATION
+Additional supporting information can be found online in the Support-
+ing Information section at the end of this article.
+How to cite this article: van der Groef R, Mulugeta E,
+Neggers S, Refardt J. DNA methylation as a predictor of
+pituitary neuroendocrine tumour behaviour: A systematic
+review. J Neuroendocrinol. 2026;38(4):e70167. doi:10.1111/
+jne.70167
+18 of 18
+VAN DER GROEF ET AL.

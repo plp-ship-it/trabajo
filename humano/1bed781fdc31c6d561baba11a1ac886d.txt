@@ -1,0 +1,2252 @@
+Abstract 
+Heterochromatin is characterized by an inaccessibility to the transcriptional machinery and is associated with the histone mark H3K9me3. 
+Ho w e v er, studying the functional consequences of heterochromatin loss in human cells has been challenging. Here, we used CRISPRi-mediated 
+silencing of the histone methyltransferase SETDB1 to remove H3K9me3 heterochromatin in human neural progenitor cells. Despite a major 
+loss of H3K9me3 peaks resulting in genome-wide reorganization of heterochromatin domains, silencing of SETDB1 had a limited effect on 
+cell viability. Cells remained proliferative and expressed appropriate marker genes. We found that a key event following the loss of SETDB1- 
+mediated H3K9me3 was the expression of e v olutionarily y oung L1 retrotransposons. Derepression of L1s was associated with a loss of CpG 
+DNA methylation at their promoters, suggesting that deposition of H3K9me3 at the L1 promoter is required to maintain DNA methylation. In
+
+conclusion, these
+
+results demonstrate that loss of H3K9me3 in human neural somatic cells transcriptionally activates evolutionary young L1 
+retrotransposons. 
+Gr aphical abstr act 
+LINE1
+SETDB1 CRISPRi
+LINE1 repression by 
+DNA methylation and H3K9me3
+5’UTR
+Human neural progenitor cells
+DNAme 
+H3K9me3
+LINE1
+Upregulation of young 
+LINE1 elements
+Unmethylated CpG
+5mC methylation
+5hmC methylation
+CUT&RUN
+Bulk RNA-seq
+ONT DNA-seq
+5’ UTR
+5’ UTR
+
+Introduction 
+At least 50% of the human genome consists of transposable 
+elements (TEs) [ 1 –4 ]. Due to their ability to mobilize, TEs pose 
+a potential threat to genomic integrity and are transcription- 
+ally silenced via epigenetic mechanisms such as histone modi- 
+fications and DNA methylation [ 5 –10 ]. Long interspersed nu- 
+clear elements-1 (L1s) are the most abundant and only au- 
+tonomously mobilizing family of TEs in humans, accounting 
+for ∼17% of human DNA [ 1 , 4 , 11 ]. Full-length L1s are tran- 
+scribed from an internal 5 ′ RNA polymerase II promoter as a 
+bicistronic messenger RNA (mRNA) encoding two proteins, 
+ORF1p and ORF2p, which are essential for L1 mobilization 
+[ 12 –15 ]. Since L1 elements have colonized the human genome 
+throughout evolution via a copy-paste mechanism in different 
+waves, it is possible to estimate their evolutionary age and as- 
+sign them to chronologically ordered subfamilies [ 16 ]. Hun- 
+dreds of thousands of L1s are primate specific, and thousands 
+are human specific but only a small fraction of these human- 
+specific full-length L1s are capable of transposing [ 17 , 18 ]. 
+Notably, the L1 promoter is bidirectional and L1 antisense 
+transcripts can give rise to chimeric transcripts and act as al- 
+ternative promoters for protein-coding genes [ 8 , 19 –21 ]. 
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License ( https:// creativecommons.org/ licenses/ by/ 4.0/ ), 
+which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited. 
+2 
+Karlsson et al. 
+L1 transcription is silenced in most human somatic tissues, 
+and transcriptional repression correlates with the presence of 
+heterochromatin marks, including H3K9me3 and CpG DNA 
+methylation [ 8 , 9 , 22 , 23 ]. In the cells of the human brain, it 
+is well established that CpG DNA methylation plays a criti- 
+cal role in the transcriptional silencing of L1s [ 6 , 8 , 9 , 23 –25 ]. 
+For instance, when DNMT1 is deleted using CRISPR in hu- 
+man neural progenitor cells (hNPCs), leading to global DNA 
+demethylation, evolutionarily young full-length L1 elements 
+become transcriptionally active [ 8 ]. However, it is unclear how 
+DNA methylation is directed to the promoter of evolutionary 
+young L1s in human somatic cells and the interplay between 
+H3K9me3 and DNA methylation in the transcriptional con- 
+trol of L1s is poorly understood. 
+In this study, we used a somatic human NPC line derived 
+from fetal brain six weeks post-conception [ 26 ]. This rep- 
+resents a timepoint in post-implantation embryonic devel- 
+opment when DNA methylation and other heterochromatin 
+marks have been fully re-established [ 8 , 27 ]. This includes the 
+presence of H3K9me3 and DNA methylation over L1s and 
+other TEs [ 8 , 23 , 28 ], which is established by the KRAB zinc 
+finger (KZNF)-TRIM28 system and other epigenetic TE re- 
+pressors during early development [ 29 –31 ]. We used CRISPRi 
+to silence SETDB1, a histone methyltransferase associated 
+with these repressors, to study the consequences of H3K9me3 
+loss at TEs in somatic cells. SETDB1 silencing in hNPCs had 
+a limited effect on cell viability, and the cells remained pro- 
+liferative and expressed the correct marker genes, despite the 
+widespread loss of H3K9me3 domains. However, SETDB1- 
+mediated loss of H3K9me3 resulted in the transcriptional ac- 
+tivation of L1s. Interestingly, this activation correlated with a 
+loss of CpG DNA methylation over the same elements. This 
+finding links the maintenance of DNA methylation at L1s to 
+the presence of H3K9me3. In summary, our results demon- 
+strate the critical role of H3K9me3 in L1 silencing in human 
+neural somatic cells.
+
+Materials and
+
+methods 
+Cell culture 
+A (male) embryo-derived human neural progenitor cell line 
+(Sai2) was used throughout this manuscript [ 26 ]. The Sai2 
+cell line is derived from a small number of cells dissected from 
+fetal brain tissue at Carnegie stage 16, and it has the char- 
+acteristics of neuroepithelial-like stem cells. The cells were 
+maintained according to the established protocol [ 32 ]. Cells 
+were grown in poly-L-ornithine (15 μg/ml, Sigma) and laminin 
+2020 (2 μg/ml, Sigma) coated wells. Cells were maintained 
+in culture media DMEM/F12 (Thermo Fisher Scientific) sup- 
+plemented with N2 (1 ×, Thermo Fisher Scientific), glutamine 
+(Sigma), penicillin/streptomycin (1 ×, Gibco), B27 (0.05 ×, 
+Thermo Fisher Scientific), EGF (10 ng/ml, Thermo Fisher Sci- 
+entific), and fibroblast growth factor (FGF, 10 ng/ml, Sigma). 
+Media change was performed daily and cells were passaged 
+every 2–3 days using TrypLE Express (Gibco). Then, 10 μM 
+Y27632 (Rock inhibitor, Miltenyi) was added to the culture 
+media when cells were passaged. 
+CUT&RUN 
+CUT&RUN was performed as previously described by Skene 
+and Henikoff [ 33 ]. A total of 500 000 hNPCs were washed 
+twice with 20 mM HEPES, pH 7.5, 150 mM NaCl, 0.5 mM 
+spermidine, and 1 × Roche cOmplete Protease Inhibitor tablet. 
+ConA-coated magnetic beads were activated using 20 mM 
+HEPES, pH 7.9, 10 mM, KCl, 1 mM CaCl 2 , and 1 mM MnCl 2 . 
+Cells were attached to preactivated beads and resuspend in 
+20 mM HEPES, pH 7.5, 0.15 M NaCl, 0.5 mM spermidine, 
+1 × Roche cOmplete protease inhibitors, 0.02% w/v digitonin, 
+and 2 mM ethylenediaminetetraacetic acid (EDTA) together 
+with primary antibody (rabbit anti-H3K4me3, Active Motif 
+39159; rabbit anti-H3K9me3, Abcam 8898; or goat anti- rab- 
+bit IgG, Abcam ab97047) at 1:50 dilution. Bead-bound cells 
+were incubated over night with gentle shake. The following 
+day, the bead bound cells were washed twice with digitonin 
+buffer (20 mM HEPES, pH 7.5, 150 mM NaCl, 0.5 mM 
+spermidine, 1 × Roche cOmplete protease inhibitors, 0.02% 
+digitonin) and incubated with pA-MNase diluted in digitonin 
+buffer (700 ng/ml) at a rotator for 10 min at room tempera- 
+ture. After, cells were washed twice with digitonin buffer, re- 
+suspended in digitonin buffer and chilled to 0 ◦C for 5 min. 
+To initiate genomic cleavage, 100 mM CaCl 2 was added, and 
+cells were incubated at 0 ◦C for 30 min. Then, 2 × stop buffer 
+(0.35 M NaCl, 20 mM EDTA, 4 mM EGTA, 0.02% digi- 
+tonin, 50 ng/ μl glycogen, 50 ng/ μl RNase A) was added to 
+stop the reaction and the cells were incubated at 37 ◦C for 30 
+min to release genomic fragments. Genomic fragments were 
+purified using polymerase chain reaction (PCR) clean-up spin 
+column according to manufacturer’s instruction (Macherey- 
+Nagel). Sequencing libraries were prepared using the Hyper- 
+prep kit (KAPA) with dual index-adapters (KAPA), pooled and 
+sequenced on a Nextseq500 instrument (Illumina). 
+CUT&RUN analysis 
+Using bowtie2 (–local –very-sensitive-local –no-mixed –no- 
+discordant –phred33 –I –X 700), 2 × 75bp paired-end 
+CUT&RUN reads were aligned to the human genome 
+(GRCh38) and subsequently converted to BAM files using 
+SAMtools v.1.18 [ 34 ]. BAM files were then filtered by setting 
+a mapping quality threshold (MAPQ10), which were used to 
+create RPKM (rounds per kilobase million) normalized cov- 
+erage tracks using bamCoverage (deepTools) v2.5.4 [ 35 ]. All 
+coverage tracks displayed were visualized in IGV v2.19.1. 
+H3K9me3 peaks were called using SEACR v1.3 [ 36 ]. Peaks 
+over reference chromosomes longer than 500bp were kept 
+for downstream analyses. Using deepTools’ computeMatrix v 
+2.5.4 [ 35 ], heatmaps matrices were created and visualized us- 
+ing plotHeatmap of the same deepTools package. Finally, we 
+used mergeBed from BedTools v2.31.0 to identify the overlaps 
+of peaks with specific genomic regions, such as evolutionary 
+young L1s or genes. 
+To identify H3K4me3 peaks that overlap with L1 pro- 
+moters, we used an unbiased k-means strategy to cluster the 
+H3K4me3 signal over all FL L1HS-L1PA3s. This resulted in 
+three clusters. Two of the clusters contained 565 elements with 
+high- or low-confidence H3K4me3 signal. To avoid inflating 
+the number of L1s carrying an H3K4me3 signal, we manu- 
+ally curated the 548 low-confidence elements by inspecting 
+the IGV tracks. This curation process identified 24 elements 
+with a high-confidence H3K4me3 peak at the L1 promoter. 
+Lentiviral vector production 
+Lentivirus was produced as previously described by Zufferey 
+et al. [ 37 ]. Briefly, 293T cells were transfected with third- 
+generation packaging and envelope vectors pMDL (Addgene 
+SETDB1-mediated H3K9me3 controls L1s 
+3 
+#12251), psRev (Addgene #12253), and pMD2G (Addgene 
+#12259) with Polyethyleneimine (Polysciences PN 23966) in 
+DPBS (GIBCO). Forty-eight hours post transfection, lentivirus 
+was harvested by filtering the supernatant and centrifuga- 
+tion at 25 000 × g for 1.5 h at 4 ◦C. The virus was resus- 
+pended in PBS, aliquoted and stored in –80 ◦C until further use. 
+Lentivirus were in titers of 10 8 –10 9 as determined by quanti- 
+tative real-time reverse transcription PCR (qRT-PCR). 
+CRISPRi 
+CRISPRi constructs were produced as previously described by 
+Johansson et al. [ 38 ]. Single guide sequences were designed to 
+target close to the transcription start site (TSS) using the GPP 
+Portal (Broad institute). The guide sequences were cloned into 
+a lentiviral back bone plasmid containing deadCas9-KRAB- 
+T2A-GFP, a gift from Charles Gersback (Addgene plasmid 
+#71237 RRID:Addgene_71237), using annealed oligos and 
+the BsmBI cloning site. As a control we used one single guide 
+RNA targeting LacZ, a sequence not present in the human 
+genome. Lentivirus was produced for each guide as described 
+above. hNPCs were transduced with multiplicity of infec- 
+tion (MOI) 5–7.5 of LacZ, SETDB1, DNMT1, MORC2, and 
+TRIM28 targeting guide RNAs. 
+For the TRIM28&MORC2 double-CRISPRi we used 
+a double transduction method. Cells were transduced 
+with the previously mentioned deadCas9-KRAB-T2A-GFP 
+lentivirus containing the dCas9 protein, GFP and MORC2 
+gRNA and simultaneously with lentivirus containing the 
+pLV.U6BsmBI.EFS-NS.H2b-RFPW lentiviral backbone and 
+the guide RNA (gRNA) for TRIM28 and mCherry as a 
+marker. After 10 days expansion, transduced cells were de- 
+tached using TrypLE Express and resuspended in cell culture 
+media containing Y27632 (10 μM) and propidium iodide (PI, 
+1:500, BD Bioscience). The GFP + and mCherry + gates were 
+set using untransduced hNPCs and validated via reanalysis 
+of sorted cells ( > 95% purity). Transduction efficiency was in 
+the range of 70%–95% GFP + cells. Single CRISPRi GFP + /PI −
+and double CRISPRi GFP + /mCherry + /PI −cells were isolated 
+and pelleted at 400 × g for 10 min. The cell pellets were snap 
+frozen on dry ice and stored in –80 ◦C until further use. 
+SETDB1 guide 1: AA CTCA GGGGTCGGCCTCGA 
+SETDB1 guide 2: CGAAA GCGAA GGGA T AAGGG 
+DNMT1 guide 1: TGCTGAA GCCTCCGA GATGC 
+MORC2 guide 1:GCTTCCAA GGA CCGGATCGA 
+TRIM28 guide 1: CCCGCTCGCA GAAA GA GCCG 
+LACZ guide: TGCGAA T ACGCCCACGCGA T 
+qRT-PCR 
+Total RNA isolated from hNPCs (RNeasy mini kit, Qiagen) 
+and 250 ng of the isolated RNA was reversed transcribed us- 
+ing the Maxima cDNA synthesis kit (Thermo Fisher Scien- 
+tific). qRT-PCR was preformed using primers listed below and 
+SYBR green master mix (Roche) on a LightCycler ® 480 instru- 
+ment. Sample were amplified for 40 cycles and cycle values 
+were normalized to ß-actin and HPRT. 
+Primers: 
+ß-actin forward: CCTTGC AC ATGCCGGAG 
+ß-actin reverse: GC AC AGAGCCTCCGCCTT 
+HPRT forward: A CCCTTTCCAAATCCTCA GC 
+HPRT reverse: GTT A TGGCGA CCCGCA G 
+SETDB1 forward: GA CA CGTCCAAA T A TGGGTGC 
+SETDB1 reverse: A CTGGCTTGAA CTGGGTTCC 
+Western blot 
+For total protein extraction, hNPCs were lysed using RIPA 
+buffer (Sigma–Aldrich) and a complete protease inhibitor 
+cocktail on ice for 30 min, except for the MORC2 protein, 
+where the protein was lysed with 1% (Sigma–Aldrich, 71736) 
+instead of RIPA buffer. The lysed cells were pelleted at 17 000 
+× g for 20 min at 4 ◦C. For total histone protein extraction, we 
+used a Histone Extraction kit (Abcam) according to manufac- 
+turer’s instructions. Then, 2.5 μg of extracted total protein or 
+2.5 μg of extracted histone proteins were mixed with Novex 
+LDS 4 × loading dye (Thermo) and reducing agent (Thermo) 
+before being boiled at 95 ◦C for 5 min. Samples were loaded 
+onto a 4%–12% sodium dodecyl sulphate–polyacrylamide gel 
+electrophoresis and run at 150 V for 0.5 h. The proteins were 
+transferred to a poly (vinylidene fluoride) (PVDF) membrane 
+using a Transblot-Turbo transfer system (Bio-Rad). The mem- 
+brane was washed two times in TBS with 0.1% Tween (TBST) 
+before being blocked in TBST with 5% skimmed milk for 1 
+h. The membrane was incubated overnight at 4 ◦C with pri- 
+mary antibody mouse anti-SETDB1 (Thermo Fisher MA5- 
+15722, 1:2000), rabbit anti-H3K9me3 (Abcam 8898, 1:20 
+000) rabbit anti-histone 3 (Abcam 18521, 1:250 000), rab- 
+bit anti-MORC2 (A300-149A, Bethyl; 1:1000 dilution), rab- 
+bit anti-TRIM28 (Abcam, ab10484; 1:1000 dilution) diluted 
+in TBST with 5% skimmed milk. The following day, the 
+membrane was washed three times with TBST before being 
+incubated with secondary antibody horseradish peroxidase 
+(HRP)-conjugated anti-mouse antibody (Santa Cruz Biotech- 
+nology, 1:5000), HRP-conjugated anti-rabbit antibody (Santa 
+Cruz Biotechnology, 1:10 000 or 1:50 000) or HRP conju- 
+gated anti-ß-actin (Sigma, A3854, 1:50 000) diluted in TBST 
+with 5% skimmed milk for 2 h in room temperature. The 
+membrane was washed three times with TBST and once with 
+TBS before protein was detected by chemiluminescence using 
+ECL Prime western blotting detection reagent (Cytiva). The 
+signal was detected using a ChemiDoc system (Bio-Rad). 
+Immunocytochemistry: SOX2 and NESTIN 
+hNPCs were washed three times with DPBS and fixed us- 
+ing 4% paraformaldehyde for 15 min at room temperature, 
+followed by three more washed with DPBS. After incuba- 
+tion in blocking solution (KPBS + 0.25% Triton X-100 with 
+5% normal donkey serum) for 1h at room temperature, the 
+cells were incubated with primary antibodies SOX2 (R&D 
+Systems, AF2018, 1:100) and NESTIN (Abcam, AB176571, 
+1:100) diluted in blocking solution overnight at 4 ◦C. Af- 
+ter being washed twice with TKPBS and once with TKPBS 
++ 5% NDS, cells were incubated with secondary antibod- 
+ies Alexa647-donkey anti-rabbit (Jackson Immuno Research 
+711-605-152, 1:500) and Cy3-donkey anti-goat (Jackson Im- 
+muno Research 705-165-533 003, 1:500) diluted in block- 
+ing solution for 2h at room temperature following incubation 
+with DAPI (Sigma, 1:1000) for 5 min. The cells were rinsed 
+two times with KPBS and imaged using a Leica microscope 
+(model DMI6000 B). Images were cropped and adjusted us- 
+ing ImageJ Fiji. 
+Immunocytochemistry: H3K9me3 
+hNPCs plated in poly-L-ornithine (15 μg/ml, Sigma) and 
+laminin 2020 (2 μg/ml, Sigma) coated 24 well ibidi plates 
+were rinsed three times with DPBS before being fixed with 4% 
+paraformaldehyde at room temperature for 15 min. The cells 
+4 
+Karlsson et al. 
+were washed once with KPBS before being blocked in TKPBS 
+with 5% NDS for 1 h at room temperature. After, the cells 
+were incubated with primary antibody rabbit anti-H3K9me3 
+(Abcam 8898, 1:200) diluted in TKPBS + 5% NDS overnight 
+at 4 ◦C. The following day, cells were washed three times with 
+TKPBS before being incubated with secondary antibody Cy5- 
+donkey anti-rabbit (Jackson Immuno Research,1:500) diluted 
+in TKPBS + 5% NDS at room temperature for 1h. The cells 
+were washed three times with KPBS and incubated with DAPI 
+(1:1000) diluted in TKPBS at room temperature for 5 min. The 
+cells were washed twice with KPBS before being imaged us- 
+ing confocal Microscope Leica TSC SP8. Images were cropped 
+and adjusted using ImageJ Fiji. 
+EdU proliferation assay 
+To study cell proliferation we used the Click IT TM Plus 
+EdU Alexa Fluor TM 647 Imaging Kit (Invitrogen, C10640). 
+GFP + SETDB-CRISPRi and Control-CRISPRi cells were 
+FACS sorted 10 days after transduction and re-plated for the 
+EdU assay. After 24h incubation with EdU (10 μM), cells were 
+fixed in 4% paraformaldehyde. After fixing, cells were stained 
+for Alexa647 and Hoechst following the manufacturer’s in- 
+structions. Cells were imaged and analyzed using an Operetta 
+CSL high-content analysis system. 
+Bulk RNA sequencing 
+Total RNA was isolated from hNPCs using the RNEasy mini 
+kit (Qiagen) with on column DNAse treatment. Libraries for 
+bulk RNA sequencing were generated using Illumina TruSeq 
+Stranded mRNA library prep kit (with poly-A selection) op- 
+timized for long fragments. Sequencing was performed on a 
+NovaSeq6000 (paired end 2 × 150bp). 
+Bulk RNA sequencing analysis 
+Paired-end 150bp RNAseq reads were mapped to the refer- 
+ence human genome (GRCh38) using STAR aligner verson 
+2.6.0 [ 39 ] with gencode v38 as a guide (–sjdbGTFfile). Unique 
+mapping (described below) was performed to investigate the 
+expression of individual TEs. Multi mapping (described be- 
+low) was performed to investigate the expression of genes and 
+TEs at a subfamily level. 
+Unique mapping: Reads were allowed to align to a sin- 
+gle locus (–outFilterMultimapNmax 1) with a mismatch ra- 
+tio up to 0.03 (–outFilterMismatchNoverLmax 0.03). Sorted 
+alignment files as output by STAR were indexed using SAM- 
+tools v1. 18 [ 34 ]. Normalized coverage tracks (bigwig files) us- 
+ing RPKM were created using deeptools bamCoverage v2.5.4 
+[ 35 ]. FeatureCounts v1.6.3 [ 40 ] was used to quantify the ex- 
+pression of individual TEs using a curated GTF file provided 
+by the creators of TEtranscripts. FeatureCounts was ran on 
+default parameters using –s2 to force the strandedness of the 
+reads to the feature. 
+Differential expression analyses: DESeq2 v1.38.3 [ 41 ] with 
+default parameters was used to perform differential expres- 
+sion analyses for all bulk RNAseq datasets using the read 
+count matrix obtained with featureCounts. Mean plots were 
+created using median-of-ratio normalized counts per condi- 
+tion, adding a pseudo count of 0.5, and log 2 transformed val- 
+ues. All P -values and padjusted values calculated by DESeq2 
+are two-sided. 
+To obtain distribution of the expected upregulated TEs, the 
+RepeatMasker annotation was sampled with the exact num- 
+ber of the observed upregulated TEs, without replacement. 
+The number of sampled TE was then compared to the ob- 
+served values and scored accordingly ( + 1 if expected > ob- 
+served; + 0 if expected ≤observed). This then was repeated 
+50 000 times to calculate a double-sided P -value. 
+To quantify and normalise the strand-specific expression of 
+L1s, the reads were normalized using gene-derived medians to 
+calculate the median ratio. P -values were calculated using the 
+Mann–Whitney U-test, a nonparametric statistical test used 
+to compare the non-normal distributions of two independent 
+groups. When calculating the P -value for the differences be- 
+tween conditions, each L1 element was considered an inde- 
+pendent replicate. In the analysis we used the FL-L1s that were 
+upregulated and found in at least one of the two experimental 
+conditions (two different gRNAs). This resulted in 241 FL-L1s 
+being included in the analysis. 
+Gene-ontology overrepresentation test of biological pro- 
+cesses (enrichGO) was performed using clusterProfiler v4.8.2 
+over differentially expressed genes ( | LFC | > 1, two-sided 
+padj < 0.05). To measure sense and antisense transcription 
+over evolutionary young L1s, featureCounts was used spec- 
+ifying the -s2 and -s1 parameter, respectively. Gene expres- 
+sion size factors were further used to normalize the reads by 
+median-of-ratios normalization approach. 
+Oxford nanopore DNA sequencing 
+High molecular weight DNA was extracted from hNPCs 
+using the Nanobind HMW DNA extraction kit (PacBio) 
+according to the manufacturer’s instructions. DNA quality 
+and concentration was measured using Nanodrop and the 
+double-stranded DNA HS assay on a Qubit (Thermo Fisher 
+Scientific). Genomic fragments < 5kb were eliminated us- 
+ing the Short Read Eliminator XS kit (PacBio) and remain- 
+ing genomic fragments were sheered to 10 kb using a g- 
+tube kit (Covaris) following manufacturer’s instructions. Li- 
+braries were prepared using the SKQ-LSK114 kit (Oxford 
+Nanopore Technologies) with 1 μg DNA input and loaded 
+onto R10.4.1 flow cells. Sequencing was performed on an 
+Oxford Nanopore Technologies PromethION 2 solo for 72 
+h following manufacturers guidelines. To obtain the data, 
+dorado (v4.3.0) (RRID: SCR_025883; https://github.com/ 
+nanoporetech/dorado ) modified basecalling was performed 
+over the pod5 files, of the 5mCG_5hmCG super accurate base- 
+calling model. Basecalled files were mapped to the human 
+genome (GRCh38) using minimap2 v2.25 [ 42 ]. Alignment 
+files (BAM) sorted and indexed using SAMtools, and methyla- 
+tion matrices were created using the segmeth tool from Methy- 
+lArtist v1.2.6 [ 43 ]. Methylartist segplot and locus tools were 
+further employed for all downstream visualization, either us- 
+ing methylation matrices or BAM files as input. To statistically 
+compare the difference in DNA methylation between control 
+and CRISPRi conditions, Wilcoxon signed-rank test was used. 
+Methylartist composite plots were created using L1HS and 
+L1PA2 consensus sequences to plot FL L1HS and FL L1PA2- 
+L1PA3 elements, respectively. By default the tool uses a maxi- 
+mum of 200 elements per plot, therefore if elements of interest 
+surpassed that threshold, 200 of them were randomly selected 
+with “shuf -n 200 ′′ . 
+Since the modified basecalling model also provides infor- 
+mation about 5hmC methylation, the same BAM files were 
+used to asses the changes in 5hmC methylation over pro- 
+moter regions of L1s. To visualize the data and statistically 
+SETDB1-mediated H3K9me3 controls L1s 
+5 
+compare the differences in 5hmC methylation, identical ap- 
+proaches were used as above with the only exception of spec- 
+ifying the “-m h” flag to obtain 5hmC methylation over the 
+chosen regions. The y-axes of the locus plots were altered us- 
+ing “-ymin 0 -ymax 0.2 ′′ . 
+Results 
+L1s are covered by H3K9me3 in hNPCs 
+To investigate the distribution of H3K9me3 heterochro- 
+matin in hNPCs we performed CUT&RUN epigenomic anal- 
+ysis. We used a hNPC line that shares characteristics with 
+neuroepithelial-like stem cells (Fig. 1 A). This cell line was de- 
+rived from fetal brain at 6 weeks post-conception [ 26 ], a time 
+point in post-implantation embryonic development when het- 
+erochromatin and DNA methylation patterns have been fully 
+re-established. 
+Due to the high degree of sequence similarity among L1s, 
+short read sequencing data results in a large proportion of 
+ambiguously mapping reads. To avoid signal amplification 
+due to multimapping artifacts over these elements, we used 
+a strict unique mapping approach to examine individual L1 
+loci (Fig. 1 A). With this bioinformatic approach, it is possible 
+to analyze the epigenetic status of most L1s, except for some 
+of the evolutionarily youngest elements, where we rely on the 
+flanking regions ( Supplementary Fig. S1 A). This approach al- 
+lows us to discriminate reads without ambiguity, and trace 
+the epigenetic modification to a unique locus in the human 
+genome. 
+We found that H3K9me3 is highly abundant in hNPCs and 
+peak calling identified 30 967 regions in the human genome 
+covered by H3K9me3 (Fig. 1 B and Supplementary Fig. S1 B). 
+More than three quarters of the peaks (76.9%) could be con- 
+fidently mapped to TEs, and among these, L1s represented the 
+most abundant TE class (55.3%) (Fig. 1 C). We found that 
+H3K9me3 was particularily enriched over evolutionary young 
+L1s (Fig. 1 D and E). Almost all full-length ( > 6 kb) evolution- 
+arily young elements, including human-specific (L1HS) and 
+hominoid-specific (L1PA2 and L1PA3) copies, were covered 
+by H3K9me3 in hNPCs (Fig. 1 F and G). Notably, the majority 
+of these full-length L1 elements contain an intact 5 ′ promoter 
+and can be transcribed, and some even retain the capacity to 
+retrotranspose [ 11 , 18 ]. These data demonstrates that hNPCs 
+represent a useful model for investigating epigenetic mecha- 
+nisms of L1 regulation, including the presence of heterochro- 
+matin, in human somatic neural cells. 
+CRISPRi-based silencing of SETDB1 in hNPCs 
+results in a global reorganization of H3K9me3 
+The deposition of H3K9me3 at TEs has been linked to the 
+histone methyltransferase SETDB1 (also known as ESET) 
+[ 44 –46 ], which is highly expressed in hNPCs and the devel- 
+oping and adult human brain (Sup Fig. 2 A–C). To study the 
+effects of the loss of SETDB1-mediated H3K9me3, we devel- 
+oped a CRISPRi-based approach to transcriptionally silence 
+SETDB1 in hNPCs (SETDB1-CRISPRi) (Fig. 2 A). Two guide 
+RNAs were designed to target near the TSS of the SETDB1 
+gene. As a control, we used a guide RNA targeting LacZ, a 
+sequence not found in the human genome. SETDB1 and con- 
+trol guide RNAs were separately cloned into lentiviral vec- 
+tors expressing a catalytically inactive Cas9 (dCas9) fused to a 
+Krüppel-associated box (KRAB) transcriptional repressor do- 
+main [ 38 ]. Transduced cells were expanded for 10 days prior 
+to FACS isolation of GFP + cells carrying the CRISPRi con- 
+struct. Lentiviral transduction of hNPCs using the SETDB1- 
+CRISPRi vector resulted in efficient, near-complete silencing 
+of SETDB1 at transcript and protein level using both gRNAs, 
+as determined by qRT-PCR, western blot, and RNA sequenc- 
+ing (Fig. 2 B–D and Supplementary Fig. S3 A–C). 
+Since CRISPRi works by transcriptionally silencing its tar- 
+get TSS through heterochromatin remodeling via KRAB re- 
+pressor binding, it was surprising that SETDB1 silencing could 
+be achieved, since the KRAB system depends on this enzyme 
+for H3K9me3 deposition [ 47 ]. To investigate the mechanism 
+behind this, we performed CUT&RUN profiling of H3K4me3 
+and H3K9me3 of SETDB1-CRISPRi hNPCs. Analysis of the 
+active promoter mark H3K4me3 revealed a complete loss 
+of H3K4me3 over the SETDB1 TSS following SETDB1- 
+CRISPRi, confirming the loss of transcriptional activity at the 
+SETDB1 promoter . However , this was not accompanied by 
+an accumulation of the repressive histone mark H3K9me3 
+over the SETDB1 TSS (Fig. 2 D). These results show that the 
+CRISPRi machinery works efficiently without H3K9me3 de- 
+position, at least at this locus. 
+The SETDB1-CRISPRi hNPCs remained viable despite the 
+absence of SETDB1 expression and no changes in morphol- 
+ogy were observed compared to control cells (Fig. 2 E and 
+Supplementary Fig. S3 D). Previous studies in mouse model 
+systems have described H3K9me3 as important for maintain- 
+ing the cellular identity of neural cells and silencing lineage- 
+inappropriate genes [ 48 ]. However, in SETDB1-CRISPRi hN- 
+PCs proliferation remained unchanged, as monitered by EdU 
+incorporation assays (Fig. 2 F and Supplementary Fig. S3 E). 
+Expression of NPC lineage markers did not differ from that of 
+control hNPCs, as determined by bulk RNA sequencing and 
+neuronal and pluripotency markers were not activated, at least 
+over the 10-day timecourse of the experiment (Fig. 2 G and 
+Supplementary Fig. S3 F). Furthermore, immunofluorescence 
+staining for the NPC markers SOX2 and NESTIN showed no 
+obvious differences in SETDB1-CRISPRi hNPCs compared to 
+controls (Fig. 2 E and Supplementary Fig. S3 D). To further in- 
+vestigate how silencing of SETDB1 affects the cellular identity 
+of hNPCs, we performed differential gene expression anal- 
+ysis. We found that 748 genes were upregulated and 1202 
+genes were downregulated in SETDB1-CRISPRi hNPCs com- 
+pared to controls ( | LFC | > 1, two-sided padj < 0.05, DESeq2) 
+( Supplementary Fig. S3 G). Gene-ontology overrepresentation 
+test of differentially expressed genes ( | LFC | > 1) in SETDB1- 
+CRISPRi hNPCs revealed an enrichment of terms related to 
+cell adhesion and synapse assembly among the upregulated 
+genes, and regulation of actin filament organization among 
+the downregulated genes ( Supplementary Fig. S3 H). Taken to- 
+gether, these results demonstrate that CRISPRi-mediated si- 
+lencing of SETDB1 results in modest transcriptional changes, 
+but that these do not appear to have a major impact on the 
+cellular identity of hNPCs. 
+To investigate the role of SETDB1 in depositing H3K9me3 
+in human NPCs, we performed CUT&RUN profiling of 
+H3K9me3 in SETDB1-CRISPRi and control cells. This re- 
+vealed a genome-wide loss of the majority of H3K9me3 peaks. 
+Of the 30 967 H3K9me3 peaks found in control hNPCs, 
+85.6% were lost in SETDB1-CRISPRi hNPCs (Fig. 2 H). This 
+included a profound loss of H3K9me3 over evolutionarily 
+young full-length L1 elements (Fig. 2 I). However, not all 
+H3K9me3 was lost. Surprisingly, we found the appearance 
+6 
+Karlsson et al. 
+H3K9me3 occupancy
+D
+TEs
+Non-TEs
+L1
+Other TEs
+A
+Genome wide H3K9me3 peaks 
+B
+Evolutionary age of L1 subfamilies
+Evolutionary young, full-length L1s
+ covered by H3K9me3 in hNPCs
+F
+55.3%
+44.7%
+H3K9me3 profiling of hNPCs 
+C
+H3K9me3
+CUT&RUN
+Illumina 
+sequencing
+paired-end (2x75bp)
+Unique mapping 
+(MAPQ > 10)
+SEACR peakcalling
+IgG
+Target
+hNPCs
+L1PA2
+Gorilla 
+5
+10
+15
+myr
+L1PA3
+L1PA2
+L1Hs
+Human
+Chimp
+Orangutan
+E
+H3K9me3 peaks
+ n = 30 967
+hNPCs rep 1
+hNPCs rep 2
+H3K9me3
+IgG
+H3K9me3
+IgG
+LINE
+H3K9me3
+IgG
+18 kb
+chr2:209,739,287-209,758,127
+[0 - 20]
+[0 - 20]
+chr1:164,451,347-164,472,996
+[0 - 20]
+[0 - 20]
+21 kb
+L1PA2
+0
+2.5
+5
+0
+4x105
+8x105
+12x105
+Observed vs Expected H3K9me3 
+over young L1s (in bp)
+L1HS L1PA2 L1PA3
+16x105
+Observed
+Expected
+H3K9me3 enrichment over young L1s
+-5kb
++5kb
+G
+-5kb
++5kb
+H3K9me3 peaks over 
+evolutionary young, full-length L1s 
+L1HS
+L1PA2
+L1PA3
+hNPCs rep 1
+hNPCs rep 2
+IgG
+H3K9me3
+IgG
+H3K9me3
+0
+2
+4
+6
+3
+e
+m
+9
+K
+3
+H
+la
+n
+gis
+)
+M
+K
+P
+R
+(
+****
+****
+5’ UTR
+5’ UTR
+Figure 1. Evolutionary young, full-length L1s are covered by H3K9me3 in hNPCs ( A ) Schematic illustrating CUT&RUN epigenomic profiling of H3K9me3 
+in hNPCs. ( B ) RPKM normalized heat maps showing genome-wide CUT&RUN signal enrichment of H3K9me3 and nontargeting control IgG in hNPCs 
+( n = 2). ( C ) Plots showing the genome-wide distribution of H3K9me3 CUT&RUN peaks in hNPCs, categorized by TEs, non-TE (pie chart); L1 elements 
+and other TEs (bar chart). ( D ) Phylogenetic tree of evolutionarily young L1 subfamilies. ( E ) Barplot showing H3K9me3 enrichment over evolutionary 
+young L1s ( F ) RPKM normalized heat maps showing CUT&RUN signal of H3K9me3 in hNPCs and their respective IgG controls, over full-length L1HS to 
+L1PA3 elements sorted by evolutionary age ( n = 2). ( G ) Genome Browser tracks showing RPKM normalized H3K9me3 CUT&RUN data over two 
+full-length L1PA2 elements in hNPCs. 
+of large ectopic regions of H3K9me3, mainly at centromeres 
+and telomeres, but also scattered throughout the genome in- 
+cluding regions flanking some of the FL-L1s (Fig. 3 A and B, 
+and Supplementary Fig. S4 A). The appearance of these ectopic 
+regions of H3K9me3 was also visible when performing im- 
+munocytochemistry for H3K9me3 in SETDB1-CRISPRi hN- 
+PCs (Fig. 3 C and Supplementary Fig. S4 B). We found no 
+changes in global H3K9me3 levels using WB analysis (Fig. 3 D 
+and Supplementary Fig. S3 C). The underlying mechanism for 
+the appearance of these broad ectopic H3K9me3 domains re- 
+mains unclear but is likely a result of the activity of other 
+H3K9me3 methyltransferases [ 49 ] and the complete hete- 
+rochromatin reorganization that occurs in SETDB1-CRISPRi 
+hNPCs. 
+SETDB1-mediated H3K9me3 controls L1s 
+7 
+H
+H3K9me3 over evolutionary young full-length L1s
+250
+Control
+55
+SETDB1
+β-actin
+kDa
+CRISPRi-based silencing of SETDB1
+A
+Transcriptomic and epigenetic validation 
+of SETDB1-CRISPRi 
+D
+SETDB1 expression 
+qRT-PCR
+B
+SETDB1 expression 
+Western Blot
+C
+I
+SETDB1
+SETDB1-
+CRISPRi   
+Expression of cell identity markers 
+NESTIN/SOX2
+Scale bar = 20 μm
+NESTIN
+SOX2
+Control
+SETDB1-
+CRISPRi
+0.0
+0.5
+1.0
+1.5
+Relative Expression
+G
+Genome wide H3K9me3
+L1HS
+L1PA2
+L1PA3
+Control
+SETDB1-
+CRISPRi    
+sgRNA
+dCAS9-KRAB
+eGFP
+T2A
+WPRE
+U6 UBC
+SETDB1
+Control (LacZ)
+hNPCs
+10 days
+expansion
+FACS 
+GFP+ cells
+RNA-seq
+(2x150bp)
+CUT&RUN
+(2x75bp)
+qRT-PCR
+ICC
+Western Blot
+E
+SETDB1-
+CRISPRi
+Control
+SETDB1-
+CRISPRi
+Control
+H3K9me3
+H3K4me3
+SETDB1-
+CRISPRi
+Control
+Lentiviral
+transduction
+Expression of cell identity markers 
+RNA seq
+SETDB1-
+CRISPRi
+Control
+hNPCs rep 1
+IgG 
+Control
+SETDB1- 
+CRISPRi
+IgG
+hNPCs rep 2
+H3K9me3 peaks
+ n = 30 967
+39 kb
+chr1:         150,925,512-150,965,036
+[0 - 210]
+[0 - 210]
+[0 - 120]
+[0 - 120]
+[0 - 14]
+[0 - 14]
+150,926,301-150,926,969
+[0 - 147]
+[0 - 147]
+[0 - 120]
+[0 - 120]
+[0 - 4,62]
+[0 - 4,62]
+670 bp
+Zoom in 
+sgRNA
+SOX2
+NES
+PAX6
+VIM
+MSI1
+TUBB3
+PROM1
+MAP2
+ASCL1
+KLF4
+NANOG
+DNMT3L
+DPPA3
+DPPA5
+KLF17
+TFCP2L1
+0
+5
+10
+15
+SETDB1-
+CRISPRi
+Control
+NPC
+Neuronal
+Pluripotency
+Control
+SETDB1-
+CRISPRi
+DAPI
+EdU
+DAPI/GFP/EDU
+Scale bar = 50 μm
+0
+20
+40
+60
+80
+100
+F
+Control
+SETDB1-
+CRISPRi
+Proliferation assay
+Quantification
+slle
+c
+e
+vit
+a
+r
+e
+filo
+r
+p
+f
+o
+%
+)
++
+U
+d
+E
+(
+SETDB1-
+CRISPRi
+Control
+hNPCs rep 1
+IgG 
+Control
+SETDB1- 
+CRISPRi
+IgG
+hNPCs rep 2
+0 2.5 5
+H3K9me3 signal
+(RPKM)
+0
+2
+6
+H3K9me3 signal
+(RPKM)
+4
+-5kb TE+5kb
+-5kb
++5kb
+Figure 2. SETDB1-CRISPRi results in loss of H3K9me3 in hNPCs ( A ) Schematic of the CRISPRi construct and w orkflo w f or CRISPRi-based silencing of 
+SETDB1 in hNPCs. ( B ) qRT-PCR analysis of SETDB1 expression after CRISPRi silencing in hNPCs. Results are shown as means with standard deviation 
+( n = 2 and n = 4, respectively). ( C ) Western blot analysis of SETDB1 protein levels in SETDB1-CRISPRi and control hNPCs relative to β-actin protein 
+le v els. ( D ) RPKM normalized genome browser tracks showing: expression of SETDB1 in SETDB1-CRISPRi and control hNPCs (top). Epigenetic changes 
+as a result of the CRISPRi approach as determined by CUT&RUN profiling of H3K4me3 (middle) and H3K9me3 (bottom). ( E ) Immunocytochemistry of 
+NES TIN (cy an) and SO X2 (red) in SETDB1-CRISPRi and control hNPCs. Scale bar = 20 μm. ( F ) EdU prolif eration assa y sho wing cell proliferation in 
+SETDB1-CRISPRi and Control hNPCs. Scale bar = 50 μm. ( G ) Heat map showing mean expression of NPC, neuronal, and pluripotency gene markers in 
+SETDB1-CRISPRi ( n = 2) and control ( n = 4) hNPCs as determined by bulk RNA sequencing. ( H ) Heat maps illustrating genome-wide RPKM normalized 
+CUT&RUN signal of H3K9me3 and nontargeting control IgG in SETDB1-CRISPRi ( n = 2) and control ( n = 2) hNPCs. ( I ) Heat maps illustrating RPKM 
+normaliz ed CUT&R UN signal of H3K9me3 and nontargeting control IgG in SETDB1-CRISPRi ( n = 2) and control ( n = 2) hNPCs o v er full-length 
+L1HS-L1PA3 elements. 
+8 
+Karlsson et al. 
+Figure 3. SETDB1-CRISPRi results in reorganization of H3K9me3 in hNPCs ( A ) Genome browser track of chromosome 8 showing RPKM normalized 
+CUT&RUN signal of H3K9me3 in SETDB1-CRISPRi and control hNPCs. Right panels show zoom in of H3K9me3 dense areas highlighted in yellow. ( B ) 
+Genome browser track of chromosome 2 showing RPKM normalized CUT&RUN signal of H3K9me3 in SETDB1-CRISPRi and control hNPCs. Right 
+panels show zoom in of H3K9me3 dense areas highlighted in yellow. ( C ) Immunocytochemistry of H3K9me3 (red) and nuclear marker DAPI (blue) in 
+SETDB1-CRISPRi and control hNPCs. H3K9me3 foci are indicated with white arrows. Scale bar = 10 μm. ( D ) Western blot analysis of H3K9me3 protein 
+le v els in SETDB1-CRISPRi and control hNPCs relative to Histone 3 protein levels. 
+Loss of SETDB1-mediated H3K9me3 results in 
+transcriptional activation of L1s 
+To investigate the transcriptional consequences on L1s and 
+other TEs after loss of H3K9me3 in hNPCs, we per- 
+formed bulk RNA sequencing of SETDB1-CRISPRi and con- 
+trol hNPCs. We used an in-house 2 × 150 bp poly(A)- 
+enriched stranded library preparation with a reduced frag- 
+mentation step to optimize read length for L1 analysis 
+(Fig. 4 A). We obtained between 26 and 76 million uniquely 
+mapped reads per sample. We used a stringent unique map- 
+ping approach to quantify expression of individual TE loci 
+[ 21 ]. 
+We found 3643 individual TE loci that were upregulated in 
+SETDB1-CRISPRi hNPCs (DESeq2 LFC > 0, two-sided padj 
+0.05) confirming that many TEs are transcriptionally acti- 
+vated upon loss of H3K9me3 (Fig. 4 B). Strikingly, significantly 
+upregulated TEs were enriched for L1s (Fig 4 C). When ana- 
+lyzing L1-subfamilies we found that this enrichment of upreg- 
+ulated elements was limited to evolutionarily young L1s, in- 
+cluding human-specific L1HS and hominoid-specific L1PA2- 
+L1PA3s (Fig. 4 D and E). Using uniquely mapping reads, we 
+were able to distinguish the expression of 1144 individual, 
+full-length L1HS-L1PA3 elements in our dataset (baseMean 
+≥1). As there are ∼2645 full-length L1HS-L1PA3 elements 
+in hg38, we could detect expression of ∼43% of individual 
+full-length L1s belonging to these families. Among the 1144 
+individual full-length L1HS-L1PA3 elements detectable with 
+uniquely mapping reads, 146 (13%) were significantly upreg- 
+ulated in SETDB1-CRISPRi hNPCs. (Fig. 4 D and E, gRNA1 
+and gRNA2 pooled). We found a similar upregulation of L1s 
+when using both SETDB1 gRNAs ( Supplementary Fig. S5 A–
+D ). 
+When comparing the number of reads transcribed in the 
+same orientation as the L1 (in sense) to reads in the oppo- 
+site direction (in antisense) we found that most of the tran- 
+scription in these regions were in sense with regards to the 
+L1s in SETDB1-CRISPRi hNPCs (Fig 4 F and Supplementary 
+Fig. S5 D). This is consistent with the idea that the detected L1 
+transcripts come from the L1 promoter, rather than being a 
+result of read-through transcription. We also investigated the 
+genomic location of the L1s that were found to be upregu- 
+lated in SETDB1-CRISPRi hNPCs. The majority of the up- 
+regulated L1s were found in intergenic regions of the genome 
+(Fig. 4 G and Supplementary Fig. S5 E). Of those located within 
+genes, the majority were found to be antisense to the host 
+genes (Fig. 4 G and Supplementary Fig. S5 E). These findings 
+also suggest that the upregulated L1 expression is a conse- 
+quence of elevated L1 transcription, rather than being related 
+to the expression of genes harbouring an L1 in their introns. 
+In addition to L1s, we also found upregulation of other TEs, 
+such as several ERV families and SVAs, which are know to 
+be controlled by the KZNF-TRIM28 system that depends on 
+SETDB1 ( Supplementary Table S1 ) [ 28 , 50 –52 ]. 
+To further confirm that the the epigenetic status of L1 pro- 
+moters is associated with an active state in SETDB1-CRISPRi 
+hNPCs, we performed CUT&RUN analysis for the histone 
+mark H3K4me3, which is associated with active promot- 
+ers. Although this approach is limited to L1 elements where 
+SETDB1-mediated H3K9me3 controls L1s 
+9 
+Expression of individual
+full-length L1HS-L1PA3 
+B
+SETDB1
+CRISPRi
+Control
+(LZ)
+A
+Schematic of the experimental approach
+L1HS
+L1PA2
+L1PA3
+L1PA4
+L1PA5
+L1PA6
+L1PA7
+L1PA8
+Number of elements
+Upregulated individual L1s sorted
+by evolutionary age 
+observed
+expected
+D
+F
+SETDB1-
+CRISPRi
+Control
+LINE
+SETDB1-
+CRISPRi
+Control
+SETDB1-
+CRISPRi
+Control
+H3K9me3
+H3K4me3
+RNA seq
+Log2(SETDB1-CRISPRi+ 0.5)
+0
+5
+10
+15
+0
+5
+10
+15
+Log2(Control CRISPRi + 0.5)
+L1 up (146)
+adj.pval < 0.05, LFC > 0
+L1 down (1)
+non significant 
+C
+Upregulated individual TEs
+sorted by family
+0
+400
+800
+1200
+MIR
+ERVL-
+MaLR
+ERV1
+Alu
+L1
+L2
+hAT-Charlie
+ERVL
+expected
+observed
+***
+ns
+0
+25
+50
+75
+**
+***
+***
+E
+Number of elements
+Control sense
+Control antisense
+SETDB1-CRISPRi sense
+SETDB1-CRISPRi antisense 
+17 kb
+Transcriptional activation of an evolutionary young full-length L1
+H
+Expression of individual TEs
+0
+5
+10
+15
+0
+5
+10
+15
+log2(Control CRISPRi + 0.5)
+log2(SETDB1-CRISPRi + 0.5)
+adj.pval < 0.05, LFC > 0
+L1 up (1239)
+Other TEs up (2404)
+TE down (361) 
+non significant 
+Normalized counts
+0
+10
+20
+30
+L1HS
+L1PA2
+L1PA3
+0.0038
+7.6e-15
+3.5e-6
+0
+10
+20
+30
+0
+10
+20
+30
+0.03
+<2.22e-16
+1.6e-6
+[0 - 18]
+[0 - 18]
+[0 - 32]
+[0 - 32]
+[0 - 2,50]
+[0 - 2,50]
+L1PA2
+RNA-seq
+(2x150bp)
+CUT&RUN
+Unique
+mapping 
+10 days
+expansion
+FACS 
+GFP+ cells
+Lentiviral
+transduction
+(2x75bp)
+G
+Sense vs antisense reads over upregulated full-length L1s
+Number of upregulated L1s
+Intersection types
+for upregulated full-length L1s
+-1.5Kb
++7.5Kb
+0
+20
+40
+Intergenic
+Antisense
+Sense
+Control 
+20
+10
+0
+60
+I
+Intragenic
+H3K9me3 over full-length L1 elements gaining H3K4me3
+12
+6
+0
+12
+6
+0
+12
+6
+0
+Mean coverage
+(RPKM)
+H3K4me3/H3K9me3 signal
+(RPKM)
+Control 
+SETDB1-
+CRISPRi
+Control
+SETDB1-
+CRISPRi
+H3K4me3
+H3K9me3
+IgG
+TSS
+5’ UTR
+TSS
+TSS
+TSS
+TSS
+chr2:185,858,991-185,876,538
+Figure 4. Evolutionarily young, full-length L1s are transcriptionally activated upon loss of H3K9me3 in hNPCs ( A ) Workflow for CUT&RUN and RNA 
+sequencing analysis of SETDB1-CRISPRi and control hNPCs. ( B ) Mean plot of uniquely mapped bulk RNA sequencing reads for SETDB1-CRISPRi hNPCs 
+( n = 2) compared to control ( n = 2) o v er individual TEs categorized into L1 elements and other TEs. Log 2 fold change (LFC) > 0, two-sided padj 0.05 
+calculated with DESeq2. ( C ) Observed versus expected number of individual, transcriptionally activated elements per TE family in SETDB1-CRISPRi 
+hNPCs ( n = 2) compared to control (n = 2). P -values were calculated using bootstrap-based empirical two-sided P -value calculation. ( D ) Mean plot of 
+uniquely mapped bulk RNA sequencing reads for SETDB1-CRISPRi hNPCs ( n = 4, pooled data from both gRNAs) compared to controls ( n = 4) over 
+individual full-length ( > 6 kb) L1HS-L1PA3 elements. LFC > 0, two-sided padj < 0.05 calculated with DESeq2. ( E ) Observed versus expected number of 
+transcriptionally activated L1 elements sorted by evolutionary age in SETDB1-CRISPRi ( n = 2) compared to control hNPCs ( n = 2). P -values were 
+calculated using bootstrap-based empirical two-sided P -value calculation. (F ) Normalized read counts in sense and antisense for upregulated, full-length 
+L1HS-L1PA3 elements in SETDB1-CRISPRi ( n = 2) versus control hNPCs ( n = 4). Statistical significance was calculated with Mann–Whitney U test. ( G ) 
+Number, genomic location and direction of upregulated full-length ( > 6 kb) L1HS-L1PA3 elements in SETDB1-CRISPRi ( n = 2) compared to control hNPC 
+( n = 2) ( H ) RPKM normalized genome browser tracks showing: CUT&RUN analysis of H3K9me3 (top), H3K4me3 (middle), and bulk RNA sequencing 
+(bottom) in SETDB1-CRISPRi and control hNPCs. ( I ) RPKM normalized heat maps showing CUT&RUN signal of H3K9me3 over full-length ( > 6 kb) 
+L1HS-L1PA3 elements elements gaining H3K4me3 in hNPCs and their respective IgG controls. 
+10 
+Karlsson et al. 
+the H3K4me3 peak is broad enough to spread to the sur- 
+rounding genomic context, we were able to detect 24 high- 
+confidence H3K4me3 peaks located at the 5 ′ end of evolu- 
+tionarily young, full-length L1s in SETDB1-CRISPRi NPCs 
+(Fig 4 H and I, and Supplementary Fig. S5 F). Most of these 
+loci were also transcriptionally activated and lost H3K9me3 
+(Fig 4 H and I, and Supplementary Fig. S5 F). Taken together, 
+these results show that SETDB1-mediated H3K9me3 is essen- 
+tial to silence evolutionarily young, full-length L1 elements in 
+hNPCs. 
+SETDB1 regulates the expression of evolutionarily 
+young L1s independently from the HUSH/MORC2 
+corepressor and the KZNF-TRIM28 pathways 
+The observation that evolutionarily young L1s are activated 
+by loss of H3K9me3 was surprising, as previous work has in- 
+dicated that DNA methylation is the key repressive mecha- 
+nism of L1s in neural cells [ 8 , 9 , 23 , 24 ]. The two major path- 
+ways that control the transcription of TEs in association with 
+SETDB1 and H3K9me3 are the KZNF-TRIM28 system and 
+the human silencing hub (HUSH)/MORC2 co-repressor path- 
+way [ 29 , 53 –56 ]. Previous studies in hNPCs have shown that 
+loss of these pathways in somatic cells has only a limited ef- 
+fect on L1 expression [ 23 , 50 ]. To confirm this, we performed 
+lentiviral-based TRIM28-CRISPRi and MORC2-CRISPRi ex- 
+periments in hNPCs, comparing the transcriptional activation 
+of evolutionarily young full-length L1s with that of SETDB1- 
+CRISPRi hNPCs (Fig. 5 A). Ten days after lentiviral trans- 
+duction, we verified the efficient silencing of MORC2 and 
+TRIM28 using qRT-PCR, WB and RNA-seq (Fig. 5 B–D, and 
+Supplementary Fig. S6 A). Silencing of TRIM28 or MORC2 
+resulted in upregulation of only 4 and 5 individual, full-length 
+L1HS-L1PA3 elements, respectively (Fig. 5 E and F), which can 
+be compared with 146 individual, full-length L1HS-L1PA3 el- 
+ements being significantly upregulated after SETDB1 silenc- 
+ing (Fig. 4 D). To verify that the lack of a transcriptional re- 
+sponse of L1s upon silencing of TRIM28 or MORC2 was 
+not due to a redundancy between these pathways, we per- 
+formed a double CRISPRi-silencing experiment of these two 
+genes (Fig. 5 A). We verified the efficient double silencing of 
+TRIM28 and MORC2 using qRT-PCR, WB and RNA-seq 
+(Fig. 5 B–D and Supplementary Fig. S6 A). Silencing of both 
+MORC2 and TRIM28 did also not result in transcriptional 
+activation of L1s, only four indivual full-length L1HS-L1PA3 
+elements were upregulated in this setting (Fig. 5 E and F). We 
+also used our previously published H3K9me3 CUT&RUN 
+data from TRIM28-CRISPRi and MORC2-CRISPRi hN- 
+PCs [ 23 , 28 ] to investigate if these genes are responsible 
+for H3K9me3 at L1s in hNPCs. Gobal analysis following 
+the inactivation of TRIM28 or MORC2 confirmed the ex- 
+pected loss of the H3K9me3 signal ( Supplementary Fig. S6 B–
+C). SETDB1-CRISPRi resulted in major loss of H3K9me3 
+peaks over full-length L1HS-L1PA3 elements (Fig. 2 I), while 
+MORC2-CRISPRi and TRIM28-CRISPRi had minor effects 
+on H3K9me3 deposition over full-length L1HS-L1PA3 ele- 
+ments (Fig. 5 G). Together these results show that in addition to 
+the TEs that are repressed by HUSH and KZNF-TRIM28 and 
+thus dependendent on SETDB1, SETDB1 also acts through al- 
+ternative pathways to maintain L1 promoters with H3K9me3 
+leading to their transcriptional repression. 
+Loss of H3K9me3 results reduced CpG DNA 
+methylation at L1 promoters 
+CpG DNA methylation of the L1 promoter has been described 
+as the major mechanism for transcriptional silencing of L1 ele- 
+ments in somatic cells, including hNPCs [ 7 –10 , 22 , 23 ]. There- 
+fore, we hypothesized that loss of H3K9me3 may have down- 
+stream effects on DNA methylation levels at L1s. To investi- 
+gate the interplay between H3K9me3 and CpG DNA methy- 
+lation, we performed genome-wide DNA methylation profil- 
+ing using Oxford Nanopore Technologies (ONT) long-read 
+DNA sequencing on SETDB1-CRISPRi and control hNPCs 
+(Fig. 6 A). As an additional positive control, we used CRISPRi 
+to silence DNMT1 [ 23 , 28 ], whose deletion in hNPCs results 
+in a global loss of DNA methylation, including over L1s [ 8 ] 
+(Fig. 6 A, and Supplementary Fig. S7 A and B). 
+We observed no major changes in global genome-wide 
+DNA methylation between SETDB1-CRISPRi and control 
+hNPCs, suggesting that DNA methylation patterns are gen- 
+erally unaffected by the loss of H3K9me3 over the 10-day 
+timecourse of the experiment (Fig. 6 B). This contrasts with 
+the silencing of DNMT1, which results in global DNA hy- 
+pomethylation (Fig. 6 B). However, when we performed DNA 
+methylation analysis of evolutionarily young L1s, we found 
+that SETDB1-CRISPRi hNPCs exhibited lower levels of CpG 
+DNA methylation compared to control hNPCs. In particular, 
+L1s that were transcriptionally activated in hNPCs showed 
+significantly lower levels of DNA methylation over their 5 ′ 
+promoter region (Fig. 6 C and Supplementary Fig. S7 C–E). For 
+example, we found full-length human- and hominoid-specific 
+L1 elements that were transcriptionally activated in SETDB1- 
+CRISPRi hNPCs, as determined by bulk RNA sequencing and 
+CUT&RUN profiling of the active promoter mark H3K4me3, 
+and also lost DNA methylation (Fig. 6 D–E). When investigat- 
+ing DNA methylation over all full-length L1s and those which 
+did not get transcriptionally activated we found that some L1s 
+in these groups also loose DNA methylation, highlighting the 
+challanges to detect the RNA signal for some of the evolution- 
+ary young L1s ( Supplementary Fig. S7 F–I). Taken together, 
+these results demonstrate that the loss of SETDB1-mediated 
+H3K9me3 in human somatic cells leads to subsequent loss of 
+DNA methylation and gain of H3K4me3 methylation, result- 
+ing in transcriptional activation of L1s. 
+The loss of DNA methylation could result from an ac- 
+tive process involving ten-eleven translocation (TET) enzymes, 
+which is characterized by the conversion of methylcytosine 
+to hydroxymethylcytosine [ 57 ]. Alternatively, it may result 
+from a passive process associated with an inability to at- 
+tract DNMT1, which is characterized by the loss of methyl- 
+cytosine. Therefore, we investigated the presence of DNA 
+hydroxymethylation in SETDB1-CRISPRi and control hN- 
+PCs, as determined from the ONT data, using DNMT1- 
+CRISPRi as an additional control. While we did not see global 
+changes in DNA hydroxymethylation at a genome-wide level 
+in SETDB1-CRISPRi compared to control cells, our analysis 
+revealed that transcriptionally activated full-length L1s gained 
+DNA hydroxymethylation over their promoter (Fig. 7 B–D 
+and Supplementary Fig. S8 A–F). This suggests that the loss 
+of DNA methylation at L1s with SETDB1-CRISPRi occurs 
+via an active process involving TET enzymes. In contrast, 
+DNMT1-CRISPRi NPCs do not exhibit an increase in DNA 
+hydroxymethylation at these elements (Fig. 7 B). This is consis- 
+tent with passive loss of DNA methylation resulting from the 
+SETDB1-mediated H3K9me3 controls L1s 
+11 
+0
+4
+8
+12
+0
+4
+8
+12
+0
+4
+8
+12
+0
+4
+8
+12
+0
+4
+8
+12
+0
+4
+8
+12
+F
+Expression of full-length L1
+E
+log2(TRIM28-CRISPRi+ 0.5)
+log2(MORC2-CRISPRi+ 0.5)
+log2(Control CRISPRi + 0.5)
+log2(Control CRISPRi + 0.5)
+TRIM28-CRISPRi
+MORC2-CRISPRi
+adj.pval < 0.05, LFC > 0
+L1 up (5)
+L1 down (0)
+non significant (2640)
+adj.pval < 0.05, LFC > 0
+Expression of individual full-length L1Hs-L1PA3
+CRISPRi-based silencing of TRIM28
+D
+CRISPRi-based silencing of MORC2
+chr19:58,543,553-58,551,361
+7810 bp
+45 kb
+chr22:30,923,913-30,968,968
+Control 
+MORC2-
+CRISPRi
+A
+Exprerimental approach 
+C
+H3K9me3 over evolutionary young full-length L1s
+G
+SETDB1-
+CRISPRi
+Control
+H3K9me3
+SETDB1-
+CRISPRi
+Control
+TRIM28-
+CRISPRi
+MORC2-
+CRISPRi
+TRIM28&
+MORC2
+CRISPRi
+Control
+SETDB1-
+CRISPRi
+Control
+H3K4me3
+RNA-seq
+Control
+TRIM28- 
+CRISPRi
+IgG
+Control
+MORC2-
+CRISPRi
+IgG
+0
+2.5
+5
+MORC2
+TRIM28
+β-Actin
+Control (LZ)
+TRIM28 CRISPRi
+MORC2 and TRIM28 expression 
+Western Blot
+TRIM28 & MORC2 CRISPRi
+MORC2-CRISPRi or
+TRIM28-CRISPRi or 
+Control (LZ) CRISPRi
+RNA-seq
+(2x150bp)
+CUT&RUN
+10 days
+expansion
+FACS 
+Lentiviral
+transduction
+(2x75bp)
+TRIM28&MORC2
+double CRISPRi
++
+B
+130
+kDA
+55
+MORC2 CRISPRi
+MORC2 & TRIM28
+CRISPRi
+110
+[0 - 312]
+[0 - 807]
+TRIM28-
+CRISPRi
+MORC2 & TRIM28 
+CRISPRi
+[0 - 312]
+[0 - 312]
+[0 - 312]
+MORC2
+TRIM28
+[0 - 807]
+[0 - 807]
+[0 - 807]
+Control 
+MORC2-
+CRISPRi
+TRIM28-
+CRISPRi
+MORC2 & TRIM28 
+CRISPRi
+0
+2.5
+5
+L1HS
+L1PA2
+L1PA3
+L1HS
+L1PA2
+L1PA3
+L1 up (4)
+L1 down (0)
+non significant (2641) 
+adj.pval < 0.05, LFC > 0
+L1 up (4)
+L1 down (0)
+non significant (2641) 
+log2(TRIM28-CRISPRi+ 0.5)
+log2(Control CRISPRi + 0.5)
+16 kb
+LINE
+ADGRL3
+-5kb TSS TES+5kb
+-5kb TSS TES+5kb
+[0 - 12]
+[0 - 12]
+[0 - 46]
+[0 - 46]
+[0 - 4]
+[0 - 4]
+[0 - 4]
+[0 - 4]
+[0 - 4]
+[0 - 4]
+chr4:61,636,447-61,653,114
+L1PA3
+5’ UTR
+Figure 5. SETDB1 regulates e v olutionary y oung, full-length L1 elements independently from MOR C2 and TRIM28 ( A ) Workflo w of H3K9me3 and 
+H3K4me3 CUT&RUN and RNA sequencing analysis in TRIM28-CRISPRi, MORC2-CRISPRi, TRIM28&MORC2 double CRISPRi, and control hNPCs. ( B ) 
+Western blot analysis of TRIM28 and MORC2 protein levels in TRIM28-CRISPRi, MORC2-CRISPRi, TRIM28&MORC2 double CRISPRi, and control 
+hNPCs relative to ß-actin protein levels. ( C ) RPKM normalized genome browser tracks showing TRIM28 expression in TRIM28-CRIPSRi, 
+MOR C2-CRISPRi, TRIM28&MOR C2 double CRISPRi, and control hNPCs. ( D ) RPKM normaliz ed genome bro wser tracks sho wing MOR C2 e xpression in 
+TRIM28-CRIPSRi, MORC2-CRISPRi, TRIM28&MORC2 double CRISPRi, and control hNPCs ( E ) Mean plot of uniquely mapped bulk RNA sequencing 
+reads for TRIM28-CRISPRi ( n = 3), MORC2-CRISPRi ( n = 3), TRIM28&MORC2 double CRISPRi ( n = 3) hNPCs compared to controls ( n = 3) over 
+full-length ( > 6 kb) L1HS-L1PA3 elements. LFC > 0, two-sided padj < 0.05 calculated with DESeq2. ( F ) RPKM normalized genome browser tracks 
+sho wing: CUT&R UN analy sis in SETDB1-CRISPRi hNPCs of H3K9me3 (top) and H3K4me3 (middle). RNA e xpression of an L1PA3 element in 
+SETDB1-CRISPRi, TRIM28-CRISPRi, MORC2-CRISPRi, TRIM28&MORC2 double CRISPRi, and hNPCs compared to controls (bottom). ( G ) RPKM 
+normalized heat maps showing CUT&RUN signal of H3K9me3 over full-length ( > 6 kb) L1HS to L1PA3 elements sorted by evolutionary age in 
+MORC2-CRISPRi and TRIM28-CRISPRi hNPCs compared to their respective controls and nontargeting control IgG. Data from Pandiloski et al. (2024) 
+[ 23 ] and Horvath et al. (2024) [ 28 ] 
+12 
+Karlsson et al. 
+A
+Schematic of the experimental design
+Genome wide DNA methylation (5mC) 
+E
+D
+B
+AG  CT  meC
+Whole genome
+Oxford Nanopore
+DNA Sequencing
+SETDB1-
+CRISPRi
+DNMT1-
+CRISPRi
+Control
+(LacZ)
+hNPCs
+basecalling + mapping + visualization
+Nanopore reads
+Methylation coverage over
+transcriptionally activated L1PA3
+% CpG methylation
+DNMT1-CRISPRi
+Rep 1 
+Rep 2 
+Rep 1 
+Rep 2 
+Rep 1 
+Rep 2 
+Methylation coverage over
+transcriptionally activated L1PA2
+SETDB1-
+CRISPRi
+Control
+SETDB1-
+CRISPRi
+Control
+SETDB1-
+CRISPRi
+Control
+36 kb
+chr5:106,409,024-106,445,050
+[0 - 16]
+[0 - 16]
+[0 - 57]
+[0 - 57]
+[0 - 11]
+[0 - 11]
+0
+25
+50
+75
+100
+Control
+SETDB1-CRISPRi
+H3K9me3
+H3K4me3
+ RNA seq
+L1PA2
+17 kb
+chr4:61,362,314-61,379,844
+[0 - 24]
+[0 - 24]
+[0 - 42]
+[0 - 42]
+[0 - 4,45]
+[0 - 4,45]
+Genes
+L1PA3
+SETDB1-
+CRISPRi 
+Control
+LINE
+SETDB1-
+CRISPRi
+Control
+SETDB1-
+CRISPRi
+Control
+H3K9me3
+H3K4me3
+RNA seq
+DNA methylation over transcriptionally activated L1HS-L1PA3 (5mC)
+C
+40
+60
+80
+100
+% CpG Methylation
+60
+70
+80
+90
+p = 0.002625
+p = 4.508e-11
+p = 6.336e-08
+p = 1.83e-09
+p = 3.442e-10
+L1HS - L1PA3
+L1HS
+L1PA2
+L1PA3
+Rep1 Rep2 
+Rep1 Rep2 
+Rep1 Rep2 
+Rep1 Rep2 
+Rep1 Rep2 
+Rep1 Rep2 
+LINE1
+0
+50
+100
+150
+200
+0
+50
+100
+mCpG %
+Nanopore reads
+0
+20
+40
+60
+80
+100
+120
+0
+50
+100
+mCpG %
+Nanopore reads
+SETDB1-CRISPRi Rep 1
+SETDB1-CRISPRi Rep 2
+Control- CRISPRi Rep 1
+Control- CRISPRi Rep 2
+L1PA3
+5’ UTR
+SETDB1-CRISPRi Rep 1
+SETDB1-CRISPRi Rep 2
+Control- CRISPRi Rep 1
+Control- CRISPRi Rep 2
+L1PA3
+SETDB1-CRISPRi
+Control-CRISPRi
+Rep1 
+Rep2 
+LINE
+5’ UTR
+Figure 6. Loss of H3K9me3 results in loss of CpG DNA methylation at L1 promoters in hNPCs ( A ) Schematics of whole genome ONT long-read DNA 
+sequencing analysis in hNPCs ( B ) Box plots of the genome wide CpG DNA methylation status in SETDB1-CRISPRi ( n = 2), control ( n = 2) and 
+DNMT1-CRISPRi ( n = 2) hNPCs. ( C ) B o x plots of the methylation status over the promoter of transcriptionally activated L1HS-L1PA3 elements in 
+SETDB1-CRISPRi ( n = 2) and control ( n = 2) hNPCs. Zoom-in panels indicating mean meth ylation le v els (red line) per condition for L1HS-L1PA3 elements. 
+The figure shows FL-L1s that were found to be upregulated in at least one of the two experimental conditions (two different gRNAs). This resulted in 
+241 FL-L1s being included in the analysis. n values: L1HS = 22; L1PA2 = 77; and L1PA3 = 142. ( D, E ) RPKM normalized genome browser tracks 
+showing from top to bottom: CUT&RUN analysis of H3K9me3 and H3K4me3 in SETDB1-CRISPRi compared to control hNPCs, RNA expression of L1s in 
+SETDB1-CRISPRi compared to controls hNPCs. ONT DNA reads across SETDB1-CRISPRi and control hNPCs. Black dots indicate methylated CpGs, and 
+meth ylation co v erage of the L1 element can be seen at the bottom. T he L1 element is highlighted in y ello w, while the 5 ′ UTR is mark ed with stripes. 
+SETDB1-mediated H3K9me3 controls L1s 
+13 
+0.0022
+0.024
+6.3e−07
+1.3e−05
+DNA-hydroxymethylation over transcriptionally activated 
+L1HS-L1PA3  (5hmC)
+Genome wide DNA-hydroxymethylation (5hmC)
+A
+B
+L1HS
+L1PA2
+L1PA3
+0
+2.5
+5
+7.5
+% hydroxymethylation
+8.8e−08
+9.8e−07
+SETDB1-CRISPRi
+Control-CRISPRi
+DNMT1-CRISPRi
+0
+1
+2
+3
+4
+5
+DNMT1-CRISPRi
+Rep 1 Rep 2 
+Rep 1 Rep 2 
+Rep 1 Rep 2 
+Control
+SETDB1-CRISPRi
+% hydroxymethylation
+C
+chr10
+67387291
+67389479
+67391667
+0
+5
+10
+15
+Hydroxyme. %
+0
+10
+20
+30
+40
+50
+SETDB1-CRISPRi Rep 1
+SETDB1-CRISPRi Rep 2
+Control-CRISPRi Rep 1
+Control-CRISPRi Rep 2
+L1PA3
+70
+60
+DNA-hydroxymethylation over an L1PA3 loci
+Nanopore reads
+5’ UTR
+D
+chr10
+10651104
+10653292
+10655480
+0
+5
+10
+15
+Hydroxyme. %
+SETDB1-CRISPRi Rep 1
+SETDB1-CRISPRi Rep 2
+Control-CRISPRi Rep 1
+Control-CRISPRi Rep 2
+L1PA2
+0
+10
+30
+50
+20
+40
+60
+70
+80
+Nanopore reads
+5’ UTR
+DNA-hydroxymethylation over an L1PA2 loci
+Figure 7. Loss of H3K9me3 results in gain of DNA hydroxymethylation ( A ) Box plots of the genome wide DNA hydroxymethylation status in 
+SETDB1-CRISPRi ( n = 2), control ( n = 2), and DNMT1-CRISPRi ( n = 2) hNPCs. ( B ) B o x plots of the DNA h y dro xymeth ylation status o v er the promoter of 
+transcriptionally activated L1HS-L1PA3 elements in SETDB1-CRISPRi ( n = 2), control ( n = 2) and DNMT1-CRISPRi hNPCs. The figure shows FL-L1s that 
+w ere f ound to be upregulated in at least one of the tw o e xperiment al conditions (t w o different gRNAs, 241 FL-L1s being included in the analy sis. N: 
+L1HS = 22; L1PA2 = 77; and L1PA3 = 142). (C ) Locus plot showing DNA hydroxymethylation over an upregulated L1PA2 in SETDB1-CRISPRi (blue, 
+n = 2) and control (green, n = 2) hNPCs. Black dots indicate methylated CpGs, and methylation coverage of the L1 element can be seen at the bottom. 
+The L1 element is highlighted in yellow, while the 5 ′ UTR is marked with stripes. ( D ) Locus plot showing DNA hydroxymethylation over an upregulated 
+L1PA3 in SETDB1-CRISPRi (blue, n = 2) and control (green, n = 2) hNPCs. Black dots indicate methylated CpGs, and methylation coverage of the L1 
+element can be seen at the bottom. The L1 element is highlighted in yellow, while the 5 ′ UTR is marked with stripes. 
+loss of DNMT1 activity. Thus, these results demonstrate that 
+the loss of DNA methylation specifically over the promoter 
+region of L1s in SETDB1-CRISPRi NPCs is an active process 
+likely mediated by the recruitment of TET enzymes.
+
+Discussion 
+Here we study the consequences of loss of H3K9me3 hete- 
+rochromatin in hNPCs, a cell type that allows us to model 
+some aspects of heterochromatin maintenance in a human set- 
+ting, including the presence of H3K9me3 and DNA methy- 
+lation at L1s [ 8 , 23 ]. Upon CRISPRi-based silencing of the 
+H3K9me3 methyltransferase SETDB1 in hNPCs, we found 
+a major loss of H3K9me3 peaks, including those over L1s 
+and other TEs. Moreover, we observed a general reorgani- 
+zation of H3K9me3 domains, including the appearance of 
+new ectopically large heterochromatin domains, as detected 
+by both CUT&RUN analysis and confocal microscopy. While 
+we do not fully understand the mechanism behind this phe- 
+nomenon, previous studies have reported that a global loss of 
+H3K9me3 leads to rearrangements of the epigenome and the 
+gain of H3K9me3 at specific loci mediated by other H3K9me3 
+methyltransferases such as SUV39H1/2 [ 58 –60 ]. However, de- 
+spite this global heterochromatin reorganization, SETDB1- 
+CRISPRi hNPCs remained viable, proliferative, and express 
+appropriate levels of NPC marker genes, suggesting that the 
+presence of H3K9me3 at TEs is not critical for maintaining 
+somatic cell identity and viability, at least under the experi- 
+mental conditions in this study. 
+L1s are the only autonomously mobilizing family of TEs 
+in humans [ 61 ] and can impact genome stability via several 
+mechanisms, including new somatic retrotransposition events 
+and alterations of transcriptional networks where transcrip- 
+tionally active L1s may impact the genome both in cis and 
+trans [ 21 , 62 –66 ]. L1s are therefore mostly transcriptionally 
+silenced in somatic human cells. Our data demonstrate that 
+14 
+Karlsson et al. 
+H3K9me3 and SETDB1 play a critical role in this process. 
+In the absence of SETDB1 and H3K9me3, DNA methylation 
+is lost over the promoter of evolutionary young L1s, which 
+correlates with their transcriptional activation. This is in line 
+with a model where the deposition of H3K9me3 at the L1 
+promoter is needed to maintain DNA methylation [ 67 –69 ]. 
+The best understood mechanisms for deposition of H3K9me3 
+on TEs are the KRAB zinc finger proteins (KZNF)-TRIM28 
+system and the HUSH pathway. However, the control of evo- 
+lutionary young L1s by KZFNs remains poorly understood. 
+A previous study found that ancestral L1PA3 elements under- 
+went structural sequence changes that allowed them, and sub- 
+sequent younger L1 families, to escape silencing by ZNF93, 
+which otherwise targets L1s [ 70 ]. Although other KZNFs 
+have been reported to bind to young L1s [ 31 ], these have not 
+been studied in detail and appear not to be active in NPCs, 
+as evidenced by the results of our TRIM28-CRISPRi exper- 
+iments. The HUSH pathway can target evolutionary young 
+L1s [ 56 , 71 ], but recent data from our labs show that this 
+is restricted to transcriptionally active elements that are not 
+covered by DNA methylation at steady-state, as is the case 
+for almost all L1s in hNPCs [ 8 , 9 , 23 ]. Thus, the pathway 
+by which H3K9me3 is maintained over evolutionarily young 
+L1s resulting in their silencing in somatic cells remains to be 
+fully elucidated. However, our data show that the deposition 
+of H3K9me3 at L1s is necessary to maintain DNA methyla- 
+tion over these elements in somatic cells. This likely occurs 
+by counteracting the demethylation activity of TET enzymes. 
+Thus, our data demonstrate that DNMT1 alone is insufficient 
+for maintaining methylation patterns at the promoter of evo- 
+lutionary young L1s. 
+An interesting aspect of our observations is that not all FL- 
+L1s lose DNA methylation and become transcriptionally ac- 
+tive when subjected to SETDB1-CRISPRi. Several mechanisms 
+may underlie this discrepancy. For instance, the L1 integration 
+site likely plays a role, and the presence of nearby highly ac- 
+tive gene promoters or other regulatory elements may influ- 
+ence the epigenetic status and expression of L1s [ 10 , 21 , 72 , 
+73 ]. Additionally, single-nucleotide variants or small deletions 
+in the regulatory regions of individual L1 loci could prevent 
+the recruitment of silencing factors. Consistent with this idea, 
+a previous study demonstrated that the 5 ′ UTR of FL-L1s con- 
+tains a binding site for the YY1 transcription factor, which is 
+involved in establishing DNA methylation on these elements 
+[ 74 ]. Notably, small structural variants that result in the loss 
+of this binding site in some FL-L1s make them more likely to 
+escape DNA methylation-mediated silencing [ 74 ]. Thus, our 
+data further underscore that when analyzing the epigenetic 
+control of L1s, it is insufficient to investigate expression at the 
+family level; rather, approaches that allow single-locus resolu- 
+tion are needed. 
+The loss of H3K9me3 and heterochromatin is a hallmark 
+of aging [ 75 ]. Experiments conducted across diverse organ- 
+isms and tissues have provided evidence of age-related het- 
+erochromatin loss and there is a gradual loss of H3K9me3 
+during the aging process in human model systems [ 76 –79 ]. 
+While our H3K9me3 deficient hNPCs have obvious limita- 
+tions as a model for human brain ageing, our results show that 
+a key event following the loss of H3K9me3 maintenance is 
+the transcriptional activation of L1s. In line with this, a num- 
+ber of recent studies have shown that increased L1 expres- 
+sion correlates with senescence and other age-related cellu- 
+lar phenotypes, and suggest that aberrant transcription of L1s 
+may be associated with ageing and related disease processes 
+[ 80 –84 ]. 
+The transcriptional activation of L1s is likely to have con- 
+sequences, as evolutionarily young, intact L1 elements have 
+the potential to retrotranspose and thus can cause deleteri- 
+ous mutations and structural variants [ 11 , 85 –88 ]. In addi- 
+tion, several recent studies have shown that L1 transcription 
+itself can affect multiple cellular pathways both in cis and in 
+trans . For example, we have recently shown that when DNA 
+methylation is experimentally removed in human NPCs, tran- 
+scriptionally activated L1 elements act as alternative promot- 
+ers, affecting the expression levels of many protein-coding 
+genes [ 8 , 21 ]. These observations suggest that the aberrant 
+activation of L1s could lead to widespread dysregulation of 
+gene regulatory networks. In line with this, we observed in 
+the current study that genes located in proximity of full- 
+length L1HS-L1PA3 are upregulated upon SETDB1-CRISPRi 
+( Supplementary Fig. S9 A). This supports the idea that L1 el- 
+ements regulated by H3K9me3 in hNPCs can have a regula- 
+tory effect on nearby gene expression. Furthermore, L1 tran- 
+scripts and L1-derived peptides can be sensed by the cellu- 
+lar machinery to trigger an inflammatory response. For exam- 
+ple, L1 expression has been reported to be increased in senes- 
+cent cells and to activate an interferon response [ 81 , 82 , 89 , 
+90 ]. Thus, transcriptional activation by L1s in aged cells, as 
+a consequence of H3K9me3 loss, may contribute to the age- 
+ing process via multiple mechanisms. However, we did not 
+observe an interferon response in SETDB1-CRISPRi hNPCs, 
+which may be explained by the cell type used in this study 
+( Supplementary Fig. S9 B). 
+In conclusion, our results provide a unique insight into the 
+consequences of loss of H3K9me3 in human somatic cells. 
+SETDB1-mediated H3K9me3 is not required to maintain cel- 
+lular identity and viability, but rather provides a critical mech- 
+anism to repress evolutionarily young L1 elements. 
+A c kno wledg ements 
+We would like to thank S. Henikoff for providing reagents 
+and U. Jarl, for technical assistance. We acknowledge Clini- 
+cal Genomics Lund, SciLifeLab, and Center for Translational 
+Genomics (CTG) Lund University for providing expertise and 
+service with sequencing and analysis. We are grateful to all 
+members of the Jakobsson laboratory. 
+Author contributions : Design and interpretation: All au- 
+thors. Conceptualization: O.K., N.P., and J .J . Experimental re- 
+search: O.K., A.A., V.H., P.J ., and J .G.J . Bioinformatics: N.P. 
+and R.G. Writing – original draft: O.K., N.P., and J .J . Writing 
+– review and editing: All authors. 
+Supplementary data 
+Supplementary data is available at NAR online. 
+Conflict of interest 
+None declared. 
+Funding 
+This work was supported by grants from the Swedish 
+Research Council (2022-00673 to J .J . and 2021-03494 
+to C.H.D.), the Swedish Brain Foundation (FO2023-0232 
+SETDB1-mediated H3K9me3 controls L1s 
+15 
+to J .J .), Cancerfonden (222185 to J .J .), Barncancerfonden 
+(PR2023-0099to J .J .), the Swedish Society for Medical Re- 
+search (S19-0100 to C.H.D.), Olle Engqvists stiftelse (218- 
+0090 to J .J .), and the Swedish Government Initiative for 
+Strategic Research Areas (MultiPark & StemTherapy). This 
+project has been made possible in part by grant 2023-331773 
+to C.H.D. from the Chan Zuckerberg Initiative DAF, an 
+advised fund of the Silicon Valley Community Foundation. 
+Funding to pay the Open Access publication charges for this 
+article was provided by the Swedish research council. 
+Data availability 
+All data needed to evaluate the
+
+conclusions in the 
+paper are present in the paper and/or the Supple- 
+mentary Materials. The sequencing data presented in 
+this study has been deposited at the GEO superseries 
+GSE292899. Original code has been deposited at GitHub 
+and is publicly available at git@github.com:Molecular- 
+Neurogenetics/SETDB1_Karlsson_2025.git 
+and 
+https: 
+// doi.org/ 10.5281/ zenodo.18361730 . 
+References 
+1. Lander ES, Linton LM, Birren B et al. Initial sequencing and 
+analysis of the human genome. Nature 2001;409:860–921.
+2. de Koning AP, Gu W, Castoe TA et al. Repetitive elements may 
+comprise over two-thirds of the human genome. PLoS Genet 
+2011;7:e1002384. https:// doi.org/ 10.1371/ journal.pgen.1002384 
+3. Nurk S, Koren S, Rhie A et al. The complete sequence of a human 
+genome. Science 2022;376:44–53. 
+https:// doi.org/ 10.1126/ science.abj6987 
+4. Hoyt SJ, Storer JM, Hartley GA et al. From telomere to telomere: 
+the transcriptional and epigenetic state of human repeat elements. 
+Science 2022;376:eabk3112. 
+https:// doi.org/ 10.1126/ science.abk3112 
+5. Payer LM, Burns KH. Transposable elements in human genetic 
+disease. Nat Rev Genet 2019;20:760–72. 
+https:// doi.org/ 10.1038/ s41576- 019- 0165- 8 
+6. Deniz O, Frost JM, Branco MR. Regulation of transposable 
+elements by DNA modifications. Nat Rev Genet 2019;20:417–31. 
+https:// doi.org/ 10.1038/ s41576- 019- 0106- 6 
+7. Y oder JA, W alsh CP, Bestor TH. Cytosine methylation and the 
+ecology of intragenomic parasites. Trends Genet 1997;13:335–40. 
+https:// doi.org/ 10.1016/ S0168- 9525(97)01181- 5 
+8. Jonsson ME, Ludvik Brattas P, Gustafsson C et al. Activation of 
+neuronal genes via LINE-1 elements upon global DNA 
+demethylation in human neural progenitors. Nat Commun 
+2019;10:3182. https:// doi.org/ 10.1038/ s41467- 019- 11150- 8 
+9. Sanchez-Luque FJ, Kempen M-JHC, Gerdes P et al. LINE-1 
+evasion of epigenetic repression in humans. Mol Cell 
+2019;75:590–604. https:// doi.org/ 10.1016/ j.molcel.2019.05.024 
+10. Lanciano S, Philippe C, Sarkar A et al. Locus-level L1 DNA 
+methylation profiling reveals the epigenetic and transcriptional 
+interplay between L1s and their integration sites. Cell Genomics 
+2024;4:100498. https:// doi.org/ 10.1016/ j.xgen.2024.100498 
+11. Beck CR, Garcia-Perez JL, Badge RM et al. LINE-1 elements in 
+structural variation and disease. Annu Rev Genom Hum Genet 
+2011;12:187–215. 
+https:// doi.org/ 10.1146/ annurev- genom- 082509- 141802 
+12. Feng Q, Moran JV, Kazazian HH et al. Human L1 
+retrotransposon encodes a conserved endonuclease required for 
+retrotransposition. Cell 1996;87:905–16. 
+https:// doi.org/ 10.1016/ S0092- 8674(00)81997- 2 
+13. Swergold GD. Identification, characterization, and cell specificity 
+of a human LINE-1 promoter. Mol Cell Biol 1990;10:6718–29.
+14. Mathias SL, Scott AF, Kazazian HH et al. Reverse transcriptase 
+encoded by a human transposable element. Science 
+1991;254:1808–10. https:// doi.org/ 10.1126/ science.1722352 
+15. Khazina E, Weichenrieder O. Human LINE-1 retrotransposition 
+requires a metastable coiled coil and a positively charged 
+N-terminus in L1ORF1p. eLife 2018;7:e34960. 
+https:// doi.org/ 10.7554/ eLife.34960 
+16. Khan H, Smit A, Boissinot S. Molecular evolution and tempo of 
+amplification of human LINE-1 retrotransposons since the origin 
+of primates. Genome Res 2006;16:78–87. 
+https:// doi.org/ 10.1101/ gr.4001406 
+17. Beck CR, Collier P, Macfarlane C et al. LINE-1 retrotransposition 
+activity in human genomes. Cell 2010;141:1159–70. 
+https:// doi.org/ 10.1016/ j.cell.2010.05.021 
+18. Brouha B, Schustak J, Badge RM et al. Hot L1s account for the 
+bulk of retrotransposition in the human population. Proc Natl 
+Acad Sci USA 2003;100:5280–5. 
+https:// doi.org/ 10.1073/ pnas.0831042100 
+19. Denli AM, Narvaiza I, Kerman BE et al. Primate-specific ORF0 
+contributes to retrotransposon-mediated diversity. Cell 
+2015;163:583–93. https:// doi.org/ 10.1016/ j.cell.2015.09.025 
+20. Speek M. Antisense promoter of human L1 retrotransposon drives 
+transcription of adjacent cellular genes. Mol Cell Biol 
+2001;21:1973–85. 
+https:// doi.org/ 10.1128/ MCB.21.6.1973-1985.2001 
+21. Garza R, Atacho DAM, Adami A et al. LINE-1 retrotransposons 
+drive human neuronal transcriptome complexity and functional 
+diversification. Sci Adv 2023;9:eadh9543. 
+https:// doi.org/ 10.1126/ sciadv.adh9543 
+22. Deniz Ö, Frost JM, Branco MR. Regulation of transposable 
+elements by DNA modifications. Nat Rev Genet 2019;20:417–31. 
+https:// doi.org/ 10.1038/ s41576- 019- 0106- 6 
+23. Pandiloski N, Horváth V, Karlsson O et al. DNA methylation 
+governs the sensitivity of repeats to restriction by the 
+HUSH-MORC2 corepressor. Nat Commun 2024;15:7534. 
+https:// doi.org/ 10.1038/ s41467- 024- 50765- 4 
+24. Coufal NG, Garcia-Perez JL, Peng GE et al. L1 retrotransposition 
+in human neural progenitor cells. Nature 2009;460:1127–31. 
+https:// doi.org/ 10.1038/ nature08248 
+25. Macia A, Widmann TJ, Heras SR et al. Engineered LINE-1 
+retrotransposition in nondividing human neurons. 
+Genome Res 2017;27:335–48. 
+https:// doi.org/ 10.1101/ gr.206805.116 
+26. Tailor J, Kittappa R, Leto K et al. Stem cells expanded from the 
+human embryonic hindbrain stably retain regional specification 
+and high neurogenic potency. J Neurosci 2013;33:12407–22. 
+https:// doi.org/ 10.1523/ JNEUROSCI.0130-13.2013 
+27. Greenberg MVC, Bourc’his D. The diverse roles of DNA 
+methylation in mammalian development and disease. Nat Rev Mol 
+Cell Biol 2019;20:590–607. 
+https:// doi.org/ 10.1038/ s41580- 019- 0159- 6 
+28. Horváth V, Garza R, Jönsson ME et al. Mini-heterochromatin 
+domains constrain the cis-regulatory impact of SVA transposons in 
+human brain development and disease. Nat Struct 
+Mol Biol 2024;31:1543–56, 
+https:// doi.org/ 10.1038/ s41594- 024- 01320- 8 
+29. Rowe HM, Jakobsson J, Mesnard D et al. KAP1 controls 
+endogenous retroviruses in embryonic stem cells. Nature 
+2010;463:237–40. https:// doi.org/ 10.1038/ nature08674 
+30. Ecco G, Imbeault M, Trono D. KRAB zinc finger proteins. 
+Development 2017;144:2719–29. 
+https:// doi.org/ 10.1242/ dev.132605 
+31. Imbeault M, Helleboid P-Y, Trono D. KRAB zinc-finger proteins 
+contribute to the evolution of gene regulatory networks. Nature 
+2017;543:550–4. https:// doi.org/ 10.1038/ nature21683 
+32. Falk A, Koch P, Kesavan J et al. Capture of neuroepithelial-like 
+stem cells from pluripotent stem cells provides a versatile system 
+for in vitro production of human neurons. PLoS One 
+2012;7:e29597. https:// doi.org/ 10.1371/ journal.pone.0029597 
+16 
+Karlsson et al. 
+33. Skene PJ, Henikoff S. An efficient targeted nuclease strategy for 
+high-resolution mapping of DNA binding sites. eLife 2017;6. 
+https:// doi.org/ 10.7554/ eLife.21856 
+34. Li H, Handsaker B, Wysoker A et al. The Sequence 
+Alignment/Map format and SAMtools. Bioinformatics 
+2009;25:2078–9. https:// doi.org/ 10.1093/ bioinformatics/ btp352 
+35. Ramirez F, Dundar F, Diehl S et al. deepTools: a flexible platform 
+for exploring deep-sequencing data. Nucleic Acids Res 
+2014;42:W187–91. https:// doi.org/ 10.1093/ nar/ gku365 
+36. Meers MP, Tenenbaum D, Henikoff S. Peak calling by sparse 
+enrichment analysis for CUT&RUN chromatin profiling. 
+Epigenetics Chromatin 2019;12:42. 
+https:// doi.org/ 10.1186/ s13072- 019- 0287- 4 
+37. Zufferey R, Nagy D, Mandel RJ et al. Multiply attenuated 
+lentiviral vector achieves efficient gene delivery in vivo. Nat 
+Biotechnol 1997;15:871–5. https:// doi.org/ 10.1038/ nbt0997-871 
+38. Johansson PA, Adami A, Jakobsson J. CRISPRi-mediated 
+transcriptional silencing in iPSCs for the study of human brain 
+development. STAR Protocols 2022;3:101285. 
+https:// doi.org/ 10.1016/ j.xpro.2022.101285 
+39. Dobin A, Davis CA, Schlesinger F et al. STAR: ultrafast universal 
+RNA-seq aligner. Bioinformatics 2013;29:15–21. 
+https:// doi.org/ 10.1093/ bioinformatics/ bts635 
+40. Liao Y, Smyth GK, Shi W. featureCounts: an efficient general 
+purpose program for assigning sequence reads to genomic features. 
+Bioinformatics 2014;30:923–30. 
+https:// doi.org/ 10.1093/ bioinformatics/ btt656 
+41. Love MI, Huber W, Anders S. Moderated estimation of fold 
+change and dispersion for RNA-seq data with DESeq2. Genome 
+Biol 2014;15:550. https:// doi.org/ 10.1186/ s13059- 014- 0550- 8 
+42. Li H. Minimap2: pairwise alignment for nucleotide sequences. 
+Bioinformatics 2018;34:3094–100. 
+https:// doi.org/ 10.1093/ bioinformatics/ bty191 
+43. Cheetham SW, Kindlova M, Ewing AD. Methylartist: tools for 
+visualizing modified bases from nanopore sequence data. 
+Bioinformatics 2022;38:3109–12. 
+https:// doi.org/ 10.1093/ bioinformatics/ btac292 
+44. Kato M, Takemoto K, Shinkai Y. A somatic role for the histone 
+methyltransferase Setdb1 in endogenous retrovirus silencing. Nat 
+Commun 2018;9:1683. 
+https:// doi.org/ 10.1038/ s41467- 018- 04132- 9 
+45. Sun D, Zhu Y, Peng W et al. SETDB1 regulates short interspersed 
+nuclear elements and chromatin loop organization in mouse 
+neural precursor cells. Genome Biol 2024;25:175. 
+https:// doi.org/ 10.1186/ s13059- 024- 03327- 2 
+46. Schultz DC, Ayyanathan K, Negorev D et al.3rd. SETDB1: a novel 
+KAP-1-associated histone H3, lysine 9-specific methyltransferase 
+that contributes to HP1-mediated silencing of euchromatic genes 
+by KRAB zinc-finger proteins. Genes Dev 2002;16, 919–32. 
+47. Thakore PI, D’Ippolito AM, Song L et al. Highly specific 
+epigenome editing by CRISPR-Cas9 repressors for silencing of 
+distal regulatory elements. Nat Methods 2015;12:1143–9. 
+https:// doi.org/ 10.1038/ nmeth.3630 
+48. Tan SL, Nishi M, Ohtsuka T et al. Essential roles of the histone 
+methyltransferase ESET in the epigenetic control of neural 
+progenitor cells during development. Development 
+2012;139:3806–16. https:// doi.org/ 10.1242/ dev.082198 
+49. Padeken J, Methot SP, Gasser SM. Establishment of 
+H3K9-methylated heterochromatin and its functions in tissue 
+differentiation and maintenance. Nat Rev Mol Cell Biol 
+2022;23:623–40. https:// doi.org/ 10.1038/ s41580- 022- 00483- w 
+50. Brattas PL, Jonsson ME, Fasching L et al. TRIM28 controls a gene 
+regulatory network based on endogenous retroviruses in human 
+neural progenitor cells. Cell Rep 2017;18:1–11. 
+https:// doi.org/ 10.1016/ j.celrep.2016.12.010 
+51. Turelli P, Playfoot C, Grun D et al. Primate-restricted KRAB zinc 
+finger proteins and target retrotransposons control gene 
+expression in human neurons. Sci Adv 2020;6:eaba3200. 
+https:// doi.org/ 10.1126/ sciadv.aba3200 
+52. Turelli P, Castro-Diaz N, Marzetta F et al. Interplay of TRIM28 
+and DNA methylation in controlling human endogenous 
+retroelements. Genome Res 2014;24:1260–70. 
+https:// doi.org/ 10.1101/ gr.172833.114 
+53. Ecco G, Cassano M, Kauzlaric A et al. Transposable elements and 
+their KRAB-ZFP controllers regulate gene expression in adult 
+tissues. Dev Cell 2016;36:611–23. 
+https:// doi.org/ 10.1016/ j.devcel.2016.02.024 
+54. Douse CH, Tchasovnikarova IA, Timms RT et al. TASOR is a 
+pseudo-PARP that directs HUSH complex assembly and epigenetic 
+transposon control. Nat Commun 2020;11:4940. 
+https:// doi.org/ 10.1038/ s41467- 020- 18761- 6 
+55. Liu N, Lee CH, Swigut T et al. Selective silencing of euchromatic 
+L1s revealed by genome-wide screens for L1 regulators. Nature 
+2018;553:228–32. https:// doi.org/ 10.1038/ nature25179 
+56. Robbez-Masson L, Tie CHC, Conde L et al. The HUSH complex 
+cooperates with TRIM28 to repress young retrotransposons and 
+new genes. Genome Res 2018;28:836–45. 
+https:// doi.org/ 10.1101/ gr.228171.117 
+57. Wu X, Zhang Y. TET-mediated active DNA demethylation: 
+mechanism, function and beyond. Nat Rev Genet 
+2017;18:517–34. https:// doi.org/ 10.1038/ nrg.2017.33 
+58. Montavon T, Shukeir N, Erikson G et al. Complete loss of H3K9 
+methylation dissolves mouse heterochromatin organization. Nat 
+Commun 2021;12:4359. 
+https:// doi.org/ 10.1038/ s41467- 021- 24532- 8 
+59. Park J-W, Kim JJ, Bae Y-S. CK2 downregulation induces 
+senescence-associated heterochromatic foci formation through 
+activating SUV39h1 and inactivating G9a. Biochem Biophys Res 
+Commun 2018;505:67–73. 
+https:// doi.org/ 10.1016/ j.bbrc.2018.09.099 
+60. Tsurumi A, Li WX. Global heterochromatin loss: a unifying theory 
+of aging? Epigenetics 2012;7:680–8. 
+https:// doi.org/ 10.4161/ epi.20540 
+61. Mills RE, Bennett EA, Iskow RC et al. Which transposable 
+elements are active in the human genome? Trends Genet 
+2007;23:183–91. https:// doi.org/ 10.1016/ j.tig.2007.02.006 
+62. Jonsson ME, Garza R, Johansson PA et al. Transposable elements: 
+a common feature of neurodevelopmental and neurodegenerative 
+disorders. Trends Genet 2020;36:610–23. 
+https:// doi.org/ 10.1016/ j.tig.2020.05.004 
+63. Percharde M, Lin C-J, Yin Y et al. A LINE1-nucleolin partnership 
+regulates early development and ESC identity. Cell 
+2018;174:391–405. https:// doi.org/ 10.1016/ j.cell.2018.05.043 
+64. Jachowicz JW, Bing X, Pontabry J et al. LINE-1 activation after 
+fertilization regulates global chromatin accessibility in the early 
+mouse embryo. Nat Genet 2017;49:1502–10. 
+https:// doi.org/ 10.1038/ ng.3945 
+65. Toda T, Bedrosian TA, Schafer ST et al. Long interspersed nuclear 
+elements safeguard neural progenitors from precocious 
+differentiation. Cell Rep 2024;43:113774. 
+https:// doi.org/ 10.1016/ j.celrep.2024.113774 
+66. Mangoni D, Simi A, Lau P et al. LINE-1 regulates cortical 
+development by acting as long non-coding RNAs. 
+Nat Commun 2023;14:4974. 
+https:// doi.org/ 10.1038/ s41467- 023- 40743- 7 
+67. Ren W, Fan H, Grimm SA et al. Direct readout of heterochromatic 
+H3K9me3 regulates DNMT1-mediated maintenance DNA 
+methylation. Proc Natl Acad Sci USA 2020;117:18439–47. 
+https:// doi.org/ 10.1073/ pnas.2009316117 
+68. Du J, Johnson LM, Jacobsen SE et al. DNA methylation pathways 
+and their crosstalk with histone methylation. Nat Rev Mol Cell 
+Biol 2015;16:519–32. https:// doi.org/ 10.1038/ nrm4043 
+69. Liu X, Gao Q, Li P et al. UHRF1 targets DNMT1 for DNA 
+methylation through cooperative binding of hemi-methylated 
+DNA and methylated H3K9. Nat Commun 2013;4:1563. 
+https:// doi.org/ 10.1038/ ncomms2562 
+70. Jacobs FM, Greenberg D, Nguyen N et al. An evolutionary arms 
+race between KRAB zinc-finger genes ZNF91/93 and SVA/L1 
+SETDB1-mediated H3K9me3 controls L1s 
+17 
+retrotransposons. Nature 2014;516:242–5. 
+https:// doi.org/ 10.1038/ nature13760 
+71. Müller I, Moroni AS, Shlyueva D et al. MPP8 is essential for 
+sustaining self-renewal of ground-state pluripotent stem cells. Nat 
+Commun 2021;12:3034.
+72. Adami A, Garza R, Gerdes P et al. LINE-1 retrotransposons 
+mediate cis-acting transcriptional control in human pluripotent 
+stem cells and regulate early brain development. Cell Genomics 
+2025;5:100979. https:// doi.org/ 10.1016/ j.xgen.2025.100979 
+73. Philippe C, Vargas-Landin DB, Doucet AJ et al. Activation of 
+individual L1 retrotransposon instances is restricted to cell-type 
+dependent permissive loci. eLife 2016;5. 
+https:// doi.org/ 10.7554/ eLife.13926 
+74. Sanchez-Luque FJ, Kempen MHC, Gerdes P et al. LINE-1 evasion 
+of epigenetic repression in humans. Mol Cell 2019;75:590–604. 
+https:// doi.org/ 10.1016/ j.molcel.2019.05.024 
+75. Lopez-Otin C, Blasco MA, Partridge L et al. Hallmarks of aging: 
+an expanding universe. Cell 2023;186:243–78. 
+https:// doi.org/ 10.1016/ j.cell.2022.11.001 
+76. Lee JH, Kim EW, Croteau DL et al. Heterochromatin: an 
+epigenetic point of view in aging. Exp Mol Med 2020;52:1466–74. 
+https:// doi.org/ 10.1038/ s12276- 020- 00497- 4 
+77. Liu GH, Barkho BZ, Ruiz S et al. Recapitulation of premature 
+ageing with iPSCs from Hutchinson-Gilford progeria syndrome. 
+Nature 2011;472:221–5. https:// doi.org/ 10.1038/ nature09879 
+78. Miller JD, Ganat YM, Kishinevsky S et al. Human iPSC-based 
+modeling of late-onset disease via progerin-induced aging. Cell 
+Stem Cell 2013;13:691–705. 
+https:// doi.org/ 10.1016/ j.stem.2013.11.006 
+79. Zhang W, Li J, Suzuki K et al. Aging stem cells. A Werner 
+syndrome stem cell model unveils heterochromatin alterations as a 
+driver of human aging. Science 2015;348:1160–3. 
+https:// doi.org/ 10.1126/ science.aaa1356 
+80. Della Valle F, Reddy P, Yamamoto M et al. LINE-1 RNA causes 
+heterochromatin erosion and is a target for amelioration of 
+senescent phenotypes in progeroid syndromes. Sci Transl Med 
+2022;14:eabl6057. https:// doi.org/ 10.1126/ scitranslmed.abl6057 
+81. De Cecco M, Ito T, Petrashen AP et al. L1 drives IFN in senescent 
+cells and promotes age-associated inflammation. Nature 
+2019;566:73–8. https:// doi.org/ 10.1038/ s41586- 018- 0784- 9 
+82. Simon M, Van Meter M, Ablaeva J et al. LINE1 derepression in 
+aged wild-type and SIRT6-deficient mice drives inflammation. Cell 
+Metab 2019;29:871–85. 
+https:// doi.org/ 10.1016/ j.cmet.2019.02.014 
+83. Tang H, Yang J, Xu J et al. The transcription factor PAX5 
+activates human LINE1 retrotransposons to induce cellular 
+senescence. EMBO Rep 2024;25:3263–75. 
+https:// doi.org/ 10.1038/ s44319- 024- 00176- 9 
+84. Ardeljan D, Steranka JP, Liu C et al. Cell fitness screens reveal a 
+conflict between LINE-1 retrotransposition and DNA replication. 
+Nat Struct Mol Biol 2020;27:168–78. 
+https:// doi.org/ 10.1038/ s41594- 020- 0372- 1 
+85. Ewing AD, Kazazian HH., Jr. High-throughput sequencing reveals 
+extensive variation in human-specific L1 content in individual 
+human genomes. Genome Res 2010;20:1262–70. 
+https:// doi.org/ 10.1101/ gr.106419.110 
+86. Gilbert N, Lutz-Prigge S, Moran JV. Genomic deletions created 
+upon LINE-1 retrotransposition. Cell 2002;110:315–25. 
+https:// doi.org/ 10.1016/ S0092- 8674(02)00828- 0 
+87. Gilbert N, Lutz S, Morrish TA et al. Multiple fates of L1 
+retrotransposition intermediates in cultured human cells. Mol Cell 
+Biol 2005;25:7780–95. 
+https:// doi.org/ 10.1128/ MCB.25.17.7780-7795.2005 
+88. Symer DE, Connelly C, Szak ST et al. Human L1 
+retrotransposition is associated with genetic instability in vivo . 
+Cell 2002;110:327–38. 
+https:// doi.org/ 10.1016/ S0092- 8674(02)00839- 5 
+89. Tunbak H, Enriquez-Gasca R, Tie CHC et al. The HUSH complex 
+is a gatekeeper of type I interferon through epigenetic regulation 
+of LINE-1s. Nat Commun 2020;11:5387. 
+https:// doi.org/ 10.1038/ s41467- 020- 19170- 5 
+90. Buttler CA, Ramirez D, Dowell RD et al. An intronic LINE-1 
+regulates IFNAR1 expression in human immune cells. Mobile 
+DNA 2023;14:20. https:// doi.org/ 10.1186/ s13100- 023- 00308- 3 
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License ( https:// creativecommons.org/ licenses/ by/ 4.0/ ), which permits unrestricted reuse, 
+distribution, and reproduction in any medium, provided the original work is properly cited.

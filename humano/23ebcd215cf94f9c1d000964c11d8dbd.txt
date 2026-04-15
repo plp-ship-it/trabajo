@@ -1,0 +1,1486 @@
+Introduction: Nocardia rubra cell wall skeleton (Nr-CWS) demonstrates a
+signiﬁcant therapeutic effect against human papillomavirus (HPV) infection, but
+its precise immunomodulatory mechanisms warrant further investigation. This
+study investigates how Nr-CWS inﬂuences tumor-associated macrophages
+(TAMs) immune functions through macrophage receptor with collagenous
+structure (MARCO)-mediated mechanisms.
+
+Methods: Cervical tissues of three cervical intraepithelial neoplasia (CIN) patients
+receiving Nr-CWS monotherapy and HPV infection turning negative were
+collected before and after treatment, and gene microarray analysis was
+performed. MARCO expression and immune cell inﬁltration were further
+analyzed using transcriptomic data from 33 tumor types in The Cancer
+Genome Atlas (TCGA). In vitro, TAMs derived from Human Monocytic Leukemia
+Cell Line 1 (THP-1) cells were treated with Nr-CWS, and changes in MARCO
+expression, cytoskeletal rearrangement, pseudopod length, lysosome count, and
+cytokine secretion were assessed. MARCO inhibition experiments were
+also performed.
+
+Results: Gene microarray revealed signiﬁcant upregulation of MARCO, a key
+phagosome pathway gene, post-treatment. TCGA analysis indicated that MARCO
+expression is signiﬁcantly altered in most tumor tissues compared to normal
+tissues and is associated with the inﬁltration of multiple immune cell types, with a
+particularly strong correlation to macrophage abundance. Histologically, Nr-CWS
+increased MARCO⁺ macrophages in cervical tissues. In vitro, Nr-CWS elevated
+MARCO expression in TAMs, enhanced pseudopod formation, lysosome number,
+cytoskeleton reorganization, and promoted proinﬂammatory cytokine secretion.
+Conversely, MARCO inhibition suppressed these immune functions.
+Frontiers in Immunology
+frontiersin.org
+01
+OPEN ACCESS
+EDITED BY
+Yu-Chan Chang,
+National Yang Ming Chiao Tung
+University, Taiwan
+REVIEWED BY
+Suman Kundu,
+University of Tennessee Health Science
+Center (UTHSC), United States
+Vı´ctor Adria´ n Corte´ s-Morales,
+Mexican Social Security Institute, Mexico
+*CORRESPONDENCE
+Lei Zhang
+zhang13903210199@163.com
+Suxia Shao
+16600704@hebmu.edu.cn
+†These authors have contributed
+equally to this work and share
+ﬁrst authorship
+RECEIVED 14 April 2025
+REVISED 26 January 2026
+ACCEPTED 28 January 2026
+PUBLISHED 12 February 2026
+CITATION
+Zhou G, Chen W, Dong X, Guo Q, Bai X,
+Zheng Y, Zhang L and Shao S (2026)
+Nocardia rubra cell wall skeleton-
+induced MARCO expression:
+implications for improved phagocytosis
+and cytokine secretion in tumor-
+associated macrophages.
+Front. Immunol. 17:1611476.
+doi: 10.3389/fimmu.2026.1611476
+COPYRIGHT
+Zheng, Zhang and Shao. This is an open-
+access article distributed under the terms
+of the Creative Commons Attribution
+License (CC BY). The use, distribution or
+reproduction in other forums is
+permitted, provided the original
+author(s) and the copyright owner(s) are
+credited and that the original publication
+in this journal is cited, in accordance
+with accepted academic practice. No
+use, distribution or reproduction is
+permitted which does not comply with
+these terms.
+TYPE Original Research
+PUBLISHED 12 February 2026
+DOI 10.3389/fimmu.2026.1611476
+
+Discussion: The study demonstrates that Nr-CWS enhances TAM anti-tumor
+immune function via MARCO upregulation, leading to improved phagocytic activity
+and proinﬂammatory response. These ﬁndings align with genomic and cellular
+evidence, suggesting MARCO as a key mediator in Nr-CWS-induced macrophage
+reprogramming, with implications for HPV-related neoplasia immunotherapy.
+KEYWORDS
+cervical intraepithelial neoplasia, immune function, macrophage receptors with
+collagen structure, nocardia rubra cell wall skeleton, tumor-associated macrophages
+1 Introduction
+Cervical cancer, which predominantly originates from the
+cervical transformation zone, represents a highly prevalent
+malignancy within the female reproductive system. For the
+development of cervical precancerous lesions and subsequent
+cancer, the primary causative factor is the persistent infection
+with high-risk human papillomavirus (HR-HPV) (1, 2).
+Consequently, the effective management of HR-HPV infection,
+supported by precise molecular diagnostics (3), is crucial for
+cervical cancer prevention and treatment. The progression from
+HPV infection to malignancy depends on both viral persistence and
+the evasion of host innate and adaptive immunity, which allows the
+virus to establish a persistent, carcinogenic infection (4). Further
+improvements in the management of cervical cancer can be
+expected with the advancement of immunotherapy, which aims to
+counteract these immune escape mechanisms and enhance the
+host’s ability to clear HPV-infected and transformed cells (5, 6).
+Given that the tumor microenvironment, particularly the immune-
+suppressive milieu, is a critical barrier to effective antiviral and anti-
+tumor immunity in CIN, agents capable of modulating local
+immunity have garnered signiﬁcant interest.
+Nocardia rubra cell wall skeleton (Nr-CWS) is recognized as a
+non-speciﬁc immunomodulator with signiﬁcant clinical efﬁcacy in
+eradicating human papillomavirus (HPV) infection (7–12). Recent
+research has demonstrated its ability to enhance immune cell
+recruitment, activation, maturation, and differentiation within the
+tumor microenvironment of patients with cervical intraepithelial
+neoplasia (CIN) (8, 13–15). Furthermore, Nr-CWS has been shown
+to bolster local immune responses in the cervix, leading to the
+elimination of HPV infection in cervical tissues and the reversal of
+low-grade cervical cytological abnormalities. Its proposed
+mechanism involves the activation of pattern recognition
+receptors on innate immune cells, initiating a cascade that
+promotes a more effective anti-viral and anti-neoplastic
+immune state.
+Macrophage receptor with collagenous structure (MARCO), a
+macrophage receptor in the class A scavenger family (16, 17), plays
+a dual role in pathogen clearance and reprogramming of tumor-
+associated macrophages (TAMs) in cancer immune modulation. Its
+association with immune-related functions of TAMs, including
+phagocytosis, cytokine secretion, and cellular repolarization, has
+been established. Research indicates that MARCO plays a
+signiﬁcant role in inﬂammation, facilitating macrophage
+activation, cytokine production, and contributing to the
+pathogenesis of various inﬂammatory conditions (18, 19).
+Furthermore, MARCO has been shown to facilitate phagocytosis
+of immune cells, enhance host defense mechanisms against various
+pathogens, and contribute to crucial cellular processes such as
+adhesion, migration, and antigen uptake (20, 21). Despite these
+well-characterized functions in infection and cancer immunology,
+limited and inconclusive research has been conducted on the
+speciﬁc role of MARCO in the context of HPV infection and the
+development of cervical precancerous lesions, particularly regarding
+how Nr-CWS might interact with or inﬂuence its expression
+and function.
+In the present study, we ﬁrst identiﬁed a dynamic increase in
+MARCO expression following Nr-CWS treatment, a ﬁnding that
+stands in contrast to previous reports of elevated MARCO levels in
+tumor tissues compared to adjacent normal tissues (22)-a static
+pathological comparison. This highlights the novelty of our study in
+capturing treatment-induced dynamic changes. And this
+upregulation was associated with enrichment in several functional
+categories, such as pattern recognition receptor activity, endocytic
+vesicle membrane, and cytoskeleton components. And it is closely
+related to the enrichment of phagosome signaling pathway. We
+believe this drug-induced upregulation of MARCO may represent a
+novel immunomodulatory mechanism of Nr-CWS, distinct from its
+constitutive overexpression in established cancers. Therefore, we
+focused on MARCO in subsequent investigations. This research
+examined the regulatory effect of Nr-CWS on MARCO expression
+in macrophages, both in vivo and in vitro. Furthermore, it
+elucidated the function and underlying mechanism of MARCO in
+the management of HPV infection with Nr-CWS.
+2 Results
+2.1 Effect of Nr-CWS against persistent
+HPV infection
+The efﬁcacy of Nr-CWS was assessed in a cohort of 84 recruited
+patients aged between 21 and 65 years old since 2019. Table 1
+summarizes HPV clearance outcomes stratiﬁed by patient age and
+pathological features. Among the total cohort of 84 patients, the rate
+Zhou et al.
+10.3389/ﬁmmu.2026.1611476
+Frontiers in Immunology
+frontiersin.org
+02
+of complete HPV clearance was higher in the 21–40 years group
+(55.9%, 33/59) than in the 41–65 years group (32.0%, 8/25), while
+the rates of partial clearance were similar between the two groups
+(8.5% vs. 8.0%). The Nr-CWS effective rate was substantially higher
+in patients aged 21–40 years (64.4%, 38/59) compared to those aged
+41–65 years (40.0%, 10/25). When stratiﬁed by pathological
+diagnosis, patients with CIN I (n=56) exhibited a complete
+clearance rate of 51.8% (29/56), whereas those with CIN II–III
+(n=28) showed a somewhat lower rate of 42.9% (12/28). The CIN
+II–III group had a higher rate of partial clearance (14.3%, 4/28) than
+the CIN I group (5.4%, 3/56). Notably, in contrast to the age-based
+analysis, the Nr-CWS effective rate was identical between the two
+pathology groups.
+Figure 1 illustrates the structural alterations observed in cervical
+tissues, characterized by enhanced inﬂammatory cell inﬁltration and
+basal layer disruption scores. The cervical tissue predominantly
+consists of epithelium and lamina propria. In the normal control
+group, the basal layer cells are arranged neatly, and the cells in the
+lamina propria are sparsely distributed (Figure 1A). In contrast, the
+CIN group exhibited a notable elevation in cell count and disruption
+of arrangement in the basal layer, as well as an increased presence of
+inﬂammatory cells in the lamina propria (Figure 1B). Notably, after
+90 days of Nr-CWS treatment, the cervical tissue exhibited a tendency
+towards normalization (Figure 1C).
+2.2 Gene microarray analysis of Nr-CWS-
+induced pathways in cervical tissue –
+highlighting phagocytosis involving
+MARCO
+Our investigation, utilizing microarray gene expression
+proﬁling, identiﬁed that Nr-CWS induces a distinct immune-
+related transcriptional signature in cervical tissues. A heatmap
+and a volcano plot were presented in Figures 2A and 2B,
+respectively. Differential analysis revealed that 215 messenger
+RNAs (mRNAs) exhibited differential expression in cervical
+tissues of HPV-infected patients following Nr-CWS treatment,
+compared to pre-treatment levels, including 33 up-regulated and
+182 down-regulated genes. Functional enrichment analysis was
+performed on 33 upregulated mRNAs and 182 downregulated
+mRNAs. Upon organizing gene functions in ascending order of
+P-values, it was observed that the differentially expressed genes were
+mainly enriched in immune-related biological processes
+(Figure 2C). Speciﬁcally, the up-regulated genes showed
+signiﬁcant enrichment in pathways such as endocytic vesicle
+membrane, neutrophil degranulation, complement receptor
+activity, among others (Figure 2D), while the down-regulated
+genes were predominantly associated with laminin binding,
+calcium ion binding, extracellular space, calcium channel activity,
+FIGURE 1
+Effect of Nr-CWS on the morphology of cervical tissue structure. The structure of cervical tissues was observed by H&E staining in normal group
+(A), pre-(B) and post-Nr-CWS treatment group (C) [(A–C) scale bars = 100mm]. The enlarged view in the upper right corner highlights the changes in
+inﬂammatory response and basal layer structures in the cervical tissue before and after Nr-CWS treatment.
+TABLE 1 HPV clearance outcomes stratiﬁed by patient characteristics.
+Characteristic
+Total patients, n
+Complete clearance, n (%)
+Partial clearance, n (%)
+No clearance, n (%)
+Age range
+21–40 years
+59
+33 (55.9)
+5 (8.5)
+21 (35.6)
+41–65 years
+25
+8 (32.0)
+2 (8.0)
+15 (60.0)
+Pathological features
+CIN I
+56
+29 (51.8)
+3 (5.4)
+24 (42.9)
+CIN II-III
+28
+12 (42.9)
+4 (14.3)
+12 (42.9)
+Zhou et al.
+10.3389/ﬁmmu.2026.1611476
+Frontiers in Immunology
+frontiersin.org
+03
+and other related pathways (Figure 2E). Notably, as shown in
+Figures 2F, G, we found signiﬁcant changes in phagosome
+signaling pathways that may be implicated in immune cell
+recognition and clearance of pathogens. Among these, particular
+attention was given to the MARCO gene, which is closely related to
+multiple biological processes and signaling pathways associated
+with phagocytosis.
+2.3 Aberrant expression and prognostic
+value of MARCO in various cancers
+First, we evaluated the distribution of MARCO in tumor tissue
+across all The Cancer Genome Atlas (TCGA) cancers in Tumor
+Immune Estimation Resource (TIMER) and found that MARCO
+expression is signiﬁcantly different compared to normal tissues in
+FIGURE 2
+Differentially expressed genes and enriched biological processes in cervical tissues post Nr-CWS treatment. (A, B) Heatmap and volcano plot
+showing the differentially expressed genes between pre- and post-Nr-CWS treatment group. Heatmap (A) showed the top 50 genes with signiﬁcant
+differences between the Nr-CWS treatment group and the control group. The red color represents the upregulated genes, while the blue color
+represents the downregulated. Plotted for each gene are the negative log10 of the p-value and the log2 of the fold change of gene expression in
+volcano plot (B). The colored dots represent genes with a fold change value of −/+ 2 and p value < 0.05, with blue dots representing down-
+regulated genes and red dots representing up-regulated genes. GO (C-E) and KEGG (F, G) enrichment analysis showed a close relationship between
+differential genes and immune-related biological functions (The red box showed the biological processes and signaling pathways enriched by
+MARCO). n = 3.
+Zhou et al.
+10.3389/ﬁmmu.2026.1611476
+Frontiers in Immunology
+frontiersin.org
+04
+the majority of tumors (Figure 3A, P < 0.05). Next, Gene Set Cancer
+Analysis (GSCA) was utilized to examine the association between
+MARCO and clinical outcome, as depicted in Supplementary
+Figures 1–4, elevated MARCO expression was signiﬁcantly
+associated with poorer overall survival (OS) and disease-speciﬁc
+survival (DSS) in kidney renal clear cell carcinoma (KIRC).
+Conversely, elevated MARCO expression was associated with a
+more favorable prognosis in skin cutaneous melanoma (SKCM).
+Although the statistical signiﬁcance did not reach the conventional
+threshold, high expression of MARCO in cervical squamous cell
+carcinoma (CESC) showed a trend toward association with poorer
+prognosis (Figures 3B, C). Our previous research has demonstrated
+FIGURE 3
+Aberrant expression and prognostic value of MARCO and its relationship with tumor immunity. (A) The relative level of MARCO mRNA expression for
+various cancers in TIMER. (B, C) The relationship between MARCO expression and patient prognosis (OS and DSS) in CESC in GSCA. (D, E) The
+associations between MARCO expression and inﬁltration of various TILs in TIMER and TISIDB. (F) The correlations between MARCO and the
+abundances of macrophage in CESC in TISIDB. *P < 0.05, **P < 0.01, ***P < 0.001 vs. normal.
+Zhou et al.
+10.3389/ﬁmmu.2026.1611476
+Frontiers in Immunology
+frontiersin.org
+05
+a signiﬁcant association between MARCO and the functions of
+various immune cells (23). Based on integrated data from the
+TIMER and GSCA databases, we propose that MARCO may
+modulate diverse immune responses, potentially resulting in
+varying tumor outcomes.
+2.4 Association of MARCO with the tumor
+immune microenvironment
+To further validate MARCO’s role in the immune response, we
+probed the connection between MARCO expression and immune
+inﬁltration. TIMER (Figure 3D) and An Integrated Repository
+Portal for Tumor-immune System Interactions (TISIDB)
+(Figure 3E) were used to investigate the link between MARCO
+expression and immune cells in a variety of malignancies. The
+results revealed an association between MARCO expression across
+various tumors and immune cell inﬁltration, notably demonstrating
+a particularly strong association with macrophages. For example,
+Figure 3F and Supplementary Figures 5–9 show that MARCO
+expression was positively correlated with the inﬁltration of
+macrophages in cancers including bladder urothelial carcinoma
+(BLCA), cervical squamous cell carcinoma and endocervical
+adenocarcinoma (CESC), cholangiocarcinoma (CHOL), etc.
+Integrating the data from the two databases and previous studies,
+we conclude that MARCO expression in tumor tissues is closely
+associated with macrophage-related immune response.
+2.5 Nr-CWS treatment resulted in an
+upregulation of MARCO expression in
+cervical tissues
+To verify whether the MARCO expression in cervical tissue
+changes after Nr-CWS treatment, Reverse Transcription
+Quantitative Polymerase Chain Reaction (RT-qPCR) analysis was
+conducted on cervical tissue samples pre- and post-treatment to
+quantify MARCO mRNA levels. A notable upregulation of
+MARCO expression was observed after 30 days of Nr-CWS
+treatment compared to the CIN group, with a more pronounced
+increase after 90 days (Figure 4A, P < 0.05). Immunohistochemical
+staining was conducted on cervical tissue samples pre- and post-
+treatment to verify the protein expression levels of MARCO.
+Consistent results were observed in immunohistochemical
+staining, indicating a signiﬁcant increase in both the number and
+intensity of MARCO-positive cells in cervical tissue following Nr-
+CWS treatment (Figures 4B, C, P < 0.05). These results suggest a
+heightened MARCO expression in patients treated with Nr-CWS.
+Our previous H&E staining results demonstrated that Nr-CWS
+treatment alters inﬂammatory cell inﬁltration. This prompted a key
+FIGURE 4
+Nr-CWS upregulates MARCO expression in cervical tissues. The expression levels of MARCO were detected by RT-qPCR [(A), n = 3] and
+immunohistochemistry [(B, C), n = 5, scale bars = 100mm]. The co-expression of CD68 and MARCO was detected by double-labeling
+immunoﬂuorescence histochemistry pre-and post-Nr-CWS treatment [(D, E), n = 3, scale bars = 50mm]. *P < 0.05, **P < 0.01, ***P < 0.001 vs. CIN, #P <
+0.05 vs. Nr-CWS 30d.
+Zhou et al.
+10.3389/ﬁmmu.2026.1611476
+Frontiers in Immunology
+frontiersin.org
+06
+question: which speciﬁc immune population is linked to
+the observed changes in MARCO expression? Guided by
+our prior bioinformatic analysis and supported by CD68
+immunohistochemical staining of cervical tissues before Nr-CWS
+treatment (Supplementary Figure 10), which collectively pointed to
+tumor-associated macrophages (TAMs), we next sought to
+experimentally validate the correlation between Nr-CWS-induced
+MARCO upregulation and this speciﬁc cell type. We performed an
+analysis of cell subsets expressing MARCO in patients through
+dual-color immunoﬂuorescence. CD68, a well-established
+macrophage marker, was utilized in this analysis. The results
+displayed in Figures 4D and E revealed a signiﬁcant increase in
+CD68+MARCO+/CD68+ cell ratio, indicating that MARCO
+upregulation occurred predominantly in macrophages following
+Nr-CWS treatment. These ﬁndings demonstrate a strong
+association between MARCO expression and cervical tissue
+macrophages, suggesting that the up-regulation of MARCO in
+these macrophages potentially may play a crucial role in
+mediating the effect of Nr-CWS on macrophage-driven anti-
+tumor immunity.
+2.6 Nr-CWS promotes MARCO expression
+in TAMs
+To determine MARCO expression in macrophages during Nr-
+CWS treatment of HPV infection, a TAMs model was established
+for further in vitro investigations, as depicted in Figure 5A. Human
+Monocytic Leukemia Cell Line 1 (THP-1) cells were induced to
+macrophages through incubation with phorbol 12-myristate 13-
+acetate (PMA), followed by further differentiation into TAMs
+through exposure to culture supernatants from HeLa cells. The
+non-adherent THP-1 cells became adherent after treatment with
+PMA (Figures 5B, C), and exhibited CD68 positivity (Figure 5D).
+Subsequent exposure to HeLa cell culture supernatants successfully
+FIGURE 5
+Nr-CWS promotes MARCO expression in TAMs. THP-1 cells were ﬁrst differentiated into macrophages, and then treated with the culture
+supernatants of HeLa cells for 48 h to obtain TAMs (A). The cell morphology changed during the differentiation of THP-1 cells (B) to macrophages
+(C), and the induced cells were identiﬁed by ICC (D). Dual-label immunoﬂuorescence staining showing the phenotypic shift in TAMs induced by Nr-
+CWS. (E) Pre-treatment TAMs are primarily M2-polarized. (F) Post-treatment TAMs switch to an M1-polarized state. Optimal Nr-CWS concentration
+(G) and time (H) for MARCO expression in TAMs was determined by RT-qPCR. Nr-CWS promotes MARCO protein expression at 7.5mg/mL, 48h
+treatment detected by WB (I, J). [(B, C, E, F), scale bars = 100mm; D, scale bars = 50mm]. n = 3, **P < 0.01, ***P < 0.001 vs. TAMs, ###P < 0.001 vs.
+0mg/mL.
+Zhou et al.
+10.3389/ﬁmmu.2026.1611476
+Frontiers in Immunology
+frontiersin.org
+07
+induced the differentiation of TAMs, as indicated by the expression
+of the M2 marker CD163 (Figure 5E). Conversely, following Nr-
+CWS treatment, these TAMs underwent repolarization from the
+M2 to the M1 phenotype (Figure 5F).
+RT-qPCR and Western blotting (WB) analysis were conducted
+on TAMs both before and after Nr-CWS administration to assess
+the mRNA and protein levels of MARCO. RT-qPCR analysis
+revealed that treatment with 7.5 mg/mL Nr-CWS for 48 hours
+yielded the highest MARCO expression level, establishing these as
+the optimal experimental parameters (Figures 5G, H). These
+speciﬁc parameters were subsequently utilized in further
+experiments. Consistent results were observed in Western blot
+analysis, where treatment with Nr-CWS signiﬁcantly upregulated
+MARCO expression (Figures 5I, J, P < 0.05). Furthermore,
+immunoﬂuorescence double staining revealed enhanced
+expression and co-localization of MARCO with the M1 marker
+CD86 post-treatment (Supplementary Figure 11), reinforcing the
+speciﬁc link between MARCO and the M1 macrophage phenotype.
+2.7 Nr-CWS enhance the phagocytosis of
+TAMs
+To investigate the effect of Nr-CWS on TAMs function, we ﬁrst
+examined morphological changes in TAMs after treatment.
+Scanning electron microscopy (SEM) revealed an increase in
+pseudopod length (Figures 6A, B) and the formation of larger cell
+clusters (Figures 6C, D) post-Nr-CWS treatment. Based on these
+morphological changes, we hypothesized that Nr-CWS may
+enhance the macrophages phagocytic activity. To test this, we
+performed neutral red and trypan blue uptake assays, which
+revealed a signiﬁcant increase in both the neutral red uptake rate
+(Figure 6E, P < 0.05) and the number of internalized trypan blue
+particles (Figure 6F) in the TAMs + Nr-CWS group. The process of
+macrophage phagocytosis serves as the primary defense mechanism
+against pathogens, with cytoskeleton rearrangement and
+phagosome acidiﬁcation being crucial steps for macrophages in
+pathogen clearance. To evaluate whether Nr-CWS inﬂuences these
+FIGURE 6
+Nr-CWS enhance the phagocytosis of TAMs. The morphology of TAMs changed before (A, C) and after (B, D) Nr-CWS treatment [(A, B), scale bars =
+20mm; (C, D), scale bars = 200mm). Neutral red (E) and trypan blue [(F), scale bars = 100mm] uptake assays conﬁrmed the increased phagocytic
+activity of TAMs. Additionally, Nr-CWS treatment led to rearrangement of the TAM cytoskeleton [(G), scale bars = 30mm] and increased acidiﬁcation
+of phagosomes [(H, I), scale bars = 100mm]. (J-O) The co-culture system of HeLa and TAMs. HeLa cells were co-cultured with TAMs cells
+(J), noticeable alterations in cell morphology [(M, N), scale bars = 200mm] as observed through SEM, in comparison to HeLa [(K), scale bars = 50mm]
+and TAMs [(L), scale bars = 50mm] cultured individually. Additionally, ﬂuorescence staining revealed that Nr-CWS promoted the phagocytosis of HeLa
+cell debris by TAMs [(O), scale bars = 100mm]. n = 3, ***P < 0.001 vs. TAMs.
+Zhou et al.
+10.3389/ﬁmmu.2026.1611476
+Frontiers in Immunology
+frontiersin.org
+08
+processes, we utilized phalloidin to mark the cytoskeleton protein
+and the pH-sensitive dye LysoTracker to assess the number of
+lysosomes. Our ﬁndings indicate that the expression of ﬁlamentous
+actin (F-actin) and the number of lysosomes were all enhanced in
+the TAMs + Nr-CWS group following Nr-CWS administration, as
+compared to levels prior to treatment (Figures 6G–I, P < 0.05).
+Subsequently, TAMs were co-cultured with HeLa cells, as
+illustrated in Figure 6J. Scanning electron microscopy revealed
+that HeLa cells exhibited a polygonal shape with ﬁne microvilli
+on the surface (Figure 6K), whereas TAMs displayed an irregular
+shape with prominent bumps on the cell surface (Figure 6L). The
+morphology of HeLa cells appeared normal prior to Nr-CWS
+treatment, with TAMs and HeLa cells exhibiting relatively
+independent growth patterns in the co-culture model of TAMs
+and HeLa cells (Figure 6M, indicated by the black arrow). However,
+after Nr-CWS treatment, HeLa cells showed clear morphological
+changes, including a decrease in cell volume and the presence of
+small spherical protrusions on the cell surface-classic hallmarks of
+apoptotic and necrotic cell death. Additionally, attachment of
+TAMs to HeLa cells was evident, as indicated by white arrows in
+Figure 6N. Furthermore, ﬂuorescence microscopy conﬁrmed a
+pronounced increase in HeLa-derived cellular debris (Figure 6O,
+Supplementary Figure 12). This debris accumulation signiﬁes
+heightened cytolysis of HeLa cells, while its concurrent clearance
+underscores a signiﬁcantly augmented phagocytic activity by
+TAMs. These ﬁndings indicate that Nr-CWS modulates the
+phagocytic activity of TAMs, leading to enhanced killing and
+phagocytosis of HeLa cells by TAMs.
+2.8 Nr-CWS modulates cytokine secretion
+in tumor-associated macrophages
+TAMs secrete a diverse array of cytokines that remodel the
+tumor microenvironment, modulate the activity of other immune
+cells, and directly impact tumor cells. To assess the impact of Nr-
+CWS on TAMs cytokine secretion function, we utilized RT-qPCR
+(Figures 7A–E) and Enzyme-Linked Immunosorbent Assay
+(ELISA) (Figures 7F–J) techniques to measure the expression
+levels of ﬁve cytokines, namely interleukin-1 alpha (IL-1a),
+interleukin-1 beta (IL-1b), interleukin-15 (IL-15), tumor necrosis
+factor alpha (TNFa), and interleukin-10 (IL-10). Our results show a
+signiﬁcant increase in the expression of four pro-inﬂammatory
+cytokines (Figures 7A–D, F–I), in contrast to a decrease in the
+anti-inﬂammatory cytokine IL-10 (Figures 7E, J), in the TAMs +
+Nr-CWS group (all P < 0.05). These ﬁndings indicated that Nr-
+CWS could reprogram TAMs into a pro-inﬂammatory phenotype.
+2.9 Nr-CWS promotes TAMs phagocytosis
+and secretion activity via MARCO in vitro
+To investigate the role of MARCO in Nr-CWS-enhanced
+phagocytosis in TAMs, we silenced MARCO expression using
+small interfering RNA (siRNA) (Supplementary Figure 13).
+Neutral Red Uptake Assay showed that phagocytic activity was
+signiﬁcantly reduced following MARCO knockdown (Figure 8A, P
+< 0.05). Additionally, ﬂuorescence microscopy revealed a signiﬁcant
+decrease of F-actin expression in pseudopodia after siRNA-
+FIGURE 7
+Nr-CWS Modulates Cytokine Secretion in Tumor-Associated Macrophages. The mRNA expression levels (A-E) and protein secretion levels (E-J) of
+IL-1a, IL-1b, IL-15, TNFa and IL-10 in TAMs were signiﬁcantly increased following Nr-CWS administration. n = 3, *P < 0.05, **P < 0.01, ***P < 0.001
+vs. TAMs.
+Zhou et al.
+10.3389/ﬁmmu.2026.1611476
+Frontiers in Immunology
+frontiersin.org
+09
+mediated inhibition of MARCO, accompanied by a redistribution of
+the cytoskeleton from pseudopodia protrusions to the
+submembrane region (Figure 8B). Furthermore, phagosome
+acidiﬁcation was notably diminished upon MARCO suppression
+(Figures 8C, D, P < 0.05). Together, these results strongly support
+the essential role of MARCO mediating the phagocytic activity of
+TAMs in response to Nr-CWS treatment.
+Similar to its role in phagocytosis, we proposed that MARCO
+might also be a key mediator in Nr-CWS-induced cytokine
+secretion by TAMs. To test this, we assessed the secretion levels
+of IL-1a, IL-1b, IL-15, TNFa and IL-10 from TAMs following the
+inhibition of MARCO expression. ELISA results indicated that
+MARCO knockdown signiﬁcantly reduced the secretion of pro-
+inﬂammatory cytokines (Figures 8E–H, all P < 0.05), while IL-10
+levels remained unchanged (Figure 8I, P < 0.05). This suggests that
+MARCO may speciﬁcally mediate the Nr-CWS-induced release of
+pro-inﬂammatory cytokines from TAMs. Similarly, the anti-
+proliferative effect of Nr-CWS on HeLa cells was attenuated in
+TAMs with MARCO silencing (Figure 8J, P < 0.05). Together, these
+ﬁndings indicate that MARCO contributes to both the pro-
+FIGURE 8
+The enhancement of TAMs immune function by Nr-CWS is dependent on MARCO. Results from neutral red uptake experiments demonstrated a
+signiﬁcant decrease in phagocytic capacity of TAMs following MARCO knockdown (A). MARCO plays a crucial role in regulating distribution of
+cytoskeleton in TAMs as well as phagosome acidiﬁcation, as evidenced by the observed reduction in cytoskeletal rearrangement [(B), scale bars =
+100mm] and phagosome acidiﬁcation [(C, D), scale bars = 100mm] upon MARCO expression suppression. Furthermore, following the downregulation
+of MARCO expression, cytokine secretion decreased (E-I) and the inhibition of Nr-CWS on HeLa cells proliferation decreased (J). n = 3, *P < 0.05,
+**P < 0.01, ***P < 0.001.
+Zhou et al.
+10.3389/ﬁmmu.2026.1611476
+Frontiers in Immunology
+frontiersin.org
+10
+inﬂammatory cytokines secretion by TAMs and their ability to
+inhibit HeLa cell proliferation.
+2.10 A preliminary exploration of the
+potential role of toll-like receptor 4 in
+MARCO-mediated recognition of Nr-CWS
+Previous research has demonstrated that toll-like receptors
+(TLRs) can recognize speciﬁc molecular patterns and are closely
+associated with the regulation of phagocytic receptors. However,
+our RT-qPCR and WB analyses indicate a signiﬁcant upregulation
+of toll-like receptor 4 (TLR4) -but not toll-like receptor 2 (TLR2)-
+following Nr-CWS treatment(Figures 9A–F, all P < 0.05). This
+suggests that TLR4 may be involved in mediating the
+immunomodulatory effects of Nr-CWS. We also performed
+double immunoﬂuorescence labeling to assess TLR4 and MARCO
+expression. The ﬁndings indicated that after Nr-CWS treatment,
+both MARCO and TLR4 levels were elevated, and their co-
+localization increased signiﬁcantly (Figure 9G). We therefore
+hypothesize that some form of connection between MARCO and
+TLR4 might exist in the context of Nr-CWS treatment. To test this
+hypothesis, we next used TLR4-speciﬁc inhibitor resatorvid (TAK-
+242) to suppress TLR4 expression in TAMs. Western blot analysis
+revealed a signiﬁcant decrease in MARCO expression following
+TLR4 inhibition (Figures 9H, I, P < 0.05). Double
+Immunoﬂuorescence labeling analysis further showed a reduced
+expression of both MARCO and TLR4, along with diminished co-
+localization of the two proteins after TLR4 suppression (Figure 9J).
+limited indications that TLR4 might be associated with Nr-CWS-
+induced upregulation of MARCO expression. However, any
+deﬁnitive
+
+conclusion regarding the relationship between TLR4
+and MARCO would require additional experimental validation.
+The precise mechanistic role of TLR4 in this process remains largely
+unclear and warrants in-depth investigation.
+FIGURE 9
+Nr-CWS affects MARCO expression through TLR4. The expression of TLR4 signiﬁcantly increased after Nr-CWS treatment [(D-G), scale bars = 100 mm],
+while the expression TLR2 was unchanged (A-C). Subsequent inhibition of TLR4 expression resulted in decreased levels of MARCO [(H-J), scale bars =
+100 mm]. n = 3, *P < 0.05, **P < 0.01, ***P < 0.001.
+Zhou et al.
+10.3389/ﬁmmu.2026.1611476
+Frontiers in Immunology
+frontiersin.org
+11
+3 Discussion
+According to the 2022 global cancer statistics published by the
+International Agency for Research on Cancer (IARC) in 2024,
+cervical cancer ranks as the fourth most prevalent cancer in terms
+of both incidence and mortality among women. It is the second
+most frequent malignancy of the female reproductive system,
+following breast cancer (24). Notably, the average age of onset for
+cervical cancer is progressively declining, posing a signiﬁcant threat
+to women’s health.
+In recent years, the tumor microenvironment (TME) has gained
+increasing recognition for its critical role in tumor initiation,
+progression, and prognosis (25, 26), making it a key focus in anti-
+tumor therapeutic development (27). Furthermore, unlike
+conventional therapies that often encounter tumor cells
+resistance, immunomodulatory strategies targeting the TME tend
+to exhibit greater stability and speciﬁcity, which can enhance
+treatment efﬁcacy while reducing adverse effects on patients.
+Nr-CWS, as an immunomodulator, has been widely used in the
+clinical treatment of HR-HPV infections. Numerous studies have
+conﬁrmed its signiﬁcant therapeutic efﬁcacy and its ability to
+activate the immune response within the cervical
+microenvironment. Since 2019, we have monitored the clearance
+of HPV infection in 84 subjects and investigated the potential
+restorative effects of Nr-CWS on the abnormal cervical tissue
+structure resulting from HPV infection using hematoxylin and
+eosin (H&E) staining. Our ﬁndings indicate that Nr-CWS
+contributes to the structural restoration of cervical tissue in HPV
+infected patients.
+To further investigate the speciﬁc immunomodulatory
+mechanisms of Nr-CWS in clearing HPV infection, we selected
+three patients who tested negative after Nr-CWS treatment, and
+analyzed their cervical tissues before and after therapy using gene
+chip technology. Functional enrichment analysis of up-regulated
+genes revealed that MARCO was the enrichment gene of the term
+“endocytic vesicle membrane cell components” and the term
+“phagosome signaling pathway” that are ﬁrst enriched in Gene
+Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes
+(KEGG), respectively.
+MARCO, one of the pattern recognition receptors on the
+surface of macrophages, is a member of the class A scavenger
+receptor family. In this study, analysis of TCGA data revealed
+differential MARCO expression in multiple tumor types compared
+to normal tissues. For example, MARCO expression was
+signiﬁcantly down-regulated in tumor tissues such as CHOL, liver
+hepatocellular carcinoma (LIHC), lung adenocarcinoma (LUAD),
+lung squamous cell carcinoma (LUSC), and pheochromocytoma
+and paraganglioma (PCPG), whereas it was upregulated in tumor
+tissues such as KIRC, kidney renal papillary cell carcinoma (KIRP),
+and thyroid cancer (THCA). Besides, we explored the relationship
+between MARCO expression and patient prognosis, ﬁnding that its
+prognostic signiﬁcance varies across different cancers. Moreover,
+the high expression of MARCO in Cervical Squamous Cell
+Carcinoma (CESC) is associated with poor prognosis, indicating
+its importance in cervical-related cancers. These elevated MARCO
+had independent prognostic value in clinical tumor treatment.
+Tumor-inﬁltrating immune cells are closely related to tumor
+progression and patient prognosis (28). Understanding the
+relationship between MARCO and these immune cells could
+provide insight into its role in tumor development. Therefore,
+using the data from TIMER and TISIDB databases, we analyzed
+the correlation between MARCO expression and immune cells
+inﬁltration across various tumors. We found that MARCO is
+signiﬁcantly associated with macrophage inﬁltration in most
+tumor types. Previous studies have shown that MARCO is
+expressed in speciﬁc macrophage subsets present in the spleen,
+lymph nodes, and lungs (17, 29). Macrophages play a critical role in
+clearing pathogens, and their functional plasticity allows them to
+adopt distinct phenotypes in response to signals from the
+surrounding immune microenvironment (26, 30–32). This
+functional heterogeneity may help explain why the association
+between MARCO expression and prognosis differs across
+tumor types.
+Our ﬁndings demonstrate a signiﬁcant upregulation of
+MARCO expression in cervical tissues from the same patient
+group following Nr-CWS treatment, compared to pre-treatment
+baseline levels. Unlike the constitutive overexpression or
+suppression of MARCO reported in established malignancies, our
+data reveal dynamic, time-dependent modulation of MARCO in
+response to Nr-CWS therapy in HPV-infected cervical lesions. We
+propose that this pharmacologically induced MARCO expression
+may represent a previously unrecognized immunomodulatory
+mechanism of Nr-CWS, highlighting its dual relevance in
+antiviral and anti-tumor immunity. Notably, this ﬁnding presents
+an intriguing contrast to recent therapeutic strategies in oncology
+that focus on blocking MARCO to suppress its pro-tumorigenic
+functions within the tumor microenvironment. We hypothesize
+that in the setting of HPV-associated precancerous lesions, Nr-
+CWS may engage MARCO as part of a broader pathogen
+recognition and macrophage activation program, steering TAMs
+toward an anti-tumor phenotype. This is mechanistically distinct
+from scenarios in established tumors where chronically engaged
+MARCO might contribute to an immunosuppressive niche. Prior
+studies have established that MARCO is predominantly expressed
+in speciﬁc macrophage subsets (33). This is consistent with the
+modern paradigm that TAMs represent a highly plastic and
+transcriptionally diverse population, a heterogeneity that is crucial
+for determining tumor outcomes (34). It has been observed that
+certain TAMs subpopulations adjacent to the tumor nest express
+MARCO. Our earlier work showed that Nr-CWS treatment reduces
+the proportion of M2-type macrophages while increasing that of
+M1-type macrophages in cervical tissues (35). Moreover, this
+ﬁnding of an M1/M2 phenotypic shift was further conﬁrmed by
+our in vitro immunoﬂuorescence double-staining assays. This
+ﬁnding suggests that Nr-CWS effectively activates TAMs within
+the tumor microenvironment, reprograms them towards an anti-
+tumor phenotype. This M1 polarization, coupled with the observed
+MARCO upregulation, aligns with the concept that the functional
+outcome of MARCO signaling is not intrinsic but is determined by
+the immunological context and the nature of its ligands. The
+components of Nr-CWS likely act as novel ligands or co-stimuli
+that convert MARCO into a node for immune activation rather
+Zhou et al.
+10.3389/ﬁmmu.2026.1611476
+Frontiers in Immunology
+frontiersin.org
+12
+than suppression. Integrating these ﬁndings with bioinformatics
+analyses, we hypothesize that the upregulation of MARCO in
+cervical tissues of patients following Nr-CWS treatment is
+mechanistically linked to the enhanced anti-tumor function of
+TAMs. To test this, we initially examined the co-localization of
+MARCO and the macrophage marker CD68 in cervical tissues post
+Nr-CWS treatment using double immunoﬂuorescence labeling
+staining. The ﬁndings indicated that Nr-CWS predominantly
+stimulated macrophages within the tumor microenvironment to
+express MARCO. Subsequent in vitro experiments conﬁrmed that
+the induced MARCO expression strongly colocalized with the M1
+marker CD86, indicating its speciﬁc association with M1-polarized
+TAMs. Additionally, siRNA-mediated knockdown of MARCO in
+TAMs allowed us to assess its functional necessity, notably in
+phagocytic activity and proinﬂammatory cytokines secretion.
+Macrophages, as primary phagocytes, are critical for pathogen
+recognition and clearance (36). Previous studies indicates that Nr-
+CWS enhances macrophage phagocytosis of ﬂuorescent
+microspheres and dextran particles (37, 38). Phagocytosis involves
+cytoskeletal reorganization, which elongates macrophage
+protrusions to engulf pathogens via endocytosis, forming
+phagosomes. These phagosomes subsequently fuse with
+lysosomes, leading to pathogen degradation and elimination.
+Initially, we examined the morphological alterations in
+macrophages after Nr-CWS treatment using electron microscopy,
+and the observations suggested a potential effect on macrophage
+phagocytosis. Furthermore, we newly found that Nr-CWS enhances
+the production and reorganization of the macrophage cytoskeletal
+protein F-actin, promotes lysosome production and augments the
+macrophage-mediated phagocytosis and killing of HeLa cells. These
+results further conﬁrm the conclusion that Nr-CWS enhances the
+macrophage phagocytosis function. To directly assess the role of
+MARCO in this process, we evaluated the impact of MARCO
+deletion on macrophage phagocytosis. MARCO, a phagocytic
+receptor expressed on the macrophage surface, is closely
+associated with phagocytic capacity (39–43). Inhibition of
+MARCO expression led to a reduction in Nr-CWS-enhanced
+phagocytosis in TAMs, accompanied by decreased F-actin
+expression in TAMs pseudopods, cytoskeletal remodeling,
+inhibited stress ﬁber formation, and signiﬁcantly reduced
+phagosome acidiﬁcation. Our ﬁndings demonstrate that MARCO
+inhibition impairs the phagocytic function of TAMs. Collectively,
+these ﬁndings show that Nr-CWS can enhance the phagocytic
+function of TAMs, and that MARCO on macrophages represents
+a promising therapeutic target for t HPV infection. This
+“activation” strategy, centered on inducing a speciﬁc phagocytic
+receptor, offers a distinct yet complementary approach to current
+therapeutic paradigms that aim to deplete or inhibit
+immunosuppressive TAM subpopulations.
+Additionally, macrophages modulate the tumor immune
+microenvironment through cytokine secretion, inﬂuencing
+adaptive immune response and directly affecting tumor cell
+activity (44–46). To investigate whether Nr-CWS affects this
+secretory function, we measured the levels of four pro-
+inﬂammatory cytokines-IL-1a, IL-1b, TNFa, and IL-15- in
+culture supernatants. These cytokines are well-established
+markers commonly used to assess the pro-inﬂammatory function
+of M1-polarized macrophages and are potentially linked to both
+Nr-CWS and MARCO. IL-1b and TNFa are extensively studied
+pro-inﬂammatory cytokines known for their roles in sustaining and
+amplifying inﬂammatory responses, modulating the function of
+various immune cells, participating in antiviral immune responses,
+and exerting cytotoxic effects on tumor cells. Our study showed that
+Nr-CWS treatment signiﬁcantly enhance the secretion of well-
+characterized pro-inﬂammatory cytokines IL-1b and TNFa.
+Furthermore, we made a novel observation that Nr-CWS also
+increased the secretion of IL-1a and IL-15. The induction of IL-
+15 is of particular mechanistic and translational signiﬁcance. As a
+pivotal gc-chain cytokine, IL-15 is of particular interest as a
+signiﬁcant target in tumor immunotherapy due to its ability to
+bridge innate and adaptive immunity by stimulating T-cell and
+natural killer (NK) cell proliferation, differentiation and activation.
+Our ﬁnding that Nr-CWS upregulates macrophage-derived IL-15
+provides a plausible mechanistic link to prior reports that Nr-CWS
+facilitates NK cell differentiation and augments their cytotoxic
+activity Given previous evidence that Nr-CWS promotes NK cell
+differentiation and cytotoxicity (47), we hypothesize that the
+upregulation of IL-15 secretion may be a key mechanism
+underlying this effect, a conjecture warranting future
+investigation. We hypothesize that Nr-CWS, through activating
+macrophages and inducing MARCO, establishes a pro-
+inﬂammatory niche characterized by elevated IL-15. This cytokine
+milieu could act in a paracrine manner to sustain and activate
+neighboring NK cells and T cells within the tumor
+microenvironment, thereby orchestrating a more potent and
+coordinated anti-tumor response. This potential axis-from Nr-
+CWS to MARCO+ macrophage activation, to IL-15 secretion, and
+ﬁnally to lymphocyte priming-represents a compelling multi-step
+immunomodulatory circuit that warrants rigorous future
+validation. We next investigated the role of MARCO in this
+cytokine response. Our studies further demonstrate that the
+enhanced secretion of IL-1a, IL-1b, TNFɑ and IL-15 induced by
+Nr-CWS is dependent on MARCO activation. This aligns with
+previous studies indicating that MARCO is closely associated with
+the secretion of cytokines by TAMs. And the interaction between
+ligands and MARCO can trigger intracellular signaling cascades,
+lead to the activation of transcriptional programs for genes involved
+in inﬂammation, and stimulate macrophages to secrete cytokines
+pertinent to inﬂammatory responses. In addition to pro-
+inﬂammatory cytokines, our preliminary investigation also
+examined the expression of anti-inﬂammatory cytokine IL-10. IL-
+10 acts as a key immunosuppressive cytokine that dampens
+inﬂammation and fosters an immunosuppressive tumor
+microenvironment, which ultimately promotes immune evasion
+and confers resistance to therapy. However, our data indicated
+that MARCO suppression did not signiﬁcantly alter its level in
+macrophages, suggesting that Nr-CWS may enhance the secretion
+of pro-inﬂammatory cytokines, as opposed to anti-inﬂammatory
+ones, in macrophages. Collectively, the Nr-CWS-induced MARCO
+expression might be part of a coordinated cellular program that
+Zhou et al.
+10.3389/ﬁmmu.2026.1611476
+Frontiers in Immunology
+frontiersin.org
+13
+includes cytoskeletal remodeling and metabolic reprogramming,
+collectively enhancing the anti-pathogen and anti-tumor capacity of
+TAMs in the cervical microenvironment.
+Furthermore, research has indicated that key components of
+Nr-CWS, such as peptidoglycan and arabinogalactan, can activate
+the Toll-like receptor (TLR)/Myeloid differentiation primary
+response gene 88 (MyD88) signaling pathway (48, 49). Previous
+research has demonstrated a signiﬁcant association between TLRs
+and HPV infection, as well as the onset and progression of cervical
+lesions (50). Additionally, studies have indicated that TLR ligands
+can induce the expression of phagocytic proteins, including
+MARCO, thereby speciﬁcally enhancing bacterial phagocytosis
+in both murine and human cells (51, 52). Consequently, TLR
+signaling may constitute a critical upstream mechanism through
+which Nr-CWS upregulates MARCO expression and enhances
+macrophage function.
+TLR family plays a pivotal role in innate immunity and
+inﬂammatory responses against pathogens, with TLR2 and TLR4
+being among the most prominent members. Recent research has
+revealed a functional synergy between TLR2 and MARCO,
+demonstrating that their co-activation can augment MARCO-
+mediated inﬂammatory response (53–55). However, our study
+demonstrated that TLR2 expression remained unchanged after
+Nr-CWS treatment, whereas TLR4 expression exhibited a
+signiﬁcant upregulation. This observation led us to hypothesize a
+potential role for TLR4, as opposed to TLR2, in the therapeutic
+process of Nr-CWS. To preliminarily assess this possibility, we
+employed the TLR4-speciﬁc inhibitor TAK-242 to suppress TLR4
+expression. Following the inhibition of TLR4 expression, a
+concomitant decrease in both MARCO expression and co-
+localization of TLR4 and MARCO was observed, which appears
+to support the possibility of a functional link between TLR4 and
+MARCO during Nr-CWS treatment. It should be noted, however,
+that the present experimental strategy provides only initial insights.
+We will conduct further investigations into the relationship between
+TLR4 and MARCO in the context of Nr-CWS action, and do more
+rigorous, comprehensive validation such as genetic knockdown or
+knockout of TLR4, detailed analysis of downstream signaling
+pathways, and expanded sample sizes in future studies.
+Overall, our ﬁndings demonstrate that MARCO is pivotal in
+augmenting the anti-tumor function of TAMs. This study
+speciﬁcally demonstrates that Nr-CWS modulates TAMs through
+the involvement of the scavenger receptor MARCO. We observed
+that MARCO activation is associated with key functional alterations
+in macrophages—namely, enhanced phagocytic capacity and a shift
+in cytokine secretion toward an immunostimulatory proﬁle. These
+changes represent central downstream effects of MARCO
+engagement, directly linking Nr-CWS-induced MARCO
+modulation to tangible functional outcomes in TAMs.
+Mechanistically, we propose that TLR4 acts as an integral
+component in this process, potentially serving as a recognition
+receptor for Nr-CWS and subsequently inducing MARCO
+upregulation, which may in turn initiate a cascade of downstream
+molecular alterations. Although the complete upstream regulatory
+mechanism of MARCO expression by Nr-CWS remains to be fully
+elucidated and warrants further investigation, our data provide
+important insights into its functional consequences. Collectively,
+this study offers a clearer mechanistic narrative for how Nr-CWS
+may reshape the tumor immune microenvironment in cervical
+cancer, highlighting the potential of pharmacologically targeting
+MARCO for the treatment of HPV infection and cervical
+precancerous lesions. Future studies delineating the precise
+upstream sensors of Nr-CWS and its impact on the metabolic
+landscape and transcriptional proﬁle of TAMs will further elucidate
+this promising immunomodulatory mechanism.
+4
+
+Materials and methods
+4.1 Chemicals and antibodies
+Nr-CWS (S20030009) was obtained from Weihai Greatest
+Pharmaceutical Research Institute Co., Ltd. (China). Phorbol 12-
+myristate 13-acetate (PAM, Cayman Chemical, 10008014, USA)
+was dissolved in sterile dimethyl sulfoxide (DMSO, Solarbio Life
+Sciences, D8671, China) as a 1 mg/mL stock solution. Neutral red
+(Guangfu Fine Chemical, China) and trypan blue (Solarbio Life
+Science, C0040, China) were dissolved in normal saline solution to
+create stock solutions of 4 mg/mL, respectively, and were
+subsequently ﬁltered through a 0.22-mm ﬁlter. TAK-242 (Cayman
+Chemical, 13871, USA), a toll-like receptor 4 (TLR4)-speciﬁc
+inhibitor, was dissolved in sterile DMSO as a 5 mM stock
+solution. Carboxyﬂuorescein diacetate, succinimidyl ester (CFDA-
+SE, Cayman Chemical, 14456, USA), a stable cell-permeable dye,
+was dissolved in sterile DMSO as a 10 mM stock solution.
+Phalloidin-Fluorescein Conjugate (Cayman Chemical, 20478,
+USA), which selectively binds to ﬁlamentous actin (F-actin), was
+solubilized in DMSO. LysoTracker® Red DND-99 (Invitrogen,
+L7528, USA), a ﬂuorescent probe used for labeling and tracking
+acidic organelles in live cells, was dissolved in anhydrous DMSO as
+a 1 mM stock solution. Neutral red and trypan blue solutions were
+stored at 4 °C, while others were stored at -80 °C from light by foil.
+The following commercial antibodies (vendor, catalog number
+and dilution) utilized for western blot and immunohistochemical
+staining were employed in accordance with the manufacturers’
+guidelines: mouse anti-CD68 antibody (Abcam, ab201340, 1:200),
+rabbit anti-MARCO antibody (Abcam, ab231046, 1:1000 for
+western blot and 1:100 for immunohistochemistry), rabbit anti-
+CD163 antibody (Abways Technology, CY6845, 1:500), mouse anti-
+CD86 antibody (Proteintech, 68674-2-Ig, 1:5000), mouse anti-TLR4
+antibody (Santa Cruz Biotechnology, sc-293072, 1:1000 for western
+blot and 1:200 for immunohistochemistry), rabbit anti-TLR2
+antibody(Abways Technology, CY5102, 1:2000), mouse anti-
+GAPDH antibody (Proteintech, 6004-1-Ig, 1:50000), HRP-goat
+anti-mouse recombinant secondary antibody (H+L)(Proteintech,
+RGAM001, 1:5000), goat anti-mouse IgG (H+L) Alexa Fluor 594
+(Abways Technology, AB0152, 1:300), HRP-goat anti-rabbit
+recombinant secondary antibody (H+L) (Proteintech, RGAR001,
+1:5000), goat anti-rabbit IgG (H+L) secondary antibody DyLight™
+594 (Report Biotech, S7002, 1:500), goat anti-mouse IgG (H+L)
+secondary antibody DyLight™488 (Report Biotech, S6001, 1:500),
+Zhou et al.
+10.3389/ﬁmmu.2026.1611476
+Frontiers in Immunology
+frontiersin.org
+14
+goat anti-mouse IgG (H+L) secondary antibody DyLight™594
+(Abways Technology, AB0152, 1:500).
+4.2 Patients
+A cohort of 84 patients, aged 21 to 65 years, were selected from
+the Fourth Hospital of Hebei Medical University, China. The
+selection criteria were predetermined, and all patients underwent
+treatment with Nr-CWS (13). Cervical tissue samples were obtained
+from participants in the CIN group prior to topical administration of
+Nr-CWS, as well as 30 or 90 days post-administration, respectively.
+Informed consent of this study was obtained from all
+participants and the ethical approval was granted by the Ethics
+Committees of The Fourth Hospital of Hebei Medical
+University (2019MEC097).
+4.3 Parafﬁn section and H&E staining
+Tissue samples were initially ﬁxed in 4%(w/w)
+paraformaldehyde for a period of 24 hours, followed by
+dehydration and embedding in parafﬁn. Subsequently, tissues
+were sectioned into 3.5 mm-thick slices using a slicer, and stained
+with hematoxylin and eosin (H&E) and observed using a
+microscope camera (Olympus, Japan).
+4.4 Gene expression microarray analysis
+4.4.1 Differential expression analysis in cervical
+tissues post Nr-CWS treatment
+The gene chip technology was performed on cervical tissues
+pre- and post-Nr-CWS treatment of three patients with CIN. Total
+RNA extracted from cervical tissues using the miRNeasy Mini Kit
+was subjected to gene expression proﬁling with Affymetrix Clarion
+S Human arrays. Following the recommended protocol, ampliﬁed
+and biotin-labeled cDNA was prepared, hybridized to the arrays,
+and scanned. The resulting CEL ﬁles were processed with the RMA
+algorithm for
+
+background correction and normalization in the R
+environment. The R package “limma” was used for differential
+expression analysis. Differentially expressed genes between pre- and
+post-Nr-CWS treatment groups were deﬁned as the upregulated or
+down-regulated genes with a fold change ≥|2| and P < 0.05. In
+addition, expression levels were visualized as heatmaps using the
+pheatmap package and we mapped the volcano plot using ggplot2
+package in R software.
+4.4.2 GO and KEGG enrichment analysis
+Functional enrichment analysis includes Gene Ontology (GO)
+and Kyoto Encyclopedia of Genes and Genomes (KEGG) in this
+study. In brief, GO enrichment analyses predict the function of the
+target genes and KEGG is a widely used database for systematic
+signaling pathway analysis according to gene functions. In this
+study, the clusterProﬁler package in R software was used to perform
+the functional enrichment analysis and ggplot2 package in R
+software was employed to visualize all of the enrichment
+analysis results.
+4.5 MARCO expression, survival and
+immune cell inﬁltration analysis
+We investigated the differential expression of MARCO between
+tumor and adjacent normal tissues across all TCGA tumors in
+TIMER2.0 (56–58). And we used the GSCA database (59, 60) to
+search for a link between the expression level of MARCO and
+survival signiﬁcance, such as OS and DSS. The relative abundance
+of the tumor inﬁltrating lymphocytes (TILs) in cancers with
+different MARCO mRNA expression statuses was calculated by
+TIMER2.0 and TISIDB (61).
+4.6 Cell preparations
+4.6.1 Cell culture and supernatant collection
+HeLa and THP-1 cells were cultured in RPMI 1640 medium
+(Gibco, C11875500BT, USA) supplemented with 1% penicillin-
+streptomycin liquid (Solarbio Life Sciences, P1400, China) and
+10% fetal bovine serum (FBS, Corning, 35-081-CV, USA). The
+cells were maintained in a controlled environment at 37 °C with
+5% CO2.
+HeLa cells underwent three passages before seeding. Cells were
+seeded at a density of approximately 104 cells/cm2. After 48 h of
+culture, cells were with fresh RPMI 1640 media for a subsequent 48 h.
+Cell culture supernatant was collected by centrifuge and stored at -20°
+C before use.
+4.6.2 Cell induction and cultivation
+THP-1 cells were treated with 20 ng/mL PMA at a
+concentration of 106 cells/mL for a duration of 48 hours to
+promote the differentiation into macrophages.
+In vitro model of TAMs was established by polarizing PMA-
+induced M0 macrophages with HeLa-conditioned medium for a
+period of 2 days, conﬁrming a CD68+CD163+ M2-like phenotype
+as a baseline for subsequent Nr-CWS treatment experiments
+(62–65).
+4.6.3 Co‐culture experiments
+HeLa cells were labeled with CFDA-SE living cell dye according
+to the manufacturer ‘s instructions. HeLa cells were resuspended in
+RPMI 1640 media at a concentration of 107 cells/mL. A volume of 1
+mL of 10 mM CFDA-SE was added per 1 mL of cell suspension.
+After a 10-minute incubation at 37°C, cells were washed thrice
+and resuspended.
+The co-culture of TAMs and HeLa cells was conducted to
+investigate the possible response between the two cells. Speciﬁcally,
+for 105 per well TAMs, 5×104 HeLa cells were added and incubated
+in medium for 48 hours. Subsequently, cell morphology was
+examined using scanning electron microscopy. Similarly, added
+Zhou et al.
+10.3389/ﬁmmu.2026.1611476
+Frontiers in Immunology
+frontiersin.org
+15
+CFDA-SE-labeled HeLa cells and conﬁrmed through
+ﬂuorescence microscopy.
+4.7 Immunohistochemistry and
+immunocytochemistry
+Immunocytochemistry was performed using mature inactive
+macrophages and immunohistochemistry was performed in tissues
+samples. Tissue sections subjected to overnight incubation with
+anti-MARCO primary antibodies while cells with anti-CD68.
+Immunohistochemical and immunocytochemical analysis was
+carried out using a suitable goat anti-rabbit or anti-mouse
+Immunohistochemical detection reagent kit (ZsBio, Beijing,
+China) as per the manufacturer’s instructions.
+4.8 Immunoﬂuorescence staining
+Immunoﬂuorescence was employed for the analysis of patient
+specimens and cells. Speciﬁcally, for double immunoﬂuorescence
+(DIF), tissue slices were incubated with two ﬁrst antibodies at the
+same time, rabbit anti-MARCO and mouse anti-CD68, while cells
+were exposed to rabbit anti-CD163 and mouse anti-CD68, rabbit
+anti-CD163 and mouse anti-CD86, rabbit anti-MARCO and mouse
+anti-CD86 or rabbit anti-MARCO and mouse anti-TLR4.
+Subsequently, goat anti-mouse IgG (H+L) DyLight™488, goat
+anti-mouse IgG (H+L) DyLight™594, goat anti- rabbit IgG (H+L)
+DyLight™488 and goat anti-rabbit IgG (H+L) DyLight™594
+secondary antibody were utilized. For TAMs-HeLa co-culture
+model, cells were incubated with mouse anti-CD68 primary
+antibody and goat anti-mouse IgG (H+L) Alexa Fluor 594
+secondary antibodies. Tissue sections and cells were then ﬁxed
+with Prolong Gold Antifade Reagent with 4’,6-Diamidino-2’-
+phenylindole (DAPI), and observed using laser confocal
+microscopy (Olympus, Japan) after mounting.
+4.9 SEM
+The samples were ﬁxed in a 2.5% glutaraldehyde buffer for 30
+minutes followed by dehydration through an alcohol gradient. The
+samples were dried with tert-butanol, coated with gold particles,
+and examined under a scanning electron microscope
+(Regulus8100, Japan).
+4.10 Reverse transcription quantitative
+polymerase chain reaction
+Total RNA was extracted utilizing the TRIpure Reagent (Aidlab
+Biotechnologies, RN01, China), followed by complementary DNA
+(cDNA) synthesis using the PrimeScript™RT reagent Kit (TaKaRa,
+RR047A, Japan). Subsequently, quantitative polymerase chain
+reaction (qPCR) was conducted on the QuantStudio3 (Applied
+Biosystems, USA) platform, with ampliﬁcation carried out using the
+TB Green® Premix Ex Taq™II (TaKaRa, RR820A, Japan). The
+reactions were normalized to glyceraldehyde-3-phosphate
+dehydrogenase (GAPDH) and the primers used in this study are
+listed in Supplementary Table 1.
+4.11 Western blot analysis
+Cells were harvested and lysed in radio immunoprecipitation
+assay (RIPA) buffer (Seven Biotech, SW104, China) supplemented
+with a protease inhibitor cocktail (MCE, HY-K0010, USA). The
+lysates were then mixed with sodium dodecyl sulfate (SDS) loading
+buffer (Solarbio Life Sciences, P1040, China) and heated at 100 °C
+for 5 minutes. After measuring the protein concentration, equal
+amounts of protein were subjected to sodium dodecyl sulphate-
+polyacrylamide gel electrophoresis (Seven Biotech, SW109-01,
+China). Transferring the protein onto polyvinyl diﬂuoride
+membranes (Millipore, USA), blocking with 5% dry skim milk,
+and subsequently incubating at 4 °C overnight with ﬁrst antibodies
+targeting MARCO, TLR4, and GAPDH. Following this, the
+membranes were exposed to recombinant secondary antibodies
+for 2 hours. Detecting protein bands with an enhanced
+chemiluminescence (ECL) kit (Biosharp Life Sciences, BL523B,
+China) and capturing with an Amersham Imager 600 (GE
+Healthcare, Pittsburgh, PA, USA). The relative protein expression
+levels were determined by normalizing to GAPDH.
+4.12 Phagocytosis assay
+4.12.1 Neutral red uptake assay
+Macrophages at a concentration of 106 cells/mL were treated
+with 7.5 mg/ml of Nr-CWS for 48 hours. Subsequently, cells were
+exposed to 100 mL of a 0.1% (w/w) neutral red solution for 2 hours.
+Following the incubation period, cells were then lysed on the shaker
+for 20 minutes using 150 mL of a cell lysis buffer (Vethanol: Vacetic
+acid = 1:1). The absorbance of neutral red was quantiﬁed using a
+microplate reader (BioTek, EPOCH, USA).
+Neutral   red   uptake   rate   ( % ) = As
+Ac
+ 100
+where
+As is the absorbance of treatment group.
+Ac is the absorbance of control group.
+4.12.2 Trypan blue uptake assay
+One method employed to assess macrophage phagocytosis
+involved observing the uptake of trypan blue particles by cells
+(66–68). Trypan blue particles were added to the macrophage
+monolayers, which were then incubated for 48 hours to allow for
+internalization. Following incubation, cells were washed and
+subsequently ﬁxed in 4% formaldehyde and examined under
+a microscope.
+4.12.3 Cytoskeleton staining
+Cells were ﬁxed with 4% paraformaldehyde, permeabilized with
+0.5% Triton X-100 and then stained with phalloidin-ﬂuorescein
+conjugate at room temperature in the dark for 30 min.
+Subsequently, cells were mounted on Prolong Gold Antifade
+Reagent with DAPI.
+Zhou et al.
+10.3389/ﬁmmu.2026.1611476
+Frontiers in Immunology
+frontiersin.org
+16
+4.12.4 Lysosome tracker assay
+Phagosome acidiﬁcation was evaluated by staining cells with 50
+nM LysoTracker Red prior to ﬁxation. Subsequently, the cells were
+permeabilized with 0.5% Triton X-100, followed by mounting on
+Prolong Gold Antifade Reagent with DAPI.
+4.13 ELISA
+According to the manufacturer’s instructions, IL-1a, IL-1b, IL-
+15, and TNFa expression levels in cell culture supernatant of TAMs
+were determined using IL-1a Human ELISA Kit (Abclonal,
+RK00031, China), IL-1b Human ELISA Kit (Abclonal, RK00001,
+China), IL-15 Human ELISA Kit (RK04454), and TNFa Human
+ELISA Kit (Abclonal, RK00030, China).
+4.14 Small interfering RNAs
+All siRNA oligonucleotides were synthesized by GenePharma
+(China). According to the manufacturer’s instructions, siRNAs
+were transfected using HighGene plus Transfection reagent
+(ABclonal Technology, RM09014P, China). Following
+transfection, the knock-down efﬁciency was assessed using RT-
+qPCR and Western blot analysis. The knock-down efﬁcacy was
+quantiﬁed as the ratio of the target gene expression level normalized
+to GAPDH, following treatment with speciﬁc siRNA, divided by the
+corresponding value obtained with non-targeting siRNA treatment.
+The sequences are listed in Supplementary Table 2.
+4.15 Cell counting kit-8 assay
+HeLa cells, inoculated onto 96-well plates at a density of 5000
+cells per well, were incubated for 48 hours with the cell culture
+supernatant of TAMs subjected to various treatments.
+Subsequently, the proliferation of HeLa cells was assessed using
+the Cell Counting Kit-8 (CCK-8) assay (Report Biotech, RK3028,
+China), with absorbance at 450 nm.
+Cell   viability   ( % ) = As
+Ac
+ 100
+where
+Ac is the absorbance of untreated cells.
+As is the absorbance of Nr-CWS or MARCO siRNA
+treated cells.
+4.16 Statistical analysis
+Under the conventional sample size guidelines for similar
+studies, data from three randomly selected replicates were
+subjected to statistical analysis using SPSS 25.0 (SPSS Inc., USA),
+with signiﬁcance determined through independent samples T-test
+or one-way analysis of variance. In bioinformatics analysis, R and
+corresponding R packages were utilized for statistical analysis.
+Student’s t-test was adopted for the analysis of continuous
+variables. Spearman’s correlation was performed to analyze
+correlations. At the same time, we performed survival analysis
+with Kaplan-Meier method, and survival was compared among
+multiple groups with the log-rank test. Signiﬁcance was established
+at a P-value of less than 0.05, and data are expressed as mean ±
+standard deviation (SD).
+Data availability statement
+The datasets presented in this study can be found in online
+repositories. The names of the repository/repositories and accession
+number(s) can be found below: https://ngdc.cncb.ac.cn/
+omix, OMIX014924.
+Ethics statement
+The studies involving humans were approved by the Bioethics
+Committee of the Fourth Hospital of Hebei Medical University (No.
+2019MEC097). The studies were conducted in accordance with the
+local legislation and institutional requirements. The participants
+provided their written informed consent to participate in this study.
+Author contributions
+GZ: Data curation, Formal analysis, Investigation,
+Methodology, Validation, Visualization, Writing – original draft.
+WC: Data curation, Formal analysis, Investigation, Methodology,
+Validation, Visualization, Writing – review & editing. XD: Data
+curation, Formal analysis, Software, Validation, Writing – original
+draft. QG: Data curation, Software, Validation, Visualization,
+Writing – original draft. XB: Data curation, Resources, Writing –
+original draft. YZ: Data curation, Resources, Writing – original
+draft. LZ: Conceptualization, Funding acquisition, Methodology,
+Project administration, Resources, Validation, Writing – review &
+editing. SS: Conceptualization, Methodology, Supervision,
+Validation, Writing – review & editing.
+Funding
+The author(s) declared that ﬁnancial support was received for
+this work and/or its publication. This work was supported by the
+National Key Research and Development Program of China
+(Program Nos. 2022YFC2704400).
+Acknowledgments
+The authors designed the schematic diagrams with the help of
+FigDraw (FigDraw.com).
+Zhou et al.
+10.3389/ﬁmmu.2026.1611476
+Frontiers in Immunology
+frontiersin.org
+17
+Conﬂict of interest
+The author(s) declared that this work was conducted in the
+absence of any commercial or ﬁnancial relationships that could be
+construed as a potential conﬂict of interest.
+Generative AI statement
+The author(s) declared that generative AI was not used in the
+creation of this manuscript.
+Any alternative text (alt text) provided alongside ﬁgures in this
+article has been generated by Frontiers with the support of artiﬁcial
+intelligence and reasonable efforts have been made to ensure
+accuracy, including review by the authors wherever possible. If
+you identify any issues, please contact us.
+Publisher’s note
+All claims expressed in this article are solely those of the authors
+and do not necessarily represent those of their afﬁliated
+organizations, or those of the publisher, the editors and the
+reviewers. Any product that may be evaluated in this article, or
+claim that may be made by its manufacturer, is not guaranteed or
+endorsed by the publisher.
+Supplementary material
+The Supplementary Material for this article can be found online
+at: https://www.frontiersin.org/articles/10.3389/ﬁmmu.2026.1611476/
+full#supplementary-material
+References
+1. de Martel C, Plummer M, Vignat J, Franceschi S. Worldwide burden of cancer
+attributable to HPV by site, country and HPV type. Int J Cancer. (2017) 141:664–70.
+doi: 10.1002/ijc.30716
+2. Chu D, Liu T, Yao Y. Implications of viral infections and oncogenesis in uterine
+cervical carcinoma etiology and pathogenesis. Front Microbiol. (2016) 14:1194431.
+doi: 10.3389/fmicb.2023.1194431
+3. Gu Y-Y, Zhou G-N, Wang Q, Ding J-X, Hua K-Q. Evaluation of a methylation
+classiﬁer for predicting pre-cancer lesion among women with abnormal results between
+HPV16/18 and cytology. Clin Epigenet. (2020) 12:57. doi: 10.1186/s13148-020-00849-x
+4. Hua K. The display between HPV infection and host immunity in cervical cancer.
+Front Biosci-Landmark. (2024) 29:426. doi: 10.31083/j.fbl2912426
+5. Janicek MF, Averette HE. Cervical cancer: prevention, diagnosis, and therapeutics.
+CA Cancer J Clin. (2001) 51:92–114. doi: 10.3322/canjclin.51.2.92
+6. Gultekin M, Beduk Esen CS, Ates Ozdemir D, Yildirim S, Yuce D, Usubutun A, et al.
+Stromal or intraepithelial tumor-inﬁltrating lymphocytes: which one has more
+prognostic signiﬁcance in cervical cancer? Arch Gynecol Obstet. (2023) 307:969–80.
+doi: 10.1007/s00404-022-06687-x
+7. Zhao J, Feng H, Wang T, Pang X, Zhou Y, Cui Y. The safety and efﬁcacy of a novel
+method for treatment of HSIL. Arch Gynecol Obstet. (2021) 304:1291–8. doi: 10.1007/
+s00404-021-06047-1
+8. Zhang S, Wang H, Liu Y, Tao T, Zeng Z, Zhou Y, et al. Nocardia rubra cell-wall
+skeleton inﬂuences the development of cervical carcinoma by promoting the antitumor
+effect of macrophages and dendritic cells. Cancer Med. (2022) 11:1249–68. doi: 10.1002/
+cam4.4526
+9. Jiang S, Nan X, Pan X, Zhang J, Tang L, Gong H. The effect of aminolevulinic acid
+hydrochloride topical powder photodynamic therapy versus nocardia rubra cell wall
+skeleton and observers group in the treatment of cervical low-grade squamous
+intraepithelial lesions with human papillomavirus infection: A non-randomized
+study, controlled pilot study. Med (Baltimore). (2023) 102:e34302. doi: 10.1097/
+MD.0000000000034302
+10. Zhao J, Du H, Liao Q. Effect of Nocardia rubra cell wall skeleton on the growth of
+HeLa cell line infected with HPV. Zhonghua Shi Yan He Lin Chuang Bing Xue Za Zhi
+Zhonghua Shiyan He Linchuang Bingduxue Zazhi Chin J Exp Clin Virol. (2007)
+21:20–2.
+11. Zhao J, Zhan S, Li X, Zhou L, Yang Y, Liao Q. Effect of Nocardia rubra cell wall
+skeleton (Nr-CWS) on oncogenicity of TC-1 cells and anti-human papillomavirus
+effect of Nr-CWS in lower genital tract of women. Zhonghua Shi Yan He Lin Chuang
+Bing Xue Za Zhi Zhonghua Shiyan He Linchuang Bingduxue Zazhi Chin J Exp Clin
+Virol. (2007) 21:340–2.
+12. Chen F, Di W, Hu YJ, Li CZ, Wang F, Duan H, et al. Evaluation of the efﬁcacy and
+safety of Nocardia rubra cell wall skeleton immunotherapy for cervical high-risk HPV
+persistent infection. Zhonghua Fu Chan Ke Za Zhi. (2023) 58:536–45. doi: 10.3760/
+cma.j.cn112141-20230331-00154
+13. Chen W, Zhang Y, Zhao C, Shao S, Zhang Y, Li X, et al. Nocardia rubra cell wall
+skeleton up-regulates T cell subsets and inhibits PD-1/PD-L1 pathway to promote local
+immune status of patients with high-risk human papillomavirus infection and cervical
+intraepithelial neoplasia. Front Immunol. (2021) 11:612547. doi: 10.3389/
+ﬁmmu.2020.612547
+14. Zhou M, Zhou S, Han K, Zhang J, Chen Q, Tian C, et al. Th1 immune maturation
+effects of Nocardia rubra cell-wall skeleton via PI3K/Akt/PAX8 regulatory axis. Sci
+Prog. (2022) 105:3685042210929. doi: 10.1177/00368504221092901
+15. Tao Y, Wang G, Zhai J, Zhang N. Functional modulation of CD8+ T cell by
+approved novel immune enhancer: Nocardia rubra Cell-Wall Skeletons (Nr-CWS). Int
+Immunopharmacol. (2020) 78:106023. doi: 10.1016/j.intimp.2019.106023
+16. Eisinger S, Sarhan D, Boura VF, Ibarlucea-Benitez I, Tyystjärvi S, Oliynyk G, et al.
+Targeting a scavenger receptor on tumor-associated macrophages activates tumor cell
+killing by natural killer cells. Proc Natl Acad Sci. (2020) 117:32005–16. doi: 10.1073/
+pnas.2015343117
+17. Cai T, Xu L, Xia D, Zhu L, Lin Y, Yu S, et al. Polyguanine alleviated autoimmune
+hepatitis through regulation of macrophage receptor with collagenous structure and
+TLR4-TRIF-NF-kB signalling. J Cell Mol Med. (2022) 26:5690–701. doi: 10.1111/
+jcmm.17599
+18. Granucci F, Petralia F, Urbano M, Citterio S, Di Tota F, Santambrogio L, et al. The
+scavenger receptor MARCO mediates cytoskeleton rearrangements in dendritic cells
+and microglia. Blood. (2003) 102:2940–7. doi: 10.1182/blood-2002-12-3651
+19. Kanno S, Hirano S, Sakamoto T, Furuyama A, Takase H, Kato H, et al. Scavenger
+receptor MARCO contributes to cellular internalization of exosomes by dynamin-
+dependent endocytosis and macropinocytosis. Sci Rep. (2020) 10:21795. doi: 10.1038/
+s41598-020-78464-2
+20. Dong Q, Zhang S, Zhang H, Sun J, Lu J, Wang G, et al. MARCO is a potential
+prognostic and immunotherapy biomarker. Int Immunopharmacol. (2023) 116:109783.
+doi: 10.1016/j.intimp.2023.109783
+21. Zhou G, Zhang L, Shao S. The application of MARCO for immune regulation and
+treatment. Mol Biol Rep. (2024) 51:246. doi: 10.1007/s11033-023-09201-x
+22. Bray F, Laversanne M, Sung H, Ferlay J, Siegel RL, Soerjomataram I, et al. Global
+cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36
+cancers in 185 countries. CA Cancer J Clin. (2023) 116:109783. doi: 10.3322/caac.21834
+23. Chen J, Zhang M, Gong Y, Gu Z, Zhou H, Gu Y, et al. The role of the vaginal
+microbiome in immune modulation in cervical cancer: composition, molecular
+mechanisms, and therapeutic potential. Clin Med Insights Oncol. (2025)
+19:11795549251380470. doi: 10.1177/11795549251380470
+24. Zhou G, Zhou F, Gu Y, Zhang M, Zhang G, Shen F, et al. Vaginal microbial
+environment skews macrophage polarization and contributes to cervical cancer
+development. J Immunol Res. (2022) 2022:3525735. doi: 10.1155/2022/3525735
+25. Zhang Y, Zhang Z. The history and advances in cancer immunotherapy:
+understanding the characteristics of tumor-inﬁltrating immune cells and their
+therapeutic implications. Cell Mol Immunol. (2020) 17:807–21. doi: 10.1038/s41423-
+020-0488-6
+26. Fridman WH, Pagès F, Sautès-Fridman C, Galon J. The immune contexture in
+human tumours: impact on clinical outcome. Nat Rev Cancer. (2012) 12:298–306.
+doi: 10.1038/nrc3245
+27. Elomaa O, Kangas M, Sahlberg C, Tuukkanen J, Sormunen R, Liakka A, et al.
+Cloning of a novel bacteria-binding receptor structurally related to scavenger receptors
+and expressed in a subset of macrophages. Cell. (1995) 80:603–9. doi: 10.1016/0092-
+8674(95)90514-6
+Zhou et al.
+10.3389/ﬁmmu.2026.1611476
+Frontiers in Immunology
+frontiersin.org
+18
+28. Palecanda A, Paulauskis J, Al-Mutairi E, Imrich A, Qin G, Suzuki H, et al. Role of
+the scavenger receptor MARCO in alveolar macrophage binding of unopsonized
+environmental particles. J Exp Med. (1999) 189:1497–506. doi: 10.1084/jem.189.9.1497
+29. Li M, Jiang P, Wei S, Wang J, Li C. The role of macrophages-mediated
+communications among cell compositions of tumor microenvironment in cancer
+progression. Front Immunol. (2023) 14:1113312. doi: 10.3389/ﬁmmu.2023.1113312
+30. Bayik D, Lathia JD. Cancer stem cell–immune cell crosstalk in tumour progression.
+Nat Rev Cancer. (2021) 21:526–36. doi: 10.1038/s41568-021-00366-w
+31. DeNardo DG, Ruffell B. Macrophages as regulators of tumour immunity and
+immunotherapy. Nat Rev Immunol. (2019) 19:369–82. doi: 10.1038/s41577-019-0127-6
+32. La Fleur L, Boura VF, Alexeyenko A, Berglund A, Pontén V, Mattsson JSM, et al.
+Expression of scavenger receptor MARCO deﬁnes a targetable tumor-associated
+macrophage subset in non-small cell lung cancer. Int J Cancer. (2018) 143:1741–52.
+doi: 10.1002/ijc.31545
+33. Ma R-Y, Black A, Qian B-Z. Macrophage diversity in cancer revisited in the era of
+single-cell omics. Trends Immunol. (2022) 43:546–63. doi: 10.1016/j.it.2022.04.008
+34. Chen W, Guo Q, Zhang Y, Liu Q, Zhang Y, Zhao C, et al. Nocardia rubra cell wall
+skeleton regulates tumour-associated macrophage polarization by reprogramming M2
+macrophages into M1 macrophages via STAT1/STAT6 pathways. Scand J Immunol.
+(2023) 43:546–63. doi: 10.1111/sji.13320
+35. Zhou G, Gu Y, Zhang M, Zhou H, Li Y, Lin X, et al. Genetically platform presenting
+CD24 ScFv enhance antitumor immunity by restoring macrophage phagocytosis and
+modulating the immune environment. Cell Commun Signal CCS. (2025) 23:517.
+doi: 10.1186/s12964-025-02486-4
+36. Hu K, Xu Y, Li X, Du P, Lu Y, Lyu G. The nocardia rubra cell wall skeleton
+regulates macrophages and promotes wound healing. Curr Issues Mol Biol. (2022)
+44:5995. doi: 10.3390/cimb44120408
+37. Mine Y, Watanabe Y, Tawara S, Nonoyama S, Yokota Y, Kikuchi H. In vivo
+activation of functional properties in mouse peritoneal macrophages by Nocardia rubra
+cell wall skeleton. Curr. Issues Mol. Biol. (2022) 44:5995–6005. doi: 10.3390/
+cimb44120408
+38. Xing Q, Feng Y, Sun H, Yang S, Sun T, Guo X, et al. Scavenger receptor MARCO
+contributes to macrophage phagocytosis and clearance of tumor cells. Exp Cell Res.
+(2021) 408:112862. doi: 10.1016/j.yexcr.2021.112862
+39. Sun Y, Xiao W, Yu Y, Jiang Y, Xiao Z, Huang D, et al. Colorectal cancer-derived
+extracellular vesicles containing HSP70 enhance macrophage phagocytosis by up-
+regulating MARCO expression. Exp Cell Res. (2023) 426:113565. doi: 10.1016/
+j.yexcr.2023.113565
+40. Kang M-J, Jang A-R, Park J-Y, Ahn J-H, Lee T-S, Kim D-Y, et al. IL-10 protects
+mice from the lung infection of acinetobacter baumannii and contributes to bacterial
+clearance by regulating STAT3-mediated MARCO expression in macrophages. Front
+Immunol. (2020) 11:270. doi: 10.3389/ﬁmmu.2020.00270
+41. Thuong NTT, Tram TTB, Dinh TD, Thai PVK, Heemskerk D, Bang ND, et al.
+MARCO variants are associated with phagocytosis, pulmonary tuberculosis
+susceptibility and Beijing lineage. Genes Immun. (2016) 17:419–25. doi: 10.1038/
+gene.2016.43
+42. Peiser L, Gordon S. The function of scavenger receptors expressed by macrophages
+and their role in the regulation of inﬂammation. Microbes Infect. (2001) 3:149–59.
+doi: 10.1016/s1286-4579(00)01362-9
+43. Martinez FO, Helming L, Gordon S. Alternative activation of macrophages: an
+immunologic functional perspective. Annu Rev Immunol. (2009) 27:451–83.
+doi: 10.1146/annurev.immunol.021908.132532
+44. Fu YL, Harrison RE. Microbial phagocytic receptors and their potential
+involvement in cytokine induction in macrophages. Front Immunol. (2021)
+12:662063. doi: 10.3389/ﬁmmu.2021.662063
+45. Zhao H, Wu L, Yan G, Chen Y, Zhou M, Wu Y, et al. Inﬂammation and tumor
+progression: signaling pathways and targeted intervention. Signal Transduct Target
+Ther. (2021) 6:263. doi: 10.1038/s41392-021-00658-5
+46. Wu J, He B, Miao M, Han X, Dai H, Dou H, et al. Enhancing natural killer cell-
+mediated cancer immunotherapy by the biological macromolecule nocardia rubra cell-
+wall skeleton. Pathol Oncol Res. (2022) 28:1610555. doi: 10.3389/pore.2022.1610555
+47. Lin H-Y, Tang C-H, Chen Y-H, Wei I-H, Chen J-H, Lai C-H, et al. Peptidoglycan
+enhances proinﬂammatory cytokine expression through the TLR2 receptor, MyD88,
+phosphatidylinositol 3-kinase/AKT and NF-kappaB pathways in BV-2 microglia. Int
+Immunopharmacol. (2010) 10:883–91. doi: 10.1016/j.intimp.2010.04.026
+48. Yang L-C, Lu T-J, Lin W-C. A Type II Arabinogalactan fromAnoectochilus
+formosanusfor G-CSF Production in Macrophages and Leukopenia Improvement in
+CT26-Bearing Mice Treated with 5-Fluorouracil. Evid Based Complement Alternat
+Med. (2013) 2013:1–13. doi: 10.1155/2013/458075
+49. Yu L, Wang L, Li M, Zhong J, Wang Z, Chen S. Expression of toll-like receptor 4 is
+down-regulated during progression of cervical neoplasia. Cancer Immunol
+Immunother. (2010) 59:1021–8. doi: 10.1007/s00262-010-0825-1
+50. Doyle SE, O’Connell RM, Miranda GA, Vaidya SA, Chow EK, Liu PT, et al. Toll-
+like receptors induce a phagocytic gene program through p38. J Exp Med. (2004)
+199:81–90. doi: 10.1084/jem.20031237
+51. Chen Y, Wermeling F, Sundqvist J, Jonsson A, Tryggvason K, Pikkarainen T, et al.
+A regulatory role for macrophage class A scavenger receptors in TLR4-mediated LPS
+responses. Eur J Immunol. (2010) 40:1451–60. doi: 10.1002/eji.200939891
+52. Wang L, Yang H-Y, Zang C-X, Shang J-M, Liu H, Zhang Z-H, et al. TLR2
+potentiates SR-marco-mediated neuroinﬂammation by interacting with the SRCR
+domain. Mol Neurobiol. (2021) 58:5743–55. doi: 10.1007/s12035-021-02463-1
+53. Bowdish DME, Sakamoto K, Kim M-J, Kroos M, Mukhopadhyay S, Leifer CA, et al.
+MARCO, TLR2, and CD14 are required for macrophage cytokine responses to
+mycobacterial trehalose dimycolate and Mycobacterium tuberculosis. PloS Pathog.
+(2009) 5:e1000474. doi: 10.1371/journal.ppat.1000474
+54. Dorrington MG, Roche AM, Chauvin SE, Tu Z, Mossman KL, Weiser JN, et al.
+MARCO is required for TLR2- and nod2-mediated responses to streptococcus
+pneumoniae and clearance of pneumococcal colonization in the murine
+nasopharynx. J Immunol. (2013) 190:250–8. doi: 10.4049/jimmunol.1202113
+55. Li B, Severson E, Pignon J-C, Zhao H, Li T, Novak J, et al. Comprehensive analyses
+of tumor immunity: implications for cancer immunotherapy. Genome Biol. (2016)
+17:174. doi: 10.1186/s13059-016-1028-7
+56. Li T, Fan J, Wang B, Traugh N, Chen Q, Liu JS, et al. TIMER: A web server for
+comprehensive analysis of tumor-inﬁltrating immune cells. Cancer Res. (2017) 77:
+e108–10. doi: 10.1158/0008-5472.CAN-17-0307
+57. Li T, Fu J, Zeng Z, Cohen D, Li J, Chen Q, et al. TIMER2.0 for analysis of tumor-
+inﬁltrating immune cells. Nucleic Acids Res. (2020) 48:W509–14. doi: 10.1093/nar/
+gkaa407
+58. Liu C-J, Hu F-F, Xie G-Y, Miao Y-R, Li X-W, Zeng Y, et al. GSCA: an integrated
+platform for gene set cancer analysis at genomic, pharmacogenomic and
+immunogenomic levels. Brief Bioinform. (2023) 24:bbac558. doi: 10.1093/bib/bbac558
+59. Liu C-J, Hu F-F, Xia M-X, Han L, Zhang Q, Guo A-Y. GSCALite: a web server for
+gene set cancer analysis. Bioinformatics. (2018) 34:3771–2. doi: 10.1093/bioinformatics/
+bty411
+60. Ru B, Wong CN, Tong Y, Zhong JY, Zhong SSW, Wu WC, et al. TISIDB: an
+integrated repository portal for tumor–immune system interactions. Bioinformatics.
+(2019) 35:4200–2. doi: 10.1093/bioinformatics/btz210
+61. Hoppstädter J, Dembek A, Höring M, Schymik HS, Dahlem C, Sultan A, et al.
+Dysregulation of cholesterol homeostasis in human lung cancer tissue and tumour-
+associated macrophages. eBioMedicine. (2021) 72:103578. doi: 10.1016/
+j.ebiom.2021.103578
+62. Xiang W, Shi R, Kang X, Zhang X, Chen P, Zhang L, et al. Monoacylglycerol lipase
+regulates cannabinoid receptor 2-dependent macrophage activation and cancer
+progression. Nat Commun. (2018) 9:2574. doi: 10.1038/s41467-018-04999-8
+63. Chang C-P, Su Y-C, Hu C-W, Lei H-Y. TLR2-dependent selective autophagy
+regulates NF-kB lysosomal degradation in hepatoma-derived M2 macrophage
+differentiation. Cell Death Differ. (2013) 20:515–23. doi: 10.1038/cdd.2012.146
+64. Graver S, Stremitzer S, Sunakawa Y, Edelmann W, Kockx M, Schartl M, et al.
+Immune response triggered by a novel molecular crosstalk of major hallmarks of
+cancer: Angiogenesis, mismatch repair, and immune pathways. J Clin Oncol. (2015)
+33:11054–4. doi: 10.1200/jco.2015.33.15_suppl.11054
+65. Fanali LZ, Sturve J, de Oliveira C. Exposure of Physalaemus cuvieri (Anura) to
+benzo[a]pyrene and a-naphthoﬂavone: Morphofunctional effects on hepatic
+melanomacrophages and erythrocytes abnormalities. Environ pollut. (2021)
+285:117526. doi: 10.1016/j.envpol.2021.117526
+66. Niemi M, Sharpe RM, Brown WRA. Macrophages in the interstitial tissue of the rat
+testis. Cell Tissue Res. (1986) 243:337–44. doi: 10.1007/BF00251049
+67. Kerschbaum HH, Tasa BA, Schürz M, Oberascher K, Bresgen N. Trypan blue -
+adapting a dye used for labelling dead cells to visualize pinocytosis in viable cells. Cell
+Physiol Biochem. (2021) 55:171–84. doi: 10.33594/000000380
+68. Cheng C, Zheng E, Yu B, Zhang Z, Wang Y, Liu Y, et al. Recognition of lipoproteins
+by scavenger receptor class A members. J Biol Chem. (2021) 297:100948. doi: 10.1016/
+j.jbc.2021.100948
+Zhou et al.
+10.3389/ﬁmmu.2026.1611476
+Frontiers in Immunology
+frontiersin.org
+19
